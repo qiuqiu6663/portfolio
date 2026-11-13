@@ -1,0 +1,16 @@
+{
+  "errors": [],
+  "automatic": {
+    "changedPixels": true,
+    "observedPaintsPerSecond": 160,
+    "longTasksDuringSweep": []
+  },
+  "pauses": {
+    "offscreen": true,
+    "syntheticHidden": true,
+    "reduced": true,
+    "saveData": true,
+    "restoresOnReturn": true
+  },
+  "touchFallback": true
+}

@@ -1,0 +1,123 @@
+/* The reference's glass response is used on the artwork, at a smaller scale. */
+.glass-project {
+  --glass-rx: 0deg;
+  --glass-ry: 0deg;
+  --glass-x: 50%;
+  --glass-y: 50%;
+  --glass-light: 0;
+  perspective: 1500px;
+  isolation: isolate;
+}
+
+.glass-project .glass-surface {
+  transform: rotateX(var(--glass-rx)) rotateY(var(--glass-ry));
+  transform-origin: 50% 52%;
+  border-radius: 5px;
+  box-shadow: 0 1px 0 rgba(207, 227, 250, .06);
+  transition: box-shadow .35s ease;
+}
+
+.glass-reflection {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  border-radius: inherit;
+  pointer-events: none;
+  opacity: var(--glass-light);
+  background:
+    radial-gradient(ellipse 65% 85% at var(--glass-x) var(--glass-y), rgba(189, 219, 252, .15), transparent 70%),
+    linear-gradient(125deg, rgba(226, 242, 255, .08), transparent 26%, transparent 65%, rgba(171, 205, 244, .04));
+  box-shadow: inset 0 0 0 1px rgba(211, 231, 254, .38), inset 0 1px 0 rgba(255, 255, 255, .2);
+}
+
+.glass-project .project-top,
+.glass-project .project-bottom { z-index: 2; }
+.glass-project .project-top > span {
+  border: 1px solid rgba(216, 234, 254, .1);
+  background: rgba(6, 16, 31, .58);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+
+.glass-project .project-open {
+  background: rgba(19, 36, 58, .35);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .08);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .glass-project:hover .glass-surface { box-shadow: 0 15px 35px -15px rgba(0, 0, 0, .65); }
+  .glass-project:hover .project-open { background: #ed805e; color: #080f1a; border-color: #ed805e; }
+}
+
+.glass-project:focus-visible .glass-reflection {
+  opacity: .6;
+  background: transparent;
+}
+
+/* A short, bounded opening: five slices separate to reveal the detail image.
+   Text remains real DOM and the native dialog keeps its focus/keyboard behavior. */
+.project-dialog.glass-detail,
+.contact-dialog.glass-detail {
+  background: rgba(13, 25, 44, .89);
+  border-color: rgba(182, 208, 240, .26);
+  box-shadow: inset 0 1px 0 rgba(236, 246, 255, .12), 0 32px 120px rgba(0, 0, 0, .38);
+  -webkit-backdrop-filter: blur(24px) saturate(120%);
+  backdrop-filter: blur(24px) saturate(120%);
+}
+
+.dialog-visual { position: relative; overflow: hidden; }
+.glass-fragments { position: absolute; inset: 0; pointer-events: none; perspective: 1000px; overflow: hidden; }
+.glass-fragment {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  backface-visibility: hidden;
+  filter: brightness(.6) saturate(.55);
+}
+.glass-fragment::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(125deg, rgba(199, 226, 255, .2), transparent 47%, rgba(199, 226, 255, .07));
+}
+.fragment-0 { clip-path: polygon(0 0, 31% 0, 40% 56%, 19% 100%, 0 100%); --split-x: -64px; --split-y: -28px; --split-turn: -7deg; }
+.fragment-1 { clip-path: polygon(31% 0, 69% 0, 59% 46%, 40% 56%); --split-x: -13px; --split-y: -62px; --split-turn: 5deg; }
+.fragment-2 { clip-path: polygon(69% 0, 100% 0, 100% 100%, 76% 100%, 59% 46%); --split-x: 72px; --split-y: 18px; --split-turn: 7deg; }
+.fragment-3 { clip-path: polygon(40% 56%, 59% 46%, 76% 100%, 38% 100%); --split-x: 28px; --split-y: 68px; --split-turn: -5deg; }
+.fragment-4 { clip-path: polygon(19% 100%, 40% 56%, 38% 100%); --split-x: -34px; --split-y: 58px; --split-turn: -8deg; }
+
+.glass-detail[open] .glass-fragment {
+  animation: open-glass .64s cubic-bezier(.22, 1, .36, 1) both;
+}
+.glass-detail[open] .fragment-1 { animation-delay: 25ms; }
+.glass-detail[open] .fragment-2 { animation-delay: 45ms; }
+.glass-detail[open] .fragment-3 { animation-delay: 60ms; }
+.glass-detail[open] .fragment-4 { animation-delay: 75ms; }
+.glass-detail[open] .dialog-content { animation: detail-settle .4s .08s cubic-bezier(.22, 1, .36, 1) both; }
+
+@keyframes open-glass {
+  0% { opacity: .98; transform: translate3d(0, 0, 0) rotate(0); }
+  28% { opacity: .75; }
+  100% { opacity: 0; transform: translate3d(var(--split-x), var(--split-y), 80px) rotate(var(--split-turn)); visibility: hidden; }
+}
+@keyframes detail-settle {
+  from { opacity: .4; transform: translateY(10px); }
+  to { opacity: 1; transform: none; }
+}
+
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .project-dialog.glass-detail, .contact-dialog.glass-detail { background: #111f32; }
+  .glass-project .project-top > span { background: rgba(6, 16, 31, .9); }
+}
+
+@media (hover: none), (pointer: coarse), (prefers-reduced-motion: reduce) {
+  .glass-project .glass-surface { transform: none; }
+  .glass-reflection { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .glass-fragments { display: none; }
+  .glass-detail[open] .dialog-content { animation: none; opacity: 1; transform: none; }
+}

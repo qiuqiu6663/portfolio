@@ -1,0 +1,3321 @@
+{
+  "viewports": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "sections": [
+        {
+          "section": "about",
+          "instances": 450,
+          "uniforms": {
+            "uOffset": [
+              0,
+              0,
+              -29.52906255401189
+            ],
+            "uSpread": 10,
+            "uTime": 0.03600266666666667,
+            "uCamera": 26,
+            "uAspect": 1.6,
+            "uView": [
+              1440,
+              900
+            ],
+            "uRatio": 1,
+            "uSize": 100,
+            "uRandomness": 0.95,
+            "uBlur": 0,
+            "uFocus": 40,
+            "uGlow": 0.5,
+            "uTwinkle": 1,
+            "uShape": 0,
+            "uDrift": 0,
+            "uTravel": 0.40502999999999995,
+            "uPointer": [
+              0,
+              0,
+              0,
+              140
+            ],
+            "uEffect": 2,
+            "uStrength": 0.85,
+            "uBursts[0]": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "uBurstCount": 0,
+            "uReveal": 0.2500185185185186,
+            "uSoft": 0.2,
+            "uShimmer": 1,
+            "uOpacity": 0.8
+          },
+          "palette": [
+            "#3b82f6",
+            "#ffffff"
+          ],
+          "pixels": {
+            "width": 1440,
+            "height": 900,
+            "ink": 24,
+            "peakAlpha": 3,
+            "hash": 3316809556,
+            "at": 474.5
+          }
+        },
+        {
+          "section": "works",
+          "instances": 450,
+          "uniforms": {
+            "uOffset": [
+              0,
+              0,
+              -30.63855865467663
+            ],
+            "uSpread": 10,
+            "uTime": 0.03466666666666667,
+            "uCamera": 26,
+            "uAspect": 0.8,
+            "uView": [
+              1440,
+              1800
+            ],
+            "uRatio": 0.7604166666666666,
+            "uSize": 100,
+            "uRandomness": 0.95,
+            "uBlur": 0,
+            "uFocus": 40,
+            "uGlow": 0.5,
+            "uTwinkle": 1,
+            "uShape": 0,
+            "uDrift": 0,
+            "uTravel": 0.39,
+            "uPointer": [
+              0,
+              0,
+              0,
+              140
+            ],
+            "uEffect": 2,
+            "uStrength": 0.85,
+            "uBursts[0]": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "uBurstCount": 0,
+            "uReveal": 0.24074074074074067,
+            "uSoft": 0.2,
+            "uShimmer": 1,
+            "uOpacity": 0.8
+          },
+          "palette": [
+            "#3b82f6",
+            "#ffffff"
+          ],
+          "pixels": {
+            "width": 1095,
+            "height": 1369,
+            "ink": 10,
+            "peakAlpha": 2,
+            "hash": 1444916049,
+            "at": 1129.2999999988824
+          }
+        },
+        {
+          "section": "approach",
+          "instances": 450,
+          "uniforms": {
+            "uOffset": [
+              0,
+              0,
+              -30.63855865467663
+            ],
+            "uSpread": 10,
+            "uTime": 0.03466666666666667,
+            "uCamera": 26,
+            "uAspect": 1.6,
+            "uView": [
+              1440,
+              900
+            ],
+            "uRatio": 1,
+            "uSize": 100,
+            "uRandomness": 0.95,
+            "uBlur": 0,
+            "uFocus": 40,
+            "uGlow": 0.5,
+            "uTwinkle": 1,
+            "uShape": 0,
+            "uDrift": 0,
+            "uTravel": 0.38999999999999996,
+            "uPointer": [
+              0,
+              0,
+              0,
+              140
+            ],
+            "uEffect": 2,
+            "uStrength": 0.85,
+            "uBursts[0]": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "uBurstCount": 0,
+            "uReveal": 0.24074074074074076,
+            "uSoft": 0.2,
+            "uShimmer": 1,
+            "uOpacity": 0.8
+          },
+          "palette": [
+            "#3b82f6",
+            "#ffffff"
+          ],
+          "pixels": {
+            "width": 1440,
+            "height": 900,
+            "ink": 13,
+            "peakAlpha": 2,
+            "hash": 3278358738,
+            "at": 1840.3999999985099
+          }
+        },
+        {
+          "section": "contact",
+          "instances": 450,
+          "uniforms": {
+            "uOffset": [
+              0,
+              0,
+              -30.645284684066766
+            ],
+            "uSpread": 10,
+            "uTime": 0.03465866666666668,
+            "uCamera": 26,
+            "uAspect": 1.6,
+            "uView": [
+              1440,
+              900
+            ],
+            "uRatio": 1,
+            "uSize": 100,
+            "uRandomness": 0.95,
+            "uBlur": 0,
+            "uFocus": 40,
+            "uGlow": 0.5,
+            "uTwinkle": 1,
+            "uShape": 0,
+            "uDrift": 0,
+            "uTravel": 0.3899100000000001,
+            "uPointer": [
+              0,
+              0,
+              0,
+              140
+            ],
+            "uEffect": 2,
+            "uStrength": 0.85,
+            "uBursts[0]": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "uBurstCount": 0,
+            "uReveal": 0.2406851851851852,
+            "uSoft": 0.2,
+            "uShimmer": 1,
+            "uOpacity": 0.8
+          },
+          "palette": [
+            "#3b82f6",
+            "#ffffff"
+          ],
+          "pixels": {
+            "width": 1440,
+            "height": 900,
+            "ink": 23,
+            "peakAlpha": 3,
+            "hash": 25687355,
+            "at": 2488.5999999996275
+          }
+        }
+      ],
+      "pointer": [
+        {
+          "selector": "#about .body-copy",
+          "expected": {
+            "x": 295.796875,
+            "y": 383.125
+          },
+          "actual": [
+            293.8771373695394,
+            386.33027521319525,
+            0.8111873452047942,
+            140
+          ]
+        },
+        {
+          "selector": "#about .interest-links button",
+          "expected": {
+            "x": 611.12265625,
+            "y": 157
+          },
+          "actual": [
+            607.1244184275876,
+            158.53374474408352,
+            0.9671892804028894,
+            140
+          ]
+        }
+      ],
+      "offscreen": [
+        {
+          "section": "about",
+          "id": 1,
+          "draws": 77,
+          "connected": false,
+          "contextLost": true
+        },
+        {
+          "section": "works",
+          "id": 2,
+          "draws": 77,
+          "connected": false,
+          "contextLost": true
+        },
+        {
+          "section": "approach",
+          "id": 3,
+          "draws": 69,
+          "connected": false,
+          "contextLost": true
+        },
+        {
+          "section": "about",
+          "id": 5,
+          "draws": 74,
+          "connected": false,
+          "contextLost": true
+        },
+        {
+          "section": "works",
+          "id": 6,
+          "draws": 83,
+          "connected": false,
+          "contextLost": true
+        }
+      ],
+      "reducedMotion": [
+        {
+          "section": "about",
+          "id": 11,
+          "draws": 5,
+          "time": 0,
+          "pixels": {
+            "width": 1440,
+            "height": 900,
+            "ink": 18480,
+            "peakAlpha": 163,
+            "hash": 3593419966,
+            "at": 6023
+          }
+        },
+        {
+          "section": "works",
+          "id": 12,
+          "draws": 5,
+          "time": 0,
+          "pixels": {
+            "width": 1095,
+            "height": 1369,
+            "ink": 7113,
+            "peakAlpha": 163,
+            "hash": 4187704822,
+            "at": 7126.799999998882
+          }
+        },
+        {
+          "section": "approach",
+          "id": 13,
+          "draws": 5,
+          "time": 0,
+          "pixels": {
+            "width": 1440,
+            "height": 900,
+            "ink": 18480,
+            "peakAlpha": 163,
+            "hash": 3593419966,
+            "at": 8255.799999998882
+          }
+        },
+        {
+          "section": "contact",
+          "id": 14,
+          "draws": 5,
+          "time": 0,
+          "pixels": {
+            "width": 1440,
+            "height": 900,
+            "ink": 18480,
+            "peakAlpha": 163,
+            "hash": 3593419966,
+            "at": 9377.199999999255
+          }
+        }
+      ],
+      "geometry": {
+        "viewport": 1440,
+        "root": 1440,
+        "body": 1440
+      },
+      "contexts": [
+        {
+          "id": 1,
+          "section": "about",
+          "connected": false,
+          "contextLost": true,
+          "deletedPrograms": 2,
+          "draws": 77,
+          "lineDraws": 0,
+          "instances": 450,
+          "vertices": 4,
+          "mode": 5,
+          "uniforms": {
+            "uOffset": [
+              0,
+              0,
+              -1.0935069624481153
+            ],
+            "uSpread": 10,
+            "uTime": 0.10800266666666673,
+            "uCamera": 26,
+            "uAspect": 1.6,
+            "uView": [
+              1440,
+              900
+            ],
+            "uRatio": 1,
+            "uSize": 100,
+            "uRandomness": 0.95,
+            "uBlur": 0,
+            "uFocus": 40,
+            "uGlow": 0.5,
+            "uTwinkle": 1,
+            "uShape": 0,
+            "uDrift": 0,
+            "uTravel": 1.215030000000001,
+            "uPointer": [
+              0,
+              0,
+              0,
+              140
+            ],
+            "uEffect": 2,
+            "uStrength": 0.85,
+            "uBursts[0]": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "uBurstCount": 0,
+            "uReveal": 0.7500185185185186,
+            "uSoft": 0.2,
+            "uShimmer": 1,
+            "uOpacity": 0.8
+          },
+          "palette": [
+            "#3b82f6",
+            "#ffffff"
+          ],
+          "pixels": {
+            "width": 1440,
+            "height": 900,
+            "ink": 24,
+            "peakAlpha": 3,
+            "hash": 3316809556,
+            "at": 474.5
+          },
+          "bounds": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": 2,
+          "section": "works",
+          "connected": false,
+          "contextLost": true,
+          "deletedPrograms": 2,
+          "draws": 77,
+          "lineDraws": 0,
+          "instances": 450,
+          "vertices": 4,
+          "mode": 5,
+          "uniforms": {
+            "uOffset": [
+              0,
+              0,
+              -1.2214034055728251
+            ],
+            "uSpread": 10,
+            "uTime": 0.10665066666666671,
+            "uCamera": 26,
+            "uAspect": 0.8,
+            "uView": [
+              1440,
+              1800
+            ],
+            "uRatio": 0.7604166666666666,
+            "uSize": 100,
+            "uRandomness": 0.95,
+            "uBlur": 0,
+            "uFocus": 40,
+            "uGlow": 0.5,
+            "uTwinkle": 1,
+            "uShape": 0,
+            "uDrift": 0,
+            "uTravel": 1.1998200000000012,
+            "uPointer": [
+              0,
+              0,
+              0,
+              140
+            ],
+            "uEffect": 2,
+            "uStrength": 0.85,
+            "uBursts[0]": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "uBurstCount": 0,
+            "uReveal": 0.7406296296296299,
+            "uSoft": 0.2,
+            "uShimmer": 1,
+            "uOpacity": 0.8
+          },
+          "palette": [
+            "#3b82f6",
+            "#ffffff"
+          ],
+          "pixels": {
+            "width": 1095,
+            "height": 1369,
+            "ink": 10,
+            "peakAlpha": 2,
+            "hash": 1444916049,
+            "at": 1129.2999999988824
+          },
+          "bounds": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": 3,
+          "section": "approach",
+          "connected": false,
+          "contextLost": true,
+          "deletedPrograms": 2,
+          "draws": 69,
+          "lineDraws": 0,
+          "instances": 450,
+          "vertices": 4,
+          "mode": 5,
+          "uniforms": {
+            "uOffset": [
+              0,
+              0,
+              -2.5934568861489615
+            ],
+            "uSpread": 10,
+            "uTime": 0.09599466666666671,
+            "uCamera": 26,
+            "uAspect": 1.6,
+            "uView": [
+              1440,
+              900
+            ],
+            "uRatio": 1,
+            "uSize": 100,
+            "uRandomness": 0.95,
+            "uBlur": 0,
+            "uFocus": 40,
+            "uGlow": 0.5,
+            "uTwinkle": 1,
+            "uShape": 0,
+            "uDrift": 0,
+            "uTravel": 1.0799400000000003,
+            "uPointer": [
+              0,
+              0,
+              0,
+              140
+            ],
+            "uEffect": 2,
+            "uStrength": 0.85,
+            "uBursts[0]": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "uBurstCount": 0,
+            "uReveal": 0.6666296296296295,
+            "uSoft": 0.2,
+            "uShimmer": 1,
+            "uOpacity": 0.8
+          },
+          "palette": [
+            "#3b82f6",
+            "#ffffff"
+          ],
+          "pixels": {
+            "width": 1440,
+            "height": 900,
+            "ink": 13,
+            "peakAlpha": 2,
+            "hash": 3278358738,
+            "at": 1840.3999999985099
+          },
+          "bounds": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": 4,
+          "section": "contact",
+          "connected": false,
+          "contextLost": true,
+          "deletedPrograms": 2,
+          "draws": 34,
+          "lineDraws": 0,
+          "instances": 450,
+          "vertices": 4,
+          "mode": 5,
+          "uniforms": {
+            "uOffset": [
+              0,
+              0,
+              -22.524895114594333
+            ],
+            "uSpread": 10,
+            "uTime": 0.045322666666666664,
+            "uCamera": 26,
+            "uAspect": 1.6,
+            "uView": [
+              1440,
+              900
+            ],
+            "uRatio": 1,
+            "uSize": 100,
+            "uRandomness": 0.95,
+            "uBlur": 0,
+            "uFocus": 40,
+            "uGlow": 0.5,
+            "uTwinkle": 1,
+            "uShape": 0,
+            "uDrift": 0,
+            "uTravel": 0.5098799999999998,
+            "uPointer": [
+              0,
+              0,
+              0,
+              140
+            ],
+            "uEffect": 2,
+            "uStrength": 0.85,
+            "uBursts[0]": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "uBurstCount": 0,
+            "uReveal": 0.31474074074074065,
+            "uSoft": 0.2,
+            "uShimmer": 1,
+            "uOpacity": 0.8
+          },
+          "palette": [
+            "#3b82f6",
+            "#ffffff"
+          ],
+          "pixels": {
+            "width": 1440,
+            "height": 900,
+            "ink": 23,
+            "peakAlpha": 3,
+            "hash": 25687355,
+            "at": 2488.5999999996275
+          },
+          "bounds": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": 5,
+          "section": "about",
+          "connected": false,
+          "contextLost": true,
+          "deletedPrograms": 2,
+          "draws": 74,
+          "lineDraws": 0,
+          "instances": 450,
+          "vertices": 4,
+          "mode": 5,
+          "uniforms": {
+            "uOffset": [
+              0,
+              0,
+              -1.8212020738712908
+            ],
+            "uSpread": 10,
+            "uTime": 0.10133066666666674,
+            "uCamera": 26,
+            "uAspect": 1.6,
+            "uView": [
+              1440,
+              900
+            ],
+            "uRatio": 1,
+            "uSize": 100,
+            "uRandomness": 0.95,
+            "uBlur": 0,
+            "uFocus": 40,
+            "uGlow": 0.5,
+            "uTwinkle": 1,
+            "uShape": 0,
+            "uDrift": 0,
+            "uTravel": 1.139970000000001,
+            "uPointer": [
+              372.4665632942871,
+              -463.5713528010657,
+              0.2583056905210609,
+              140
+            ],
+            "uEffect": 2,
+            "uStrength": 0.85,
+            "uBursts[0]": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "uBurstCount": 0,
+            "uReveal": 0.7036851851851857,
+            "uSoft": 0.2,
+            "uShimmer": 1,
+            "uOpacity": 0.8
+          },
+          "palette": [
+            "#3b82f6",
+            "#ffffff"
+          ],
+          "pixels": {
+            "width": 1440,
+            "height": 900,
+            "ink": 2,
+            "peakAlpha": 2,
+            "hash": 1456827947,
+            "at": 3079
+          },
+          "bounds": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": 6,
+          "section": "works",
+          "connected": false,
+          "contextLost": true,
+          "deletedPrograms": 2,
+          "draws": 83,
+          "lineDraws": 0,
+          "instances": 450,
+          "vertices": 4,
+          "mode": 5,
+          "uniforms": {
+            "uOffset": [
+              0,
+              0,
+              -0.5921750418628347
+            ],
+            "uSpread": 10,
+            "uTime": 0.11465866666666677,
+            "uCamera": 26,
+            "uAspect": 0.8,
+            "uView": [
+              1440,
+              1800
+            ],
+            "uRatio": 0.7604166666666666,
+            "uSize": 100,
+            "uRandomness": 0.95,
+            "uBlur": 0,
+            "uFocus": 40,
+            "uGlow": 0.5,
+            "uTwinkle": 1,
+            "uShape": 0,
+            "uDrift": 0,
+            "uTravel": 1.2899100000000012,
+            "uPointer": [
+              997.8122777441267,
+              -206.68259545809929,
+              0.6642228443468683,
+              140
+            ],
+            "uEffect": 2,
+            "uStrength": 0.85,
+            "uBursts[0]": [
+              719.989990234375,
+              1121.1500244140625,
+              0.13333334028720856,
+              1,
+              92.5999984741211,
+              777.0093994140625,
+              0.21106666326522827,
+              1,
+              177.4199981689453,
+              1487.1500244140625,
+              0.28886666893959045,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "uBurstCount": 3,
+            "uReveal": 0.7962407407407416,
+            "uSoft": 0.2,
+            "uShimmer": 1,
+            "uOpacity": 0.8
+          },
+          "palette": [
+            "#3b82f6",
+            "#ffffff"
+          ],
+          "pixels": {
+            "width": 1095,
+            "height": 1369,
+            "ink": 10,
+            "peakAlpha": 2,
+            "hash": 2491949695,
+            "at": 3114
+          },
+          "bounds": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": 7,
+          "section": "approach",
+          "connected": false,
+          "contextLost": true,
+          "deletedPrograms": 2,
+          "draws": 80,
+          "lineDraws": 0,
+          "instances": 450,
+          "vertices": 4,
+          "mode": 5,
+          "uniforms": {
+            "uOffset": [
+              0,
+              0,
+              -1.0942361831311276
+            ],
+            "uSpread": 10,
+            "uTime": 0.10799466666666661,
+            "uCamera": 26,
+            "uAspect": 1.6,
+            "uView": [
+              1440,
+              900
+            ],
+            "uRatio": 1,
+            "uSize": 100,
+            "uRandomness": 0.95,
+            "uBlur": 0,
+            "uFocus": 40,
+            "uGlow": 0.5,
+            "uTwinkle": 1,
+            "uShape": 0,
+            "uDrift": 0,
+            "uTravel": 1.2149400000000006,
+            "uPointer": [
+              0,
+              0,
+              0,
+              140
+            ],
+            "uEffect": 2,
+            "uStrength": 0.85,
+            "uBursts[0]": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "uBurstCount": 0,
+            "uReveal": 0.7499629629629627,
+            "uSoft": 0.2,
+            "uShimmer": 1,
+            "uOpacity": 0.8
+          },
+          "palette": [
+            "#3b82f6",
+            "#ffffff"
+          ],
+          "pixels": {
+            "width": 1440,
+            "height": 900,
+            "ink": 280,
+            "peakAlpha": 8,
+            "hash": 1617655356,
+            "at": 4732
+          },
+          "bounds": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": 8,
+          "section": "contact",
+          "connected": false,
+          "contextLost": true,
+          "deletedPrograms": 2,
+          "draws": 80,
+          "lineDraws": 0,
+          "instances": 450,
+          "vertices": 4,
+          "mode": 5,
+          "uniforms": {
+            "uOffset": [
+              0,
+              0,
+              -1.0942361831311276
+            ],
+            "uSpread": 10,
+            "uTime": 0.10799466666666661,
+            "uCamera": 26,
+            "uAspect": 1.6,
+            "uView": [
+              1440,
+              900
+            ],
+            "uRatio": 1,
+            "uSize": 100,
+            "uRandomness": 0.95,
+            "uBlur": 0,
+            "uFocus": 40,
+            "uGlow": 0.5,
+            "uTwinkle": 1,
+            "uShape": 0,
+            "uDrift": 0,
+            "uTravel": 1.2149400000000006,
+            "uPointer": [
+              0,
+              0,
+              0,
+              140
+            ],
+            "uEffect": 2,
+            "uStrength": 0.85,
+            "uBursts[0]": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "uBurstCount": 0,
+            "uReveal": 0.7499629629629627,
+            "uSoft": 0.2,
+            "uShimmer": 1,
+            "uOpacity": 0.8
+          },
+          "palette": [
+            "#3b82f6",
+            "#ffffff"
+          ],
+          "pixels": {
+            "width": 1440,
+            "height": 900,
+            "ink": 13,
+            "peakAlpha": 2,
+            "hash": 3278358738,
+            "at": 4607.5
+          },
+          "bounds": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": 9,
+          "section": "approach",
+          "connected": false,
+          "contextLost": true,
+          "deletedPrograms": 2,
+          "draws": 4,
+          "lineDraws": 0,
+          "instances": 450,
+          "vertices": 4,
+          "mode": 5,
+          "uniforms": {
+            "uOffset": [
+              0,
+              0,
+              0
+            ],
+            "uSpread": 10,
+            "uTime": 0,
+            "uCamera": 26,
+            "uAspect": 1.6,
+            "uView": [
+              1440,
+              900
+            ],
+            "uRatio": 1,
+            "uSize": 100,
+            "uRandomness": 0.95,
+            "uBlur": 0,
+            "uFocus": 40,
+            "uGlow": 0.5,
+            "uTwinkle": 1,
+            "uShape": 0,
+            "uDrift": 0,
+            "uTravel": 0,
+            "uPointer": [
+              0,
+              0,
+              0,
+              140
+            ],
+            "uEffect": 2,
+            "uStrength": 0.85,
+            "uBursts[0]": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "uBurstCount": 0,
+            "uReveal": 1,
+            "uSoft": 0.2,
+            "uShimmer": 1,
+            "uOpacity": 0.8
+          },
+          "palette": [
+            "#3b82f6",
+            "#ffffff"
+          ],
+          "pixels": {
+            "width": 1440,
+            "height": 900,
+            "ink": 18480,
+            "peakAlpha": 163,
+            "hash": 3593419966,
+            "at": 5874.0999999996275
+          },
+          "bounds": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": 10,
+          "section": "contact",
+          "connected": false,
+          "contextLost": true,
+          "deletedPrograms": 2,
+          "draws": 4,
+          "lineDraws": 0,
+          "instances": 450,
+          "vertices": 4,
+          "mode": 5,
+          "uniforms": {
+            "uOffset": [
+              0,
+              0,
+              0
+            ],
+            "uSpread": 10,
+            "uTime": 0,
+            "uCamera": 26,
+            "uAspect": 1.6,
+            "uView": [
+              1440,
+              900
+            ],
+            "uRatio": 1,
+            "uSize": 100,
+            "uRandomness": 0.95,
+            "uBlur": 0,
+            "uFocus": 40,
+            "uGlow": 0.5,
+            "uTwinkle": 1,
+            "uShape": 0,
+            "uDrift": 0,
+            "uTravel": 0,
+            "uPointer": [
+              0,
+              0,
+              0,
+              140
+            ],
+            "uEffect": 2,
+            "uStrength": 0.85,
+            "uBursts[0]": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "uBurstCount": 0,
+            "uReveal": 1,
+            "uSoft": 0.2,
+            "uShimmer": 1,
+            "uOpacity": 0.8
+          },
+          "palette": [
+            "#3b82f6",
+            "#ffffff"
+          ],
+          "pixels": {
+            "width": 1440,
+            "height": 900,
+            "ink": 18480,
+            "peakAlpha": 163,
+            "hash": 3593419966,
+            "at": 5915.0999999996275
+          },
+          "bounds": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": 11,
+          "section": "about",
+          "connected": false,
+          "contextLost": true,
+          "deletedPrograms": 2,
+          "draws": 7,
+          "lineDraws": 0,
+          "instances": 450,
+          "vertices": 4,
+          "mode": 5,
+          "uniforms": {
+            "uOffset": [
+              0,
+              0,
+              0
+            ],
+            "uSpread": 10,
+            "uTime": 0,
+            "uCamera": 26,
+            "uAspect": 1.6,
+            "uView": [
+              1440,
+              900
+            ],
+            "uRatio": 1,
+            "uSize": 100,
+            "uRandomness": 0.95,
+            "uBlur": 0,
+            "uFocus": 40,
+            "uGlow": 0.5,
+            "uTwinkle": 1,
+            "uShape": 0,
+            "uDrift": 0,
+            "uTravel": 0,
+            "uPointer": [
+              500,
+              660,
+              0,
+              140
+            ],
+            "uEffect": 2,
+            "uStrength": 0.85,
+            "uBursts[0]": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "uBurstCount": 0,
+            "uReveal": 1,
+            "uSoft": 0.2,
+            "uShimmer": 1,
+            "uOpacity": 0.8
+          },
+          "palette": [
+            "#3b82f6",
+            "#ffffff"
+          ],
+          "pixels": {
+            "width": 1440,
+            "height": 900,
+            "ink": 18480,
+            "peakAlpha": 163,
+            "hash": 3593419966,
+            "at": 6023
+          },
+          "bounds": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": 12,
+          "section": "works",
+          "connected": false,
+          "contextLost": true,
+          "deletedPrograms": 2,
+          "draws": 7,
+          "lineDraws": 0,
+          "instances": 450,
+          "vertices": 4,
+          "mode": 5,
+          "uniforms": {
+            "uOffset": [
+              0,
+              0,
+              0
+            ],
+            "uSpread": 10,
+            "uTime": 0,
+            "uCamera": 26,
+            "uAspect": 0.8,
+            "uView": [
+              1440,
+              1800
+            ],
+            "uRatio": 0.7604166666666666,
+            "uSize": 100,
+            "uRandomness": 0.95,
+            "uBlur": 0,
+            "uFocus": 40,
+            "uGlow": 0.5,
+            "uTwinkle": 1,
+            "uShape": 0,
+            "uDrift": 0,
+            "uTravel": 0,
+            "uPointer": [
+              500,
+              1560,
+              0,
+              140
+            ],
+            "uEffect": 2,
+            "uStrength": 0.85,
+            "uBursts[0]": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "uBurstCount": 0,
+            "uReveal": 1,
+            "uSoft": 0.2,
+            "uShimmer": 1,
+            "uOpacity": 0.8
+          },
+          "palette": [
+            "#3b82f6",
+            "#ffffff"
+          ],
+          "pixels": {
+            "width": 1095,
+            "height": 1369,
+            "ink": 7113,
+            "peakAlpha": 163,
+            "hash": 4187704822,
+            "at": 7126.799999998882
+          },
+          "bounds": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": 13,
+          "section": "approach",
+          "connected": true,
+          "contextLost": false,
+          "deletedPrograms": 0,
+          "draws": 7,
+          "lineDraws": 0,
+          "instances": 450,
+          "vertices": 4,
+          "mode": 5,
+          "uniforms": {
+            "uOffset": [
+              0,
+              0,
+              0
+            ],
+            "uSpread": 10,
+            "uTime": 0,
+            "uCamera": 26,
+            "uAspect": 1.6,
+            "uView": [
+              1440,
+              900
+            ],
+            "uRatio": 1,
+            "uSize": 100,
+            "uRandomness": 0.95,
+            "uBlur": 0,
+            "uFocus": 40,
+            "uGlow": 0.5,
+            "uTwinkle": 1,
+            "uShape": 0,
+            "uDrift": 0,
+            "uTravel": 0,
+            "uPointer": [
+              500,
+              660,
+              0,
+              140
+            ],
+            "uEffect": 2,
+            "uStrength": 0.85,
+            "uBursts[0]": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "uBurstCount": 0,
+            "uReveal": 1,
+            "uSoft": 0.2,
+            "uShimmer": 1,
+            "uOpacity": 0.8
+          },
+          "palette": [
+            "#3b82f6",
+            "#ffffff"
+          ],
+          "pixels": {
+            "width": 1440,
+            "height": 900,
+            "ink": 18480,
+            "peakAlpha": 163,
+            "hash": 3593419966,
+            "at": 8255.799999998882
+          },
+          "bounds": {
+            "left": 0,
+            "right": 1440,
+            "top": -808,
+            "bottom": 92,
+            "width": 1440,
+            "height": 900
+          }
+        },
+        {
+          "id": 14,
+          "section": "contact",
+          "connected": true,
+          "contextLost": false,
+          "deletedPrograms": 0,
+          "draws": 5,
+          "lineDraws": 0,
+          "instances": 450,
+          "vertices": 4,
+          "mode": 5,
+          "uniforms": {
+            "uOffset": [
+              0,
+              0,
+              0
+            ],
+            "uSpread": 10,
+            "uTime": 0,
+            "uCamera": 26,
+            "uAspect": 1.6,
+            "uView": [
+              1440,
+              900
+            ],
+            "uRatio": 1,
+            "uSize": 100,
+            "uRandomness": 0.95,
+            "uBlur": 0,
+            "uFocus": 40,
+            "uGlow": 0.5,
+            "uTwinkle": 1,
+            "uShape": 0,
+            "uDrift": 0,
+            "uTravel": 0,
+            "uPointer": [
+              0,
+              0,
+              0,
+              140
+            ],
+            "uEffect": 2,
+            "uStrength": 0.85,
+            "uBursts[0]": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "uBurstCount": 0,
+            "uReveal": 1,
+            "uSoft": 0.2,
+            "uShimmer": 1,
+            "uOpacity": 0.8
+          },
+          "palette": [
+            "#3b82f6",
+            "#ffffff"
+          ],
+          "pixels": {
+            "width": 1440,
+            "height": 900,
+            "ink": 18480,
+            "peakAlpha": 163,
+            "hash": 3593419966,
+            "at": 9377.199999999255
+          },
+          "bounds": {
+            "left": 0,
+            "right": 1440,
+            "top": 92,
+            "bottom": 992,
+            "width": 1440,
+            "height": 900
+          }
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "sections": [
+        {
+          "section": "about",
+          "instances": 450,
+          "uniforms": {
+            "uOffset": [
+              0,
+              0,
+              -32.94023342021388
+            ],
+            "uSpread": 10,
+            "uTime": 0.031994666666666664,
+            "uCamera": 26,
+            "uAspect": 1.7777777777777777,
+            "uView": [
+              1920,
+              1080
+            ],
+            "uRatio": 0.8505208333333333,
+            "uSize": 100,
+            "uRandomness": 0.95,
+            "uBlur": 0,
+            "uFocus": 40,
+            "uGlow": 0.5,
+            "uTwinkle": 1,
+            "uShape": 0,
+            "uDrift": 0,
+            "uTravel": 0.3599399999999999,
+            "uPointer": [
+              0,
+              0,
+              0,
+              140
+            ],
+            "uEffect": 2,
+            "uStrength": 0.85,
+            "uBursts[0]": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "uBurstCount": 0,
+            "uReveal": 0.2221851851851852,
+            "uSoft": 0.2,
+            "uShimmer": 1,
+            "uOpacity": 0.8
+          },
+          "palette": [
+            "#3b82f6",
+            "#ffffff"
+          ],
+          "pixels": {
+            "width": 1633,
+            "height": 919,
+            "ink": 2,
+            "peakAlpha": 2,
+            "hash": 1408021311,
+            "at": 466.09999999962747
+          }
+        },
+        {
+          "section": "works",
+          "instances": 450,
+          "uniforms": {
+            "uOffset": [
+              0,
+              0,
+              -30.63855865467663
+            ],
+            "uSpread": 10,
+            "uTime": 0.034666666666666665,
+            "uCamera": 26,
+            "uAspect": 0.8888888888888888,
+            "uView": [
+              1920,
+              2160
+            ],
+            "uRatio": 0.6015625,
+            "uSize": 100,
+            "uRandomness": 0.95,
+            "uBlur": 0,
+            "uFocus": 40,
+            "uGlow": 0.5,
+            "uTwinkle": 1,
+            "uShape": 0,
+            "uDrift": 0,
+            "uTravel": 0.38999999999999996,
+            "uPointer": [
+              0,
+              0,
+              0,
+              140
+            ],
+            "uEffect": 2,
+            "uStrength": 0.85,
+            "uBursts[0]": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "uBurstCount": 0,
+            "uReveal": 0.24074074074074073,
+            "uSoft": 0.2,
+            "uShimmer": 1,
+            "uOpacity": 0.8
+          },
+          "palette": [
+            "#3b82f6",
+            "#ffffff"
+          ],
+          "pixels": {
+            "width": 1155,
+            "height": 1299,
+            "ink": 4,
+            "peakAlpha": 2,
+            "hash": 2828860161,
+            "at": 1187.3999999985099
+          }
+        },
+        {
+          "section": "approach",
+          "instances": 450,
+          "uniforms": {
+            "uOffset": [
+              0,
+              0,
+              -31.775503805409933
+            ],
+            "uSpread": 10,
+            "uTime": 0.03333066666666668,
+            "uCamera": 26,
+            "uAspect": 1.7777777777777777,
+            "uView": [
+              1920,
+              1080
+            ],
+            "uRatio": 0.8505208333333333,
+            "uSize": 100,
+            "uRandomness": 0.95,
+            "uBlur": 0,
+            "uFocus": 40,
+            "uGlow": 0.5,
+            "uTwinkle": 1,
+            "uShape": 0,
+            "uDrift": 0,
+            "uTravel": 0.37497000000000014,
+            "uPointer": [
+              0,
+              0,
+              0,
+              140
+            ],
+            "uEffect": 2,
+            "uStrength": 0.85,
+            "uBursts[0]": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "uBurstCount": 0,
+            "uReveal": 0.23146296296296304,
+            "uSoft": 0.2,
+            "uShimmer": 1,
+            "uOpacity": 0.8
+          },
+          "palette": [
+            "#3b82f6",
+            "#ffffff"
+          ],
+          "pixels": {
+            "width": 1633,
+            "height": 919,
+            "ink": 18,
+            "peakAlpha": 2,
+            "hash": 2927517514,
+            "at": 2033.5
+          }
+        },
+        {
+          "section": "contact",
+          "instances": 450,
+          "uniforms": {
+            "uOffset": [
+              0,
+              0,
+              -32.94023342021391
+            ],
+            "uSpread": 10,
+            "uTime": 0.03199466666666666,
+            "uCamera": 26,
+            "uAspect": 1.7777777777777777,
+            "uView": [
+              1920,
+              1080
+            ],
+            "uRatio": 0.8505208333333333,
+            "uSize": 100,
+            "uRandomness": 0.95,
+            "uBlur": 0,
+            "uFocus": 40,
+            "uGlow": 0.5,
+            "uTwinkle": 1,
+            "uShape": 0,
+            "uDrift": 0,
+            "uTravel": 0.3599399999999999,
+            "uPointer": [
+              0,
+              0,
+              0,
+              140
+            ],
+            "uEffect": 2,
+            "uStrength": 0.85,
+            "uBursts[0]": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "uBurstCount": 0,
+            "uReveal": 0.2221851851851851,
+            "uSoft": 0.2,
+            "uShimmer": 1,
+            "uOpacity": 0.8
+          },
+          "palette": [
+            "#3b82f6",
+            "#ffffff"
+          ],
+          "pixels": {
+            "width": 1633,
+            "height": 919,
+            "ink": 2,
+            "peakAlpha": 2,
+            "hash": 1408021311,
+            "at": 2651.2999999988824
+          }
+        }
+      ],
+      "pointer": [
+        {
+          "selector": "#about .body-copy",
+          "expected": {
+            "x": 385,
+            "y": 512.625
+          },
+          "actual": [
+            382.88816837165746,
+            515.8304587215913,
+            0.8262839715443363,
+            140
+          ]
+        },
+        {
+          "selector": "#about .interest-links button",
+          "expected": {
+            "x": 821.33203125,
+            "y": 254
+          },
+          "actual": [
+            817.47871343115,
+            254.7579366281401,
+            0.9764900920862132,
+            140
+          ]
+        }
+      ],
+      "offscreen": [
+        {
+          "section": "about",
+          "id": 1,
+          "draws": 65,
+          "connected": false,
+          "contextLost": true
+        },
+        {
+          "section": "works",
+          "id": 2,
+          "draws": 66,
+          "connected": false,
+          "contextLost": true
+        },
+        {
+          "section": "approach",
+          "id": 3,
+          "draws": 55,
+          "connected": false,
+          "contextLost": true
+        },
+        {
+          "section": "about",
+          "id": 5,
+          "draws": 52,
+          "connected": false,
+          "contextLost": true
+        },
+        {
+          "section": "works",
+          "id": 6,
+          "draws": 42,
+          "connected": false,
+          "contextLost": true
+        }
+      ],
+      "reducedMotion": [
+        {
+          "section": "about",
+          "id": 11,
+          "draws": 5,
+          "time": 0,
+          "pixels": {
+            "width": 1633,
+            "height": 919,
+            "ink": 13481,
+            "peakAlpha": 163,
+            "hash": 3980797723,
+            "at": 6121.699999999255
+          }
+        },
+        {
+          "section": "works",
+          "id": 12,
+          "draws": 5,
+          "time": 0,
+          "pixels": {
+            "width": 1155,
+            "height": 1299,
+            "ink": 4905,
+            "peakAlpha": 163,
+            "hash": 3318283107,
+            "at": 7235.5
+          }
+        },
+        {
+          "section": "approach",
+          "id": 13,
+          "draws": 5,
+          "time": 0,
+          "pixels": {
+            "width": 1633,
+            "height": 919,
+            "ink": 13481,
+            "peakAlpha": 163,
+            "hash": 3980797723,
+            "at": 8346.299999998882
+          }
+        },
+        {
+          "section": "contact",
+          "id": 14,
+          "draws": 5,
+          "time": 0,
+          "pixels": {
+            "width": 1633,
+            "height": 919,
+            "ink": 13481,
+            "peakAlpha": 163,
+            "hash": 3980797723,
+            "at": 9466.39999999851
+          }
+        }
+      ],
+      "geometry": {
+        "viewport": 1920,
+        "root": 1920,
+        "body": 1920
+      },
+      "contexts": [
+        {
+          "id": 1,
+          "section": "about",
+          "connected": false,
+          "contextLost": true,
+          "deletedPrograms": 2,
+          "draws": 65,
+          "lineDraws": 0,
+          "instances": 450,
+          "vertices": 4,
+          "mode": 5,
+          "uniforms": {
+            "uOffset": [
+              0,
+              0,
+              -0.3242901714713242
+            ],
+            "uSpread": 10,
+            "uTime": 0.11999466666666674,
+            "uCamera": 26,
+            "uAspect": 1,
+            "uView": [
+              1,
+              1
+            ],
+            "uRatio": 1,
+            "uSize": 100,
+            "uRandomness": 0.95,
+            "uBlur": 0,
+            "uFocus": 40,
+            "uGlow": 0.5,
+            "uTwinkle": 1,
+            "uShape": 0,
+            "uDrift": 0,
+            "uTravel": 1.3499400000000004,
+            "uPointer": [
+              0,
+              0,
+              0,
+              140
+            ],
+            "uEffect": 2,
+            "uStrength": 0.85,
+            "uBursts[0]": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "uBurstCount": 0,
+            "uReveal": 0.8332962962962963,
+            "uSoft": 0.2,
+            "uShimmer": 1,
+            "uOpacity": 0.8
+          },
+          "palette": [
+            "#3b82f6",
+            "#ffffff"
+          ],
+          "pixels": {
+            "width": 1633,
+            "height": 919,
+            "ink": 2,
+            "peakAlpha": 2,
+            "hash": 1408021311,
+            "at": 466.09999999962747
+          },
+          "bounds": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": 2,
+          "section": "works",
+          "connected": false,
+          "contextLost": true,
+          "deletedPrograms": 2,
+          "draws": 66,
+          "lineDraws": 0,
+          "instances": 450,
+          "vertices": 4,
+          "mode": 5,
+          "uniforms": {
+            "uOffset": [
+              0,
+              0,
+              -0.591690799166793
+            ],
+            "uSpread": 10,
+            "uTime": 0.1146666666666667,
+            "uCamera": 26,
+            "uAspect": 0.8888888888888888,
+            "uView": [
+              1920,
+              2160
+            ],
+            "uRatio": 0.6015625,
+            "uSize": 100,
+            "uRandomness": 0.95,
+            "uBlur": 0,
+            "uFocus": 40,
+            "uGlow": 0.5,
+            "uTwinkle": 1,
+            "uShape": 0,
+            "uDrift": 0,
+            "uTravel": 1.29,
+            "uPointer": [
+              0,
+              0,
+              0,
+              140
+            ],
+            "uEffect": 2,
+            "uStrength": 0.85,
+            "uBursts[0]": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "uBurstCount": 0,
+            "uReveal": 0.7962962962962964,
+            "uSoft": 0.2,
+            "uShimmer": 1,
+            "uOpacity": 0.8
+          },
+          "palette": [
+            "#3b82f6",
+            "#ffffff"
+          ],
+          "pixels": {
+            "width": 1155,
+            "height": 1299,
+            "ink": 4,
+            "peakAlpha": 2,
+            "hash": 2828860161,
+            "at": 1187.3999999985099
+          },
+          "bounds": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": 3,
+          "section": "approach",
+          "connected": false,
+          "contextLost": true,
+          "deletedPrograms": 2,
+          "draws": 55,
+          "lineDraws": 0,
+          "instances": 450,
+          "vertices": 4,
+          "mode": 5,
+          "uniforms": {
+            "uOffset": [
+              0,
+              0,
+              -2.384123093560931
+            ],
+            "uSpread": 10,
+            "uTime": 0.09732266666666668,
+            "uCamera": 26,
+            "uAspect": 1.7777777777777777,
+            "uView": [
+              1920,
+              1080
+            ],
+            "uRatio": 0.8505208333333333,
+            "uSize": 100,
+            "uRandomness": 0.95,
+            "uBlur": 0,
+            "uFocus": 40,
+            "uGlow": 0.5,
+            "uTwinkle": 1,
+            "uShape": 0,
+            "uDrift": 0,
+            "uTravel": 1.0948800000000005,
+            "uPointer": [
+              0,
+              0,
+              0,
+              140
+            ],
+            "uEffect": 2,
+            "uStrength": 0.85,
+            "uBursts[0]": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "uBurstCount": 0,
+            "uReveal": 0.6758518518518521,
+            "uSoft": 0.2,
+            "uShimmer": 1,
+            "uOpacity": 0.8
+          },
+          "palette": [
+            "#3b82f6",
+            "#ffffff"
+          ],
+          "pixels": {
+            "width": 1633,
+            "height": 919,
+            "ink": 18,
+            "peakAlpha": 2,
+            "hash": 2927517514,
+            "at": 2033.5
+          },
+          "bounds": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": 4,
+          "section": "contact",
+          "connected": false,
+          "contextLost": true,
+          "deletedPrograms": 2,
+          "draws": 28,
+          "lineDraws": 0,
+          "instances": 450,
+          "vertices": 4,
+          "mode": 5,
+          "uniforms": {
+            "uOffset": [
+              0,
+              0,
+              -22.519417122453813
+            ],
+            "uSpread": 10,
+            "uTime": 0.04533066666666669,
+            "uCamera": 26,
+            "uAspect": 1.7777777777777777,
+            "uView": [
+              1920,
+              1080
+            ],
+            "uRatio": 0.8505208333333333,
+            "uSize": 100,
+            "uRandomness": 0.95,
+            "uBlur": 0,
+            "uFocus": 40,
+            "uGlow": 0.5,
+            "uTwinkle": 1,
+            "uShape": 0,
+            "uDrift": 0,
+            "uTravel": 0.5099700000000003,
+            "uPointer": [
+              0,
+              0,
+              0,
+              140
+            ],
+            "uEffect": 2,
+            "uStrength": 0.85,
+            "uBursts[0]": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "uBurstCount": 0,
+            "uReveal": 0.3147962962962964,
+            "uSoft": 0.2,
+            "uShimmer": 1,
+            "uOpacity": 0.8
+          },
+          "palette": [
+            "#3b82f6",
+            "#ffffff"
+          ],
+          "pixels": {
+            "width": 1633,
+            "height": 919,
+            "ink": 2,
+            "peakAlpha": 2,
+            "hash": 1408021311,
+            "at": 2651.2999999988824
+          },
+          "bounds": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": 5,
+          "section": "about",
+          "connected": false,
+          "contextLost": true,
+          "deletedPrograms": 2,
+          "draws": 52,
+          "lineDraws": 0,
+          "instances": 450,
+          "vertices": 4,
+          "mode": 5,
+          "uniforms": {
+            "uOffset": [
+              0,
+              0,
+              -3.2972677652070246
+            ],
+            "uSpread": 10,
+            "uTime": 0.09199466666666671,
+            "uCamera": 26,
+            "uAspect": 1.7777777777777777,
+            "uView": [
+              1920,
+              1080
+            ],
+            "uRatio": 0.8505208333333333,
+            "uSize": 100,
+            "uRandomness": 0.95,
+            "uBlur": 0,
+            "uFocus": 40,
+            "uGlow": 0.5,
+            "uTwinkle": 1,
+            "uShape": 0,
+            "uDrift": 0,
+            "uTravel": 1.0349400000000006,
+            "uPointer": [
+              508.658372069004,
+              -503.8927806511741,
+              0.3070117194616573,
+              140
+            ],
+            "uEffect": 2,
+            "uStrength": 0.85,
+            "uBursts[0]": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "uBurstCount": 0,
+            "uReveal": 0.638851851851852,
+            "uSoft": 0.2,
+            "uShimmer": 1,
+            "uOpacity": 0.8
+          },
+          "palette": [
+            "#3b82f6",
+            "#ffffff"
+          ],
+          "pixels": {
+            "width": 1633,
+            "height": 919,
+            "ink": 10,
+            "peakAlpha": 2,
+            "hash": 376241049,
+            "at": 3272.5
+          },
+          "bounds": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": 6,
+          "section": "works",
+          "connected": false,
+          "contextLost": true,
+          "deletedPrograms": 2,
+          "draws": 42,
+          "lineDraws": 0,
+          "instances": 450,
+          "vertices": 4,
+          "mode": 5,
+          "uniforms": {
+            "uOffset": [
+              0,
+              0,
+              -9.24819475865521
+            ],
+            "uSpread": 10,
+            "uTime": 0.07065866666666674,
+            "uCamera": 26,
+            "uAspect": 0.8888888888888888,
+            "uView": [
+              1920,
+              2160
+            ],
+            "uRatio": 0.6015625,
+            "uSize": 100,
+            "uRandomness": 0.95,
+            "uBlur": 0,
+            "uFocus": 40,
+            "uGlow": 0.5,
+            "uTwinkle": 1,
+            "uShape": 0,
+            "uDrift": 0,
+            "uTravel": 0.7949100000000009,
+            "uPointer": [
+              1429.5041319257673,
+              -502.33809313059794,
+              0.6021349521371695,
+              140
+            ],
+            "uEffect": 2,
+            "uStrength": 0.85,
+            "uBursts[0]": [
+              960,
+              1403.6099853515625,
+              0.15539999306201935,
+              1,
+              137.80999755859375,
+              851.0006103515625,
+              0.2221333384513855,
+              1,
+              222.6199951171875,
+              1821.6099853515625,
+              0.2888000011444092,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "uBurstCount": 3,
+            "uReveal": 0.49068518518518583,
+            "uSoft": 0.2,
+            "uShimmer": 1,
+            "uOpacity": 0.8
+          },
+          "palette": [
+            "#3b82f6",
+            "#ffffff"
+          ],
+          "pixels": {
+            "width": 1155,
+            "height": 1299,
+            "ink": 4,
+            "peakAlpha": 2,
+            "hash": 2828860161,
+            "at": 3739.5999999996275
+          },
+          "bounds": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": 7,
+          "section": "approach",
+          "connected": false,
+          "contextLost": true,
+          "deletedPrograms": 2,
+          "draws": 66,
+          "lineDraws": 0,
+          "instances": 450,
+          "vertices": 4,
+          "mode": 5,
+          "uniforms": {
+            "uOffset": [
+              0,
+              0,
+              -1.2206187221326126
+            ],
+            "uSpread": 10,
+            "uTime": 0.10665866666666665,
+            "uCamera": 26,
+            "uAspect": 1.7777777777777777,
+            "uView": [
+              1920,
+              1080
+            ],
+            "uRatio": 0.8505208333333333,
+            "uSize": 100,
+            "uRandomness": 0.95,
+            "uBlur": 0,
+            "uFocus": 40,
+            "uGlow": 0.5,
+            "uTwinkle": 1,
+            "uShape": 0,
+            "uDrift": 0,
+            "uTravel": 1.1999100000000005,
+            "uPointer": [
+              0,
+              0,
+              0,
+              140
+            ],
+            "uEffect": 2,
+            "uStrength": 0.85,
+            "uBursts[0]": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "uBurstCount": 0,
+            "uReveal": 0.7406851851851851,
+            "uSoft": 0.2,
+            "uShimmer": 1,
+            "uOpacity": 0.8
+          },
+          "palette": [
+            "#3b82f6",
+            "#ffffff"
+          ],
+          "pixels": {
+            "width": 1633,
+            "height": 919,
+            "ink": 2,
+            "peakAlpha": 2,
+            "hash": 1408021311,
+            "at": 4697.299999998882
+          },
+          "bounds": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": 8,
+          "section": "contact",
+          "connected": false,
+          "contextLost": true,
+          "deletedPrograms": 2,
+          "draws": 66,
+          "lineDraws": 0,
+          "instances": 450,
+          "vertices": 4,
+          "mode": 5,
+          "uniforms": {
+            "uOffset": [
+              0,
+              0,
+              -1.2206187221326126
+            ],
+            "uSpread": 10,
+            "uTime": 0.10665866666666665,
+            "uCamera": 26,
+            "uAspect": 1.7777777777777777,
+            "uView": [
+              1920,
+              1080
+            ],
+            "uRatio": 0.8505208333333333,
+            "uSize": 100,
+            "uRandomness": 0.95,
+            "uBlur": 0,
+            "uFocus": 40,
+            "uGlow": 0.5,
+            "uTwinkle": 1,
+            "uShape": 0,
+            "uDrift": 0,
+            "uTravel": 1.1999100000000005,
+            "uPointer": [
+              0,
+              0,
+              0,
+              140
+            ],
+            "uEffect": 2,
+            "uStrength": 0.85,
+            "uBursts[0]": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "uBurstCount": 0,
+            "uReveal": 0.7406851851851851,
+            "uSoft": 0.2,
+            "uShimmer": 1,
+            "uOpacity": 0.8
+          },
+          "palette": [
+            "#3b82f6",
+            "#ffffff"
+          ],
+          "pixels": {
+            "width": 1633,
+            "height": 919,
+            "ink": 32,
+            "peakAlpha": 3,
+            "hash": 1103478704,
+            "at": 4739.89999999851
+          },
+          "bounds": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": 9,
+          "section": "approach",
+          "connected": false,
+          "contextLost": true,
+          "deletedPrograms": 2,
+          "draws": 4,
+          "lineDraws": 0,
+          "instances": 450,
+          "vertices": 4,
+          "mode": 5,
+          "uniforms": {
+            "uOffset": [
+              0,
+              0,
+              0
+            ],
+            "uSpread": 10,
+            "uTime": 0,
+            "uCamera": 26,
+            "uAspect": 1.7777777777777777,
+            "uView": [
+              1920,
+              1080
+            ],
+            "uRatio": 0.8505208333333333,
+            "uSize": 100,
+            "uRandomness": 0.95,
+            "uBlur": 0,
+            "uFocus": 40,
+            "uGlow": 0.5,
+            "uTwinkle": 1,
+            "uShape": 0,
+            "uDrift": 0,
+            "uTravel": 0,
+            "uPointer": [
+              0,
+              0,
+              0,
+              140
+            ],
+            "uEffect": 2,
+            "uStrength": 0.85,
+            "uBursts[0]": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "uBurstCount": 0,
+            "uReveal": 1,
+            "uSoft": 0.2,
+            "uShimmer": 1,
+            "uOpacity": 0.8
+          },
+          "palette": [
+            "#3b82f6",
+            "#ffffff"
+          ],
+          "pixels": {
+            "width": 1633,
+            "height": 919,
+            "ink": 13481,
+            "peakAlpha": 163,
+            "hash": 3980797723,
+            "at": 5986.5999999996275
+          },
+          "bounds": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": 10,
+          "section": "contact",
+          "connected": false,
+          "contextLost": true,
+          "deletedPrograms": 2,
+          "draws": 4,
+          "lineDraws": 0,
+          "instances": 450,
+          "vertices": 4,
+          "mode": 5,
+          "uniforms": {
+            "uOffset": [
+              0,
+              0,
+              0
+            ],
+            "uSpread": 10,
+            "uTime": 0,
+            "uCamera": 26,
+            "uAspect": 1.7777777777777777,
+            "uView": [
+              1920,
+              1080
+            ],
+            "uRatio": 0.8505208333333333,
+            "uSize": 100,
+            "uRandomness": 0.95,
+            "uBlur": 0,
+            "uFocus": 40,
+            "uGlow": 0.5,
+            "uTwinkle": 1,
+            "uShape": 0,
+            "uDrift": 0,
+            "uTravel": 0,
+            "uPointer": [
+              0,
+              0,
+              0,
+              140
+            ],
+            "uEffect": 2,
+            "uStrength": 0.85,
+            "uBursts[0]": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "uBurstCount": 0,
+            "uReveal": 1,
+            "uSoft": 0.2,
+            "uShimmer": 1,
+            "uOpacity": 0.8
+          },
+          "palette": [
+            "#3b82f6",
+            "#ffffff"
+          ],
+          "pixels": {
+            "width": 1633,
+            "height": 919,
+            "ink": 13481,
+            "peakAlpha": 163,
+            "hash": 3980797723,
+            "at": 6025.39999999851
+          },
+          "bounds": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": 11,
+          "section": "about",
+          "connected": false,
+          "contextLost": true,
+          "deletedPrograms": 2,
+          "draws": 7,
+          "lineDraws": 0,
+          "instances": 450,
+          "vertices": 4,
+          "mode": 5,
+          "uniforms": {
+            "uOffset": [
+              0,
+              0,
+              0
+            ],
+            "uSpread": 10,
+            "uTime": 0,
+            "uCamera": 26,
+            "uAspect": 1.7777777777777777,
+            "uView": [
+              1920,
+              1080
+            ],
+            "uRatio": 0.8505208333333333,
+            "uSize": 100,
+            "uRandomness": 0.95,
+            "uBlur": 0,
+            "uFocus": 40,
+            "uGlow": 0.5,
+            "uTwinkle": 1,
+            "uShape": 0,
+            "uDrift": 0,
+            "uTravel": 0,
+            "uPointer": [
+              500,
+              840,
+              0,
+              140
+            ],
+            "uEffect": 2,
+            "uStrength": 0.85,
+            "uBursts[0]": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "uBurstCount": 0,
+            "uReveal": 1,
+            "uSoft": 0.2,
+            "uShimmer": 1,
+            "uOpacity": 0.8
+          },
+          "palette": [
+            "#3b82f6",
+            "#ffffff"
+          ],
+          "pixels": {
+            "width": 1633,
+            "height": 919,
+            "ink": 13481,
+            "peakAlpha": 163,
+            "hash": 3980797723,
+            "at": 6121.699999999255
+          },
+          "bounds": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": 12,
+          "section": "works",
+          "connected": false,
+          "contextLost": true,
+          "deletedPrograms": 2,
+          "draws": 7,
+          "lineDraws": 0,
+          "instances": 450,
+          "vertices": 4,
+          "mode": 5,
+          "uniforms": {
+            "uOffset": [
+              0,
+              0,
+              0
+            ],
+            "uSpread": 10,
+            "uTime": 0,
+            "uCamera": 26,
+            "uAspect": 0.8888888888888888,
+            "uView": [
+              1920,
+              2160
+            ],
+            "uRatio": 0.6015625,
+            "uSize": 100,
+            "uRandomness": 0.95,
+            "uBlur": 0,
+            "uFocus": 40,
+            "uGlow": 0.5,
+            "uTwinkle": 1,
+            "uShape": 0,
+            "uDrift": 0,
+            "uTravel": 0,
+            "uPointer": [
+              500,
+              1920,
+              0,
+              140
+            ],
+            "uEffect": 2,
+            "uStrength": 0.85,
+            "uBursts[0]": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "uBurstCount": 0,
+            "uReveal": 1,
+            "uSoft": 0.2,
+            "uShimmer": 1,
+            "uOpacity": 0.8
+          },
+          "palette": [
+            "#3b82f6",
+            "#ffffff"
+          ],
+          "pixels": {
+            "width": 1155,
+            "height": 1299,
+            "ink": 4905,
+            "peakAlpha": 163,
+            "hash": 3318283107,
+            "at": 7235.5
+          },
+          "bounds": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": 13,
+          "section": "approach",
+          "connected": true,
+          "contextLost": false,
+          "deletedPrograms": 0,
+          "draws": 7,
+          "lineDraws": 0,
+          "instances": 450,
+          "vertices": 4,
+          "mode": 5,
+          "uniforms": {
+            "uOffset": [
+              0,
+              0,
+              0
+            ],
+            "uSpread": 10,
+            "uTime": 0,
+            "uCamera": 26,
+            "uAspect": 1.7777777777777777,
+            "uView": [
+              1920,
+              1080
+            ],
+            "uRatio": 0.8505208333333333,
+            "uSize": 100,
+            "uRandomness": 0.95,
+            "uBlur": 0,
+            "uFocus": 40,
+            "uGlow": 0.5,
+            "uTwinkle": 1,
+            "uShape": 0,
+            "uDrift": 0,
+            "uTravel": 0,
+            "uPointer": [
+              500,
+              840,
+              0,
+              140
+            ],
+            "uEffect": 2,
+            "uStrength": 0.85,
+            "uBursts[0]": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "uBurstCount": 0,
+            "uReveal": 1,
+            "uSoft": 0.2,
+            "uShimmer": 1,
+            "uOpacity": 0.8
+          },
+          "palette": [
+            "#3b82f6",
+            "#ffffff"
+          ],
+          "pixels": {
+            "width": 1633,
+            "height": 919,
+            "ink": 13481,
+            "peakAlpha": 163,
+            "hash": 3980797723,
+            "at": 8346.299999998882
+          },
+          "bounds": {
+            "left": 0,
+            "right": 1920,
+            "top": -988,
+            "bottom": 92,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": 14,
+          "section": "contact",
+          "connected": true,
+          "contextLost": false,
+          "deletedPrograms": 0,
+          "draws": 5,
+          "lineDraws": 0,
+          "instances": 450,
+          "vertices": 4,
+          "mode": 5,
+          "uniforms": {
+            "uOffset": [
+              0,
+              0,
+              0
+            ],
+            "uSpread": 10,
+            "uTime": 0,
+            "uCamera": 26,
+            "uAspect": 1.7777777777777777,
+            "uView": [
+              1920,
+              1080
+            ],
+            "uRatio": 0.8505208333333333,
+            "uSize": 100,
+            "uRandomness": 0.95,
+            "uBlur": 0,
+            "uFocus": 40,
+            "uGlow": 0.5,
+            "uTwinkle": 1,
+            "uShape": 0,
+            "uDrift": 0,
+            "uTravel": 0,
+            "uPointer": [
+              0,
+              0,
+              0,
+              140
+            ],
+            "uEffect": 2,
+            "uStrength": 0.85,
+            "uBursts[0]": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "uBurstCount": 0,
+            "uReveal": 1,
+            "uSoft": 0.2,
+            "uShimmer": 1,
+            "uOpacity": 0.8
+          },
+          "palette": [
+            "#3b82f6",
+            "#ffffff"
+          ],
+          "pixels": {
+            "width": 1633,
+            "height": 919,
+            "ink": 13481,
+            "peakAlpha": 163,
+            "hash": 3980797723,
+            "at": 9466.39999999851
+          },
+          "bounds": {
+            "left": 0,
+            "right": 1920,
+            "top": 92,
+            "bottom": 1172,
+            "width": 1920,
+            "height": 1080
+          }
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

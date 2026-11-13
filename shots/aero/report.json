@@ -1,0 +1,784 @@
+{
+  "executablePath": "C:/Users/Administrator/AppData/Local/ms-playwright/chromium-1234/chrome-win64/chrome.exe",
+  "viewports": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "geometry": {
+        "width": 1440,
+        "root": 1440,
+        "body": 1440,
+        "coverage": 0
+      },
+      "motion": {
+        "first": {
+          "hash": "e645869fb5aaa74415d89fafc05cf3b9495f4d7a8174fa2abb9033502d822f9e",
+          "low": 25,
+          "high": 175,
+          "range": 150,
+          "opaque": 9216
+        },
+        "second": {
+          "hash": "c3d889cca3bf54f7057b0e30b4428a3b391d845ba47d50105b22e01338c99302",
+          "low": 25,
+          "high": 170,
+          "range": 145,
+          "opaque": 9216
+        }
+      },
+      "interactions": [
+        {
+          "kind": "move",
+          "point": {
+            "x": 1180.8,
+            "y": 450
+          },
+          "submits": 96,
+          "changedWrites": 302,
+          "beforePixels": {
+            "hash": "100a1dcb2e81aaba5abe04f301f3d3773fdca4aee50b15c694cef112b9f9bdb2",
+            "low": 25,
+            "high": 184,
+            "range": 159,
+            "opaque": 9216
+          },
+          "afterPixels": {
+            "hash": "115ec94a2b521f06051df4f90dae332d417a63f0e1f55c6707ab223210fdcce2",
+            "low": 25,
+            "high": 177,
+            "range": 152,
+            "opaque": 9216
+          }
+        },
+        {
+          "kind": "click",
+          "point": {
+            "x": 1180.8,
+            "y": 450
+          },
+          "submits": 87,
+          "changedWrites": 274,
+          "beforePixels": {
+            "hash": "3785ad6d8f4fbed573c2651dbe99ff9221390d196d1757073208c9b9f102554b",
+            "low": 25,
+            "high": 168,
+            "range": 143,
+            "opaque": 9216
+          },
+          "afterPixels": {
+            "hash": "978b72a1955045ae12f35b389dcea99920f3383a99d8f9756b6d2f7bfb283b0b",
+            "low": 25,
+            "high": 197,
+            "range": 172,
+            "opaque": 9216
+          }
+        },
+        {
+          "kind": "hold",
+          "point": {
+            "x": 1180.8,
+            "y": 450
+          },
+          "submits": 186,
+          "changedWrites": 586,
+          "beforePixels": {
+            "hash": "82da41ed762d4903eea99904a2e4044da221287883b2af90542f004e9c03e26a",
+            "low": 25,
+            "high": 192,
+            "range": 167,
+            "opaque": 9216
+          },
+          "afterPixels": {
+            "hash": "ef26719284abaf15c0fb5352bafe0a0259c910997542a30084ac4d4480d8e8d3",
+            "low": 25,
+            "high": 190,
+            "range": 165,
+            "opaque": 9216
+          }
+        }
+      ],
+      "offscreen": {
+        "before": 1165,
+        "after": 1165
+      },
+      "reduced": {
+        "submits": 1423,
+        "first": {
+          "hash": "4f497afdb809212be9b26a32476f6d47c1be0f37f4378a77da761a152fecc704",
+          "low": 25,
+          "high": 198,
+          "range": 173,
+          "opaque": 9216
+        },
+        "second": {
+          "hash": "4f497afdb809212be9b26a32476f6d47c1be0f37f4378a77da761a152fecc704",
+          "low": 25,
+          "high": 198,
+          "range": 173,
+          "opaque": 9216
+        }
+      },
+      "gpu": {
+        "supported": true,
+        "adapters": [
+          {
+            "available": true,
+            "vendor": "nvidia",
+            "architecture": "blackwell",
+            "description": "",
+            "isFallback": false
+          }
+        ],
+        "devices": 1,
+        "configuredCanvases": 1,
+        "submits": 1423,
+        "writes": 58298,
+        "changedWrites": 4436,
+        "gpuErrors": [],
+        "events": [
+          {
+            "type": "pointermove",
+            "handler": "onMove",
+            "at": 677.0999999996275,
+            "x": 1,
+            "y": 1,
+            "trusted": true,
+            "interactive": false
+          },
+          {
+            "type": "pointermove",
+            "handler": "onMove",
+            "at": 5315,
+            "x": 148.47500610351562,
+            "y": 57.125,
+            "trusted": true,
+            "interactive": true
+          },
+          {
+            "type": "pointermove",
+            "handler": "onMove",
+            "at": 5321.0999999996275,
+            "x": 295.95001220703125,
+            "y": 113.25,
+            "trusted": true,
+            "interactive": false
+          },
+          {
+            "type": "pointermove",
+            "handler": "onMove",
+            "at": 5327.799999998882,
+            "x": 443.42498779296875,
+            "y": 169.375,
+            "trusted": true,
+            "interactive": false
+          },
+          {
+            "type": "pointermove",
+            "handler": "onMove",
+            "at": 5333.39999999851,
+            "x": 590.9000244140625,
+            "y": 225.5,
+            "trusted": true,
+            "interactive": false
+          },
+          {
+            "type": "pointermove",
+            "handler": "onMove",
+            "at": 5339.799999998882,
+            "x": 738.375,
+            "y": 281.625,
+            "trusted": true,
+            "interactive": false
+          },
+          {
+            "type": "pointermove",
+            "handler": "onMove",
+            "at": 5346,
+            "x": 885.8499755859375,
+            "y": 337.75,
+            "trusted": true,
+            "interactive": false
+          },
+          {
+            "type": "pointermove",
+            "handler": "onMove",
+            "at": 5352.199999999255,
+            "x": 1033.324951171875,
+            "y": 393.875,
+            "trusted": true,
+            "interactive": false
+          },
+          {
+            "type": "pointermove",
+            "handler": "onMove",
+            "at": 5358.5,
+            "x": 1180.800048828125,
+            "y": 450,
+            "trusted": true,
+            "interactive": false
+          },
+          {
+            "type": "pointermove",
+            "handler": "onMove",
+            "at": 5914.5,
+            "x": 1180.800048828125,
+            "y": 450,
+            "trusted": true,
+            "interactive": false
+          },
+          {
+            "type": "pointerdown",
+            "handler": "onDown",
+            "at": 5914.89999999851,
+            "x": 1180.800048828125,
+            "y": 450,
+            "trusted": true,
+            "interactive": false
+          },
+          {
+            "type": "pointerup",
+            "handler": "onUp",
+            "at": 5915.5,
+            "x": 1180.800048828125,
+            "y": 450,
+            "trusted": true,
+            "interactive": false
+          },
+          {
+            "type": "pointerdown",
+            "handler": "onDown",
+            "at": 6464.299999998882,
+            "x": 1180.800048828125,
+            "y": 450,
+            "trusted": true,
+            "interactive": false
+          },
+          {
+            "type": "pointerup",
+            "handler": "onUp",
+            "at": 7575,
+            "x": 1180.800048828125,
+            "y": 450,
+            "trusted": true,
+            "interactive": false
+          },
+          {
+            "type": "pointermove",
+            "handler": "onMove",
+            "at": 7751.199999999255,
+            "x": 1287.4200439453125,
+            "y": 44,
+            "trusted": true,
+            "interactive": true
+          },
+          {
+            "type": "pointerdown",
+            "handler": "onDown",
+            "at": 7752.199999999255,
+            "x": 1287.4200439453125,
+            "y": 44,
+            "trusted": true,
+            "interactive": true
+          },
+          {
+            "type": "pointerup",
+            "handler": "onUp",
+            "at": 7752.39999999851,
+            "x": 1287.4200439453125,
+            "y": 44,
+            "trusted": true,
+            "interactive": true
+          },
+          {
+            "type": "pointermove",
+            "handler": "onMove",
+            "at": 9231.699999999255,
+            "x": 1250.1800537109375,
+            "y": 400.0299987792969,
+            "trusted": true,
+            "interactive": true
+          },
+          {
+            "type": "pointerdown",
+            "handler": "onDown",
+            "at": 9232.39999999851,
+            "x": 1250.1800537109375,
+            "y": 400.0299987792969,
+            "trusted": true,
+            "interactive": true
+          },
+          {
+            "type": "pointerup",
+            "handler": "onUp",
+            "at": 9232.699999999255,
+            "x": 1250.1800537109375,
+            "y": 400.0299987792969,
+            "trusted": true,
+            "interactive": true
+          },
+          {
+            "type": "pointermove",
+            "handler": "onMove",
+            "at": 10743.5,
+            "x": 1,
+            "y": 1,
+            "trusted": true,
+            "interactive": false
+          },
+          {
+            "type": "pointermove",
+            "handler": "onMove",
+            "at": 13328.39999999851,
+            "x": 1180.800048828125,
+            "y": 450,
+            "trusted": true,
+            "interactive": false
+          },
+          {
+            "type": "pointermove",
+            "handler": "onMove",
+            "at": 13329,
+            "x": 1180.800048828125,
+            "y": 450,
+            "trusted": true,
+            "interactive": false
+          },
+          {
+            "type": "pointerdown",
+            "handler": "onDown",
+            "at": 13329.099999999627,
+            "x": 1180.800048828125,
+            "y": 450,
+            "trusted": true,
+            "interactive": false
+          },
+          {
+            "type": "pointerup",
+            "handler": "onUp",
+            "at": 13329.299999998882,
+            "x": 1180.800048828125,
+            "y": 450,
+            "trusted": true,
+            "interactive": false
+          }
+        ]
+      },
+      "fallback": {
+        "image": {
+          "hash": "844eebd4de260390a062a78c4a6b4b507a4c7b16ac7c4245f1b903142f8f06ba",
+          "low": 25,
+          "high": 178,
+          "range": 153,
+          "opaque": 9216
+        },
+        "gpu": {
+          "supported": true,
+          "adapters": [
+            {
+              "forcedFailure": true
+            }
+          ],
+          "devices": 0,
+          "configuredCanvases": 0,
+          "submits": 0,
+          "writes": 0,
+          "changedWrites": 0,
+          "gpuErrors": [],
+          "events": []
+        }
+      }
+    },
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "geometry": {
+        "width": 1920,
+        "root": 1920,
+        "body": 1920,
+        "coverage": 0
+      },
+      "motion": {
+        "first": {
+          "hash": "231e3e12e4594e69c35d16f8faba1886cc65cadfc194e89a24a14bc4dbb9ab5d",
+          "low": 25,
+          "high": 171,
+          "range": 146,
+          "opaque": 9216
+        },
+        "second": {
+          "hash": "cbdfdf1fc3e5ffb5940ec7242ce34c08824f219f1083c8fc8f32e4b39825bba3",
+          "low": 25,
+          "high": 179,
+          "range": 154,
+          "opaque": 9216
+        }
+      },
+      "interactions": [
+        {
+          "kind": "move",
+          "point": {
+            "x": 1574.3999999999999,
+            "y": 540
+          },
+          "submits": 97,
+          "changedWrites": 306,
+          "beforePixels": {
+            "hash": "74f67c857238561fc56af5b759e88b5441eb053c86a5e13d4f367a4266f52b5f",
+            "low": 25,
+            "high": 181,
+            "range": 156,
+            "opaque": 9216
+          },
+          "afterPixels": {
+            "hash": "ae6ea10ccf936d1d986307af900c075b3e731242b1c1d57da16d3f9ada663140",
+            "low": 25,
+            "high": 189,
+            "range": 164,
+            "opaque": 9216
+          }
+        },
+        {
+          "kind": "click",
+          "point": {
+            "x": 1574.3999999999999,
+            "y": 540
+          },
+          "submits": 89,
+          "changedWrites": 280,
+          "beforePixels": {
+            "hash": "76106aed471642d9e44e49a97a035dc1ad5a6fccacecfe1bc3877258ae0536f2",
+            "low": 25,
+            "high": 190,
+            "range": 165,
+            "opaque": 9216
+          },
+          "afterPixels": {
+            "hash": "fdebca23472ed94eaf2bd17ecee8f833fb570bbb9f38257fd48f6889b6e4f5e8",
+            "low": 25,
+            "high": 198,
+            "range": 173,
+            "opaque": 9216
+          }
+        },
+        {
+          "kind": "hold",
+          "point": {
+            "x": 1574.3999999999999,
+            "y": 540
+          },
+          "submits": 188,
+          "changedWrites": 593,
+          "beforePixels": {
+            "hash": "5a301bede589a03622ca73663e7085ac4161d8c99a396ed837461bfb646eb1fa",
+            "low": 25,
+            "high": 201,
+            "range": 176,
+            "opaque": 9216
+          },
+          "afterPixels": {
+            "hash": "fd3e72216d94c88d9230b5257683d9ee5f7afc176df909de67f9558885342559",
+            "low": 25,
+            "high": 193,
+            "range": 168,
+            "opaque": 9216
+          }
+        }
+      ],
+      "offscreen": {
+        "before": 1192,
+        "after": 1192
+      },
+      "reduced": {
+        "submits": 1461,
+        "first": {
+          "hash": "115b1754d52f076b7c36c92a4958954f30282db9e1ad984efa12054667a90d5f",
+          "low": 25,
+          "high": 183,
+          "range": 158,
+          "opaque": 9216
+        },
+        "second": {
+          "hash": "115b1754d52f076b7c36c92a4958954f30282db9e1ad984efa12054667a90d5f",
+          "low": 25,
+          "high": 183,
+          "range": 158,
+          "opaque": 9216
+        }
+      },
+      "gpu": {
+        "supported": true,
+        "adapters": [
+          {
+            "available": true,
+            "vendor": "nvidia",
+            "architecture": "blackwell",
+            "description": "",
+            "isFallback": false
+          }
+        ],
+        "devices": 1,
+        "configuredCanvases": 1,
+        "submits": 1461,
+        "writes": 59874,
+        "changedWrites": 4573,
+        "gpuErrors": [],
+        "events": [
+          {
+            "type": "pointermove",
+            "handler": "onMove",
+            "at": 484.09999999962747,
+            "x": 1,
+            "y": 1,
+            "trusted": true,
+            "interactive": false
+          },
+          {
+            "type": "pointermove",
+            "handler": "onMove",
+            "at": 5134.300000000745,
+            "x": 197.6750030517578,
+            "y": 68.375,
+            "trusted": true,
+            "interactive": false
+          },
+          {
+            "type": "pointermove",
+            "handler": "onMove",
+            "at": 5140.300000000745,
+            "x": 394.3500061035156,
+            "y": 135.75,
+            "trusted": true,
+            "interactive": false
+          },
+          {
+            "type": "pointermove",
+            "handler": "onMove",
+            "at": 5146.5,
+            "x": 591.0250244140625,
+            "y": 203.125,
+            "trusted": true,
+            "interactive": false
+          },
+          {
+            "type": "pointermove",
+            "handler": "onMove",
+            "at": 5152.700000001118,
+            "x": 787.7000122070312,
+            "y": 270.5,
+            "trusted": true,
+            "interactive": false
+          },
+          {
+            "type": "pointermove",
+            "handler": "onMove",
+            "at": 5159,
+            "x": 984.375,
+            "y": 337.875,
+            "trusted": true,
+            "interactive": false
+          },
+          {
+            "type": "pointermove",
+            "handler": "onMove",
+            "at": 5165.4000000003725,
+            "x": 1181.050048828125,
+            "y": 405.25,
+            "trusted": true,
+            "interactive": false
+          },
+          {
+            "type": "pointermove",
+            "handler": "onMove",
+            "at": 5171.5,
+            "x": 1377.7249755859375,
+            "y": 472.625,
+            "trusted": true,
+            "interactive": false
+          },
+          {
+            "type": "pointermove",
+            "handler": "onMove",
+            "at": 5177.700000001118,
+            "x": 1574.4000244140625,
+            "y": 540,
+            "trusted": true,
+            "interactive": false
+          },
+          {
+            "type": "pointermove",
+            "handler": "onMove",
+            "at": 5755.300000000745,
+            "x": 1574.4000244140625,
+            "y": 540,
+            "trusted": true,
+            "interactive": false
+          },
+          {
+            "type": "pointerdown",
+            "handler": "onDown",
+            "at": 5755.5999999996275,
+            "x": 1574.4000244140625,
+            "y": 540,
+            "trusted": true,
+            "interactive": false
+          },
+          {
+            "type": "pointerup",
+            "handler": "onUp",
+            "at": 5756.0999999996275,
+            "x": 1574.4000244140625,
+            "y": 540,
+            "trusted": true,
+            "interactive": false
+          },
+          {
+            "type": "pointerdown",
+            "handler": "onDown",
+            "at": 6331.200000001118,
+            "x": 1574.4000244140625,
+            "y": 540,
+            "trusted": true,
+            "interactive": false
+          },
+          {
+            "type": "pointerup",
+            "handler": "onUp",
+            "at": 7458.9000000003725,
+            "x": 1574.4000244140625,
+            "y": 540,
+            "trusted": true,
+            "interactive": false
+          },
+          {
+            "type": "pointermove",
+            "handler": "onMove",
+            "at": 7682.0999999996275,
+            "x": 1722.22998046875,
+            "y": 44,
+            "trusted": true,
+            "interactive": true
+          },
+          {
+            "type": "pointerdown",
+            "handler": "onDown",
+            "at": 7683,
+            "x": 1722.22998046875,
+            "y": 44,
+            "trusted": true,
+            "interactive": true
+          },
+          {
+            "type": "pointerup",
+            "handler": "onUp",
+            "at": 7683.300000000745,
+            "x": 1722.22998046875,
+            "y": 44,
+            "trusted": true,
+            "interactive": true
+          },
+          {
+            "type": "pointermove",
+            "handler": "onMove",
+            "at": 9213.200000001118,
+            "x": 1685,
+            "y": 435.8900146484375,
+            "trusted": true,
+            "interactive": true
+          },
+          {
+            "type": "pointerdown",
+            "handler": "onDown",
+            "at": 9213.800000000745,
+            "x": 1685,
+            "y": 435.8900146484375,
+            "trusted": true,
+            "interactive": true
+          },
+          {
+            "type": "pointerup",
+            "handler": "onUp",
+            "at": 9214.200000001118,
+            "x": 1685,
+            "y": 435.8900146484375,
+            "trusted": true,
+            "interactive": true
+          },
+          {
+            "type": "pointermove",
+            "handler": "onMove",
+            "at": 10660,
+            "x": 1,
+            "y": 1,
+            "trusted": true,
+            "interactive": false
+          },
+          {
+            "type": "pointermove",
+            "handler": "onMove",
+            "at": 13429.099999999627,
+            "x": 1574.4000244140625,
+            "y": 540,
+            "trusted": true,
+            "interactive": false
+          },
+          {
+            "type": "pointermove",
+            "handler": "onMove",
+            "at": 13429.800000000745,
+            "x": 1574.4000244140625,
+            "y": 540,
+            "trusted": true,
+            "interactive": false
+          },
+          {
+            "type": "pointerdown",
+            "handler": "onDown",
+            "at": 13429.900000000373,
+            "x": 1574.4000244140625,
+            "y": 540,
+            "trusted": true,
+            "interactive": false
+          },
+          {
+            "type": "pointerup",
+            "handler": "onUp",
+            "at": 13430.099999999627,
+            "x": 1574.4000244140625,
+            "y": 540,
+            "trusted": true,
+            "interactive": false
+          }
+        ]
+      },
+      "fallback": {
+        "image": {
+          "hash": "332a18757de6b06d22b27864485ce67b6ec01463cc2ecbf7cd655b6c9369a350",
+          "low": 25,
+          "high": 166,
+          "range": 141,
+          "opaque": 9216
+        },
+        "gpu": {
+          "supported": true,
+          "adapters": [
+            {
+              "forcedFailure": true
+            }
+          ],
+          "devices": 0,
+          "configuredCanvases": 0,
+          "submits": 0,
+          "writes": 0,
+          "changedWrites": 0,
+          "gpuErrors": [],
+          "events": []
+        }
+      }
+    }
+  ],
+  "errors": []
+}

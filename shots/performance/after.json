@@ -1,0 +1,2355 @@
+{
+  "phase": "after",
+  "base": "http://127.0.0.1:4173",
+  "note": "Full Chrome, native host GPU; viewport/touch/DPR and CDP CPU/network emulation, not physical devices or field Web Vitals. Three cold loads per profile. Resource encodedBodySize measures actual compressed response bodies from Vite preview; inventory includes both disk and gzip sizes.",
+  "inventory": [
+    {
+      "file": "ASSET-SOURCES.md",
+      "bytes": 3145,
+      "gzip": 3145
+    },
+    {
+      "file": "assets/AeroShards-BIouHTbL.js",
+      "bytes": 200537,
+      "gzip": 64834
+    },
+    {
+      "file": "assets/AeroShards-BYGinUjy.css",
+      "bytes": 154,
+      "gzip": 122
+    },
+    {
+      "file": "assets/index-BgniYage.css",
+      "bytes": 46264,
+      "gzip": 10871
+    },
+    {
+      "file": "assets/index-DvVdGCO6.js",
+      "bytes": 267053,
+      "gzip": 84163
+    },
+    {
+      "file": "assets/motion-vendor-BCowwmvu.js",
+      "bytes": 123437,
+      "gzip": 48652
+    },
+    {
+      "file": "assets/Particles-BelpkKA8.js",
+      "bytes": 20237,
+      "gzip": 7865
+    },
+    {
+      "file": "assets/Particles-D9ntPucx.css",
+      "bytes": 160,
+      "gzip": 125
+    },
+    {
+      "file": "assets/TechText-CmSSYNdV.css",
+      "bytes": 169,
+      "gzip": 129
+    },
+    {
+      "file": "assets/TechText-D2tZPa8P.js",
+      "bytes": 17608,
+      "gzip": 7269
+    },
+    {
+      "file": "favicon.svg",
+      "bytes": 208,
+      "gzip": 175
+    },
+    {
+      "file": "fonts/OFL.txt",
+      "bytes": 4385,
+      "gzip": 4385
+    },
+    {
+      "file": "fonts/sora-latin.woff2",
+      "bytes": 33652,
+      "gzip": 33652
+    },
+    {
+      "file": "fonts/source.css",
+      "bytes": 828,
+      "gzip": 374
+    },
+    {
+      "file": "index.html",
+      "bytes": 1591,
+      "gzip": 769
+    },
+    {
+      "file": "media/optimized/about-1440.avif",
+      "bytes": 76874,
+      "gzip": 76874
+    },
+    {
+      "file": "media/optimized/about-1440.webp",
+      "bytes": 122950,
+      "gzip": 122950
+    },
+    {
+      "file": "media/optimized/about-1600.avif",
+      "bytes": 96572,
+      "gzip": 96572
+    },
+    {
+      "file": "media/optimized/about-1600.webp",
+      "bytes": 153844,
+      "gzip": 153844
+    },
+    {
+      "file": "media/optimized/about-640.avif",
+      "bytes": 17707,
+      "gzip": 17707
+    },
+    {
+      "file": "media/optimized/about-640.webp",
+      "bytes": 27432,
+      "gzip": 27432
+    },
+    {
+      "file": "media/optimized/about-960.avif",
+      "bytes": 37464,
+      "gzip": 37464
+    },
+    {
+      "file": "media/optimized/about-960.webp",
+      "bytes": 58948,
+      "gzip": 58948
+    },
+    {
+      "file": "media/optimized/hero-aero-fallback-1440.avif",
+      "bytes": 24945,
+      "gzip": 24945
+    },
+    {
+      "file": "media/optimized/hero-aero-fallback-1440.webp",
+      "bytes": 39408,
+      "gzip": 39408
+    },
+    {
+      "file": "media/optimized/hero-aero-fallback-1920.avif",
+      "bytes": 34946,
+      "gzip": 34946
+    },
+    {
+      "file": "media/optimized/hero-aero-fallback-1920.webp",
+      "bytes": 57658,
+      "gzip": 57658
+    },
+    {
+      "file": "media/optimized/hero-aero-fallback-640.avif",
+      "bytes": 9449,
+      "gzip": 9449
+    },
+    {
+      "file": "media/optimized/hero-aero-fallback-640.webp",
+      "bytes": 13698,
+      "gzip": 13698
+    },
+    {
+      "file": "media/optimized/hero-aero-fallback-960.avif",
+      "bytes": 15775,
+      "gzip": 15775
+    },
+    {
+      "file": "media/optimized/hero-aero-fallback-960.webp",
+      "bytes": 23864,
+      "gzip": 23864
+    },
+    {
+      "file": "media/optimized/project-01-1440.avif",
+      "bytes": 56717,
+      "gzip": 56717
+    },
+    {
+      "file": "media/optimized/project-01-1440.webp",
+      "bytes": 87886,
+      "gzip": 87886
+    },
+    {
+      "file": "media/optimized/project-01-1920.avif",
+      "bytes": 93513,
+      "gzip": 93513
+    },
+    {
+      "file": "media/optimized/project-01-1920.webp",
+      "bytes": 137708,
+      "gzip": 137708
+    },
+    {
+      "file": "media/optimized/project-01-640.avif",
+      "bytes": 14130,
+      "gzip": 14130
+    },
+    {
+      "file": "media/optimized/project-01-640.webp",
+      "bytes": 20884,
+      "gzip": 20884
+    },
+    {
+      "file": "media/optimized/project-01-960.avif",
+      "bytes": 28242,
+      "gzip": 28242
+    },
+    {
+      "file": "media/optimized/project-01-960.webp",
+      "bytes": 43546,
+      "gzip": 43546
+    },
+    {
+      "file": "media/optimized/project-02-1440.avif",
+      "bytes": 121473,
+      "gzip": 121473
+    },
+    {
+      "file": "media/optimized/project-02-1440.webp",
+      "bytes": 241826,
+      "gzip": 241826
+    },
+    {
+      "file": "media/optimized/project-02-1600.avif",
+      "bytes": 157234,
+      "gzip": 157234
+    },
+    {
+      "file": "media/optimized/project-02-1600.webp",
+      "bytes": 300836,
+      "gzip": 300836
+    },
+    {
+      "file": "media/optimized/project-02-640.avif",
+      "bytes": 33818,
+      "gzip": 33818
+    },
+    {
+      "file": "media/optimized/project-02-640.webp",
+      "bytes": 68008,
+      "gzip": 68008
+    },
+    {
+      "file": "media/optimized/project-02-960.avif",
+      "bytes": 62013,
+      "gzip": 62013
+    },
+    {
+      "file": "media/optimized/project-02-960.webp",
+      "bytes": 125856,
+      "gzip": 125856
+    },
+    {
+      "file": "media/optimized/project-03-1440.avif",
+      "bytes": 38376,
+      "gzip": 38376
+    },
+    {
+      "file": "media/optimized/project-03-1440.webp",
+      "bytes": 54204,
+      "gzip": 54204
+    },
+    {
+      "file": "media/optimized/project-03-1800.avif",
+      "bytes": 51403,
+      "gzip": 51403
+    },
+    {
+      "file": "media/optimized/project-03-1800.webp",
+      "bytes": 73660,
+      "gzip": 73660
+    },
+    {
+      "file": "media/optimized/project-03-640.avif",
+      "bytes": 12635,
+      "gzip": 12635
+    },
+    {
+      "file": "media/optimized/project-03-640.webp",
+      "bytes": 19554,
+      "gzip": 19554
+    },
+    {
+      "file": "media/optimized/project-03-960.avif",
+      "bytes": 22280,
+      "gzip": 22280
+    },
+    {
+      "file": "media/optimized/project-03-960.webp",
+      "bytes": 32614,
+      "gzip": 32614
+    },
+    {
+      "file": "REACT-BITS-LICENSE.txt",
+      "bytes": 2060,
+      "gzip": 2060
+    },
+    {
+      "file": "share.jpg",
+      "bytes": 74474,
+      "gzip": 74474
+    },
+    {
+      "file": "taste/motion/meta.json",
+      "bytes": 2793,
+      "gzip": 2793
+    },
+    {
+      "file": "taste/motion/motion.css",
+      "bytes": 25717,
+      "gzip": 6754
+    },
+    {
+      "file": "taste/motion/_hover-test.html",
+      "bytes": 1479,
+      "gzip": 728
+    },
+    {
+      "file": "VGPU-LICENSE.txt",
+      "bytes": 1069,
+      "gzip": 1069
+    }
+  ],
+  "profiles": [
+    {
+      "profile": {
+        "name": "desktop",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "isMobile": false,
+        "hasTouch": false,
+        "cpu": 1,
+        "latency": 40,
+        "mbps": 6
+      },
+      "loads": [
+        {
+          "submits": 212,
+          "particleDraws": 0,
+          "callbacks": 2618,
+          "longTasks": [
+            {
+              "start": 377.5,
+              "duration": 79
+            }
+          ],
+          "lcp": 504,
+          "cls": 0,
+          "gpuErrors": [],
+          "now": 4986.800000000745,
+          "fcp": 504,
+          "resources": [
+            {
+              "name": "/fonts/sora-latin.woff2",
+              "bytes": 33652,
+              "transferSize": 33952,
+              "initiatorType": "link",
+              "duration": 205.09999999776483
+            },
+            {
+              "name": "/taste/motion/motion.css",
+              "bytes": 6754,
+              "transferSize": 7054,
+              "initiatorType": "link",
+              "duration": 95.69999999925494
+            },
+            {
+              "name": "/assets/motion-vendor-BCowwmvu.js",
+              "bytes": 48652,
+              "transferSize": 48952,
+              "initiatorType": "other",
+              "duration": 266.30000000074506
+            },
+            {
+              "name": "/assets/index-DvVdGCO6.js",
+              "bytes": 84163,
+              "transferSize": 84463,
+              "initiatorType": "script",
+              "duration": 312.6000000014901
+            },
+            {
+              "name": "/assets/index-BgniYage.css",
+              "bytes": 10871,
+              "transferSize": 11171,
+              "initiatorType": "link",
+              "duration": 127.09999999776483
+            },
+            {
+              "name": "/media/optimized/hero-aero-fallback-1440.avif",
+              "bytes": 24945,
+              "transferSize": 25245,
+              "initiatorType": "img",
+              "duration": 168.30000000074506
+            },
+            {
+              "name": "/media/optimized/about-960.avif",
+              "bytes": 37464,
+              "transferSize": 37764,
+              "initiatorType": "img",
+              "duration": 210.80000000074506
+            },
+            {
+              "name": "/favicon.svg",
+              "bytes": 208,
+              "transferSize": 508,
+              "initiatorType": "other",
+              "duration": 67.90000000223517
+            },
+            {
+              "name": "/assets/Particles-BelpkKA8.js",
+              "bytes": 7865,
+              "transferSize": 8165,
+              "initiatorType": "script",
+              "duration": 111.89999999850988
+            },
+            {
+              "name": "/assets/Particles-D9ntPucx.css",
+              "bytes": 160,
+              "transferSize": 460,
+              "initiatorType": "link",
+              "duration": 65.90000000223517
+            },
+            {
+              "name": "/assets/AeroShards-BYGinUjy.css",
+              "bytes": 154,
+              "transferSize": 454,
+              "initiatorType": "link",
+              "duration": 123.89999999850988
+            },
+            {
+              "name": "/assets/AeroShards-BIouHTbL.js",
+              "bytes": 64834,
+              "transferSize": 65134,
+              "initiatorType": "script",
+              "duration": 247.59999999776483
+            },
+            {
+              "name": "/assets/TechText-D2tZPa8P.js",
+              "bytes": 7269,
+              "transferSize": 7569,
+              "initiatorType": "script",
+              "duration": 74.80000000074506
+            },
+            {
+              "name": "/assets/TechText-CmSSYNdV.css",
+              "bytes": 169,
+              "transferSize": 469,
+              "initiatorType": "link",
+              "duration": 59.900000002235174
+            }
+          ],
+          "hero": "ready",
+          "videos": 0,
+          "canvases": [
+            {
+              "className": "aero-shards-canvas",
+              "pixels": 1296000
+            },
+            {
+              "className": "tech-text-canvas",
+              "pixels": 321664
+            },
+            {
+              "className": "particles-canvas",
+              "pixels": 45000
+            }
+          ],
+          "heroPerSecond": {
+            "submits": 52.82041060382892,
+            "callbacks": 322.9021327479353
+          }
+        },
+        {
+          "submits": 215,
+          "particleDraws": 0,
+          "callbacks": 2658,
+          "longTasks": [
+            {
+              "start": 376,
+              "duration": 78
+            }
+          ],
+          "lcp": 468,
+          "cls": 0,
+          "gpuErrors": [],
+          "now": 4992.300000000745,
+          "fcp": 468,
+          "resources": [
+            {
+              "name": "/fonts/sora-latin.woff2",
+              "bytes": 33652,
+              "transferSize": 33952,
+              "initiatorType": "link",
+              "duration": 211.09999999776483
+            },
+            {
+              "name": "/taste/motion/motion.css",
+              "bytes": 6754,
+              "transferSize": 7054,
+              "initiatorType": "link",
+              "duration": 87.09999999776483
+            },
+            {
+              "name": "/assets/motion-vendor-BCowwmvu.js",
+              "bytes": 48652,
+              "transferSize": 48952,
+              "initiatorType": "other",
+              "duration": 257.30000000074506
+            },
+            {
+              "name": "/assets/index-DvVdGCO6.js",
+              "bytes": 84163,
+              "transferSize": 84463,
+              "initiatorType": "script",
+              "duration": 305.0999999977648
+            },
+            {
+              "name": "/assets/index-BgniYage.css",
+              "bytes": 10871,
+              "transferSize": 11171,
+              "initiatorType": "link",
+              "duration": 118.30000000074506
+            },
+            {
+              "name": "/media/optimized/hero-aero-fallback-1440.avif",
+              "bytes": 24945,
+              "transferSize": 25245,
+              "initiatorType": "img",
+              "duration": 135.60000000149012
+            },
+            {
+              "name": "/media/optimized/about-960.avif",
+              "bytes": 37464,
+              "transferSize": 37764,
+              "initiatorType": "img",
+              "duration": 209.30000000074506
+            },
+            {
+              "name": "/favicon.svg",
+              "bytes": 208,
+              "transferSize": 508,
+              "initiatorType": "other",
+              "duration": 62.600000001490116
+            },
+            {
+              "name": "/assets/Particles-BelpkKA8.js",
+              "bytes": 7865,
+              "transferSize": 8165,
+              "initiatorType": "script",
+              "duration": 106.80000000074506
+            },
+            {
+              "name": "/assets/Particles-D9ntPucx.css",
+              "bytes": 160,
+              "transferSize": 460,
+              "initiatorType": "link",
+              "duration": 59.79999999701977
+            },
+            {
+              "name": "/assets/AeroShards-BYGinUjy.css",
+              "bytes": 154,
+              "transferSize": 454,
+              "initiatorType": "link",
+              "duration": 119
+            },
+            {
+              "name": "/assets/AeroShards-BIouHTbL.js",
+              "bytes": 64834,
+              "transferSize": 65134,
+              "initiatorType": "script",
+              "duration": 243.90000000223517
+            },
+            {
+              "name": "/assets/TechText-D2tZPa8P.js",
+              "bytes": 7269,
+              "transferSize": 7569,
+              "initiatorType": "script",
+              "duration": 79.60000000149012
+            },
+            {
+              "name": "/assets/TechText-CmSSYNdV.css",
+              "bytes": 169,
+              "transferSize": 469,
+              "initiatorType": "link",
+              "duration": 63.900000002235174
+            }
+          ],
+          "hero": "ready",
+          "videos": 0,
+          "canvases": [
+            {
+              "className": "aero-shards-canvas",
+              "pixels": 1296000
+            },
+            {
+              "className": "tech-text-canvas",
+              "pixels": 321664
+            },
+            {
+              "className": "particles-canvas",
+              "pixels": 45000
+            }
+          ],
+          "heroPerSecond": {
+            "submits": 53.65659777432428,
+            "callbacks": 323.9268680449947
+          }
+        },
+        {
+          "submits": 215,
+          "particleDraws": 0,
+          "callbacks": 2655,
+          "longTasks": [
+            {
+              "start": 388.5,
+              "duration": 76
+            }
+          ],
+          "lcp": 476,
+          "cls": 0,
+          "gpuErrors": [],
+          "now": 4998.70000000298,
+          "fcp": 476,
+          "resources": [
+            {
+              "name": "/fonts/sora-latin.woff2",
+              "bytes": 33652,
+              "transferSize": 33952,
+              "initiatorType": "link",
+              "duration": 221.89999999850988
+            },
+            {
+              "name": "/taste/motion/motion.css",
+              "bytes": 6754,
+              "transferSize": 7054,
+              "initiatorType": "link",
+              "duration": 99.39999999850988
+            },
+            {
+              "name": "/assets/index-BgniYage.css",
+              "bytes": 10871,
+              "transferSize": 11171,
+              "initiatorType": "link",
+              "duration": 130.09999999776483
+            },
+            {
+              "name": "/assets/motion-vendor-BCowwmvu.js",
+              "bytes": 48652,
+              "transferSize": 48952,
+              "initiatorType": "other",
+              "duration": 268.8999999985099
+            },
+            {
+              "name": "/assets/index-DvVdGCO6.js",
+              "bytes": 84163,
+              "transferSize": 84463,
+              "initiatorType": "script",
+              "duration": 314.8999999985099
+            },
+            {
+              "name": "/media/optimized/hero-aero-fallback-1440.avif",
+              "bytes": 24945,
+              "transferSize": 25245,
+              "initiatorType": "img",
+              "duration": 170
+            },
+            {
+              "name": "/media/optimized/about-960.avif",
+              "bytes": 37464,
+              "transferSize": 37764,
+              "initiatorType": "img",
+              "duration": 196.70000000298023
+            },
+            {
+              "name": "/favicon.svg",
+              "bytes": 208,
+              "transferSize": 508,
+              "initiatorType": "other",
+              "duration": 52.69999999925494
+            },
+            {
+              "name": "/assets/Particles-BelpkKA8.js",
+              "bytes": 7865,
+              "transferSize": 8165,
+              "initiatorType": "script",
+              "duration": 112.80000000074506
+            },
+            {
+              "name": "/assets/Particles-D9ntPucx.css",
+              "bytes": 160,
+              "transferSize": 460,
+              "initiatorType": "link",
+              "duration": 66.60000000149012
+            },
+            {
+              "name": "/assets/AeroShards-BYGinUjy.css",
+              "bytes": 154,
+              "transferSize": 454,
+              "initiatorType": "link",
+              "duration": 94.09999999776483
+            },
+            {
+              "name": "/assets/AeroShards-BIouHTbL.js",
+              "bytes": 64834,
+              "transferSize": 65134,
+              "initiatorType": "script",
+              "duration": 233.5
+            },
+            {
+              "name": "/assets/TechText-D2tZPa8P.js",
+              "bytes": 7269,
+              "transferSize": 7569,
+              "initiatorType": "script",
+              "duration": 85.40000000223517
+            },
+            {
+              "name": "/assets/TechText-CmSSYNdV.css",
+              "bytes": 169,
+              "transferSize": 469,
+              "initiatorType": "link",
+              "duration": 69.60000000149012
+            }
+          ],
+          "hero": "ready",
+          "videos": 0,
+          "canvases": [
+            {
+              "className": "aero-shards-canvas",
+              "pixels": 1296000
+            },
+            {
+              "className": "tech-text-canvas",
+              "pixels": 321664
+            },
+            {
+              "className": "particles-canvas",
+              "pixels": 45000
+            }
+          ],
+          "heroPerSecond": {
+            "submits": 53.53425200757399,
+            "callbacks": 325.17101219415315
+          }
+        }
+      ],
+      "footerPerSecond": {
+        "heroSubmits": 0,
+        "particleDraws": 53.62995332195862,
+        "callbacks": 394.2794716447698
+      },
+      "geometry": {
+        "width": 1440,
+        "documentWidth": 1440,
+        "bodyWidth": 1440,
+        "unloaded": [],
+        "images": [
+          {
+            "src": "/media/optimized/hero-aero-fallback-1440.avif",
+            "natural": 1440,
+            "displayed": 1440
+          },
+          {
+            "src": "/media/optimized/about-960.avif",
+            "natural": 662,
+            "displayed": 727
+          },
+          {
+            "src": "/media/optimized/project-01-1440.avif",
+            "natural": 1310,
+            "displayed": 1481
+          },
+          {
+            "src": "/media/optimized/project-02-960.avif",
+            "natural": 662,
+            "displayed": 727
+          },
+          {
+            "src": "/media/optimized/project-03-960.avif",
+            "natural": 662,
+            "displayed": 727
+          }
+        ]
+      },
+      "allResources": [
+        {
+          "name": "/fonts/sora-latin.woff2",
+          "bytes": 33652
+        },
+        {
+          "name": "/taste/motion/motion.css",
+          "bytes": 6754
+        },
+        {
+          "name": "/assets/motion-vendor-BCowwmvu.js",
+          "bytes": 48652
+        },
+        {
+          "name": "/assets/index-DvVdGCO6.js",
+          "bytes": 84163
+        },
+        {
+          "name": "/assets/index-BgniYage.css",
+          "bytes": 10871
+        },
+        {
+          "name": "/media/optimized/hero-aero-fallback-1440.avif",
+          "bytes": 24945
+        },
+        {
+          "name": "/media/optimized/about-960.avif",
+          "bytes": 37464
+        },
+        {
+          "name": "/favicon.svg",
+          "bytes": 208
+        },
+        {
+          "name": "/assets/Particles-BelpkKA8.js",
+          "bytes": 7865
+        },
+        {
+          "name": "/assets/Particles-D9ntPucx.css",
+          "bytes": 160
+        },
+        {
+          "name": "/assets/AeroShards-BYGinUjy.css",
+          "bytes": 154
+        },
+        {
+          "name": "/assets/AeroShards-BIouHTbL.js",
+          "bytes": 64834
+        },
+        {
+          "name": "/assets/TechText-D2tZPa8P.js",
+          "bytes": 7269
+        },
+        {
+          "name": "/assets/TechText-CmSSYNdV.css",
+          "bytes": 169
+        },
+        {
+          "name": "/media/optimized/project-01-1440.avif",
+          "bytes": 56717
+        },
+        {
+          "name": "/media/optimized/project-02-960.avif",
+          "bytes": 62013
+        },
+        {
+          "name": "/media/optimized/project-03-960.avif",
+          "bytes": 22280
+        }
+      ],
+      "windowListeners": [
+        {
+          "type": "touchstart",
+          "passive": false
+        },
+        {
+          "type": "mousemove",
+          "passive": false
+        },
+        {
+          "type": "pointerdown",
+          "passive": false
+        },
+        {
+          "type": "pointerup",
+          "passive": false
+        },
+        {
+          "type": "touchend",
+          "passive": false
+        },
+        {
+          "type": "touchcancel",
+          "passive": false
+        },
+        {
+          "type": "mousedown",
+          "passive": false
+        },
+        {
+          "type": "mouseup",
+          "passive": false
+        },
+        {
+          "type": "click",
+          "passive": false
+        },
+        {
+          "type": "auxclick",
+          "passive": false
+        },
+        {
+          "type": "dblclick",
+          "passive": false
+        },
+        {
+          "type": "contextmenu",
+          "passive": false
+        },
+        {
+          "type": "wheel",
+          "passive": true
+        },
+        {
+          "type": "wheel",
+          "passive": true
+        },
+        {
+          "type": "wheel",
+          "passive": true
+        },
+        {
+          "type": "wheel",
+          "passive": true
+        },
+        {
+          "type": "load",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "touchstart",
+          "passive": true
+        },
+        {
+          "type": "keydown",
+          "passive": false
+        },
+        {
+          "type": "scroll",
+          "passive": true
+        },
+        {
+          "type": "scroll",
+          "passive": true
+        },
+        {
+          "type": "blur",
+          "passive": false
+        },
+        {
+          "type": "blur",
+          "passive": false
+        },
+        {
+          "type": "blur",
+          "passive": false
+        },
+        {
+          "type": "__playwright_global_listeners_check__",
+          "passive": false
+        },
+        {
+          "type": "pointerdown",
+          "passive": false
+        },
+        {
+          "type": "pointerdown",
+          "passive": true
+        },
+        {
+          "type": "pointerdown",
+          "passive": true
+        },
+        {
+          "type": "pointerup",
+          "passive": false
+        },
+        {
+          "type": "pointerup",
+          "passive": true
+        },
+        {
+          "type": "pointerup",
+          "passive": true
+        },
+        {
+          "type": "pointermove",
+          "passive": true
+        },
+        {
+          "type": "pointermove",
+          "passive": true
+        },
+        {
+          "type": "pointermove",
+          "passive": true
+        },
+        {
+          "type": "pointercancel",
+          "passive": false
+        },
+        {
+          "type": "pointercancel",
+          "passive": true
+        },
+        {
+          "type": "pointercancel",
+          "passive": true
+        }
+      ],
+      "medians": {
+        "fcp": 476,
+        "lcp": 476,
+        "cls": 0,
+        "firstScreenBytes": 327160,
+        "longTasks": 1,
+        "blockingMs": 28,
+        "heroSubmitsPerSecond": 53.53425200757399
+      }
+    },
+    {
+      "profile": {
+        "name": "tablet",
+        "viewport": {
+          "width": 768,
+          "height": 1024
+        },
+        "deviceScaleFactor": 2,
+        "isMobile": true,
+        "hasTouch": true,
+        "cpu": 2,
+        "latency": 80,
+        "mbps": 4
+      },
+      "loads": [
+        {
+          "submits": 99,
+          "particleDraws": 0,
+          "callbacks": 2573,
+          "longTasks": [
+            {
+              "start": 618.3000000007451,
+              "duration": 168
+            }
+          ],
+          "lcp": 800,
+          "cls": 0,
+          "gpuErrors": [],
+          "now": 5332.699999999255,
+          "fcp": 800,
+          "resources": [
+            {
+              "name": "/fonts/sora-latin.woff2",
+              "bytes": 33652,
+              "transferSize": 33952,
+              "initiatorType": "link",
+              "duration": 330.1000000014901
+            },
+            {
+              "name": "/taste/motion/motion.css",
+              "bytes": 6754,
+              "transferSize": 7054,
+              "initiatorType": "link",
+              "duration": 158.80000000074506
+            },
+            {
+              "name": "/assets/index-DvVdGCO6.js",
+              "bytes": 84163,
+              "transferSize": 84463,
+              "initiatorType": "script",
+              "duration": 468.19999999925494
+            },
+            {
+              "name": "/assets/motion-vendor-BCowwmvu.js",
+              "bytes": 48652,
+              "transferSize": 48952,
+              "initiatorType": "other",
+              "duration": 390.5999999977648
+            },
+            {
+              "name": "/assets/index-BgniYage.css",
+              "bytes": 10871,
+              "transferSize": 11171,
+              "initiatorType": "link",
+              "duration": 189.5
+            },
+            {
+              "name": "/media/optimized/hero-aero-fallback-1920.avif",
+              "bytes": 34946,
+              "transferSize": 35246,
+              "initiatorType": "img",
+              "duration": 303.30000000074506
+            },
+            {
+              "name": "/media/optimized/about-1600.avif",
+              "bytes": 96572,
+              "transferSize": 96872,
+              "initiatorType": "img",
+              "duration": 516
+            },
+            {
+              "name": "/favicon.svg",
+              "bytes": 208,
+              "transferSize": 508,
+              "initiatorType": "other",
+              "duration": 97.89999999850988
+            },
+            {
+              "name": "/assets/Particles-BelpkKA8.js",
+              "bytes": 7865,
+              "transferSize": 8165,
+              "initiatorType": "script",
+              "duration": 170.40000000223517
+            },
+            {
+              "name": "/assets/Particles-D9ntPucx.css",
+              "bytes": 160,
+              "transferSize": 460,
+              "initiatorType": "link",
+              "duration": 92.89999999850988
+            },
+            {
+              "name": "/assets/AeroShards-BIouHTbL.js",
+              "bytes": 64834,
+              "transferSize": 65134,
+              "initiatorType": "script",
+              "duration": 427
+            },
+            {
+              "name": "/assets/AeroShards-BYGinUjy.css",
+              "bytes": 154,
+              "transferSize": 454,
+              "initiatorType": "link",
+              "duration": 192.19999999925494
+            }
+          ],
+          "hero": "ready",
+          "videos": 0,
+          "canvases": [
+            {
+              "className": "aero-shards-canvas",
+              "pixels": 649838
+            },
+            {
+              "className": "particles-canvas",
+              "pixels": 45000
+            }
+          ],
+          "heroPerSecond": {
+            "submits": 26.86299870655653,
+            "callbacks": 324.3458362347196
+          }
+        },
+        {
+          "submits": 98,
+          "particleDraws": 0,
+          "callbacks": 2565,
+          "longTasks": [
+            {
+              "start": 622.8000000007451,
+              "duration": 173
+            }
+          ],
+          "lcp": 808,
+          "cls": 0,
+          "gpuErrors": [],
+          "now": 5342,
+          "fcp": 808,
+          "resources": [
+            {
+              "name": "/fonts/sora-latin.woff2",
+              "bytes": 33652,
+              "transferSize": 33952,
+              "initiatorType": "link",
+              "duration": 332.0999999977648
+            },
+            {
+              "name": "/taste/motion/motion.css",
+              "bytes": 6754,
+              "transferSize": 7054,
+              "initiatorType": "link",
+              "duration": 144.80000000074506
+            },
+            {
+              "name": "/assets/index-BgniYage.css",
+              "bytes": 10871,
+              "transferSize": 11171,
+              "initiatorType": "link",
+              "duration": 207.60000000149012
+            },
+            {
+              "name": "/assets/motion-vendor-BCowwmvu.js",
+              "bytes": 48652,
+              "transferSize": 48952,
+              "initiatorType": "other",
+              "duration": 394.6000000014901
+            },
+            {
+              "name": "/assets/index-DvVdGCO6.js",
+              "bytes": 84163,
+              "transferSize": 84463,
+              "initiatorType": "script",
+              "duration": 471.5
+            },
+            {
+              "name": "/media/optimized/hero-aero-fallback-1920.avif",
+              "bytes": 34946,
+              "transferSize": 35246,
+              "initiatorType": "img",
+              "duration": 328.70000000298023
+            },
+            {
+              "name": "/media/optimized/about-1600.avif",
+              "bytes": 96572,
+              "transferSize": 96872,
+              "initiatorType": "img",
+              "duration": 539.3999999985099
+            },
+            {
+              "name": "/favicon.svg",
+              "bytes": 208,
+              "transferSize": 508,
+              "initiatorType": "other",
+              "duration": 90.40000000223517
+            },
+            {
+              "name": "/assets/Particles-BelpkKA8.js",
+              "bytes": 7865,
+              "transferSize": 8165,
+              "initiatorType": "script",
+              "duration": 163.89999999850988
+            },
+            {
+              "name": "/assets/Particles-D9ntPucx.css",
+              "bytes": 160,
+              "transferSize": 460,
+              "initiatorType": "link",
+              "duration": 101
+            },
+            {
+              "name": "/assets/AeroShards-BIouHTbL.js",
+              "bytes": 64834,
+              "transferSize": 65134,
+              "initiatorType": "script",
+              "duration": 445.5999999977648
+            },
+            {
+              "name": "/assets/AeroShards-BYGinUjy.css",
+              "bytes": 154,
+              "transferSize": 454,
+              "initiatorType": "link",
+              "duration": 180.69999999925494
+            }
+          ],
+          "hero": "ready",
+          "videos": 0,
+          "canvases": [
+            {
+              "className": "aero-shards-canvas",
+              "pixels": 649838
+            },
+            {
+              "className": "particles-canvas",
+              "pixels": 45000
+            }
+          ],
+          "heroPerSecond": {
+            "submits": 26.7591674925669,
+            "callbacks": 325.0743310208127
+          }
+        },
+        {
+          "submits": 99,
+          "particleDraws": 0,
+          "callbacks": 2573,
+          "longTasks": [
+            {
+              "start": 629.6999999992549,
+              "duration": 172
+            }
+          ],
+          "lcp": 820,
+          "cls": 0,
+          "gpuErrors": [],
+          "now": 5352.099999997765,
+          "fcp": 820,
+          "resources": [
+            {
+              "name": "/fonts/sora-latin.woff2",
+              "bytes": 33652,
+              "transferSize": 33952,
+              "initiatorType": "link",
+              "duration": 332
+            },
+            {
+              "name": "/taste/motion/motion.css",
+              "bytes": 6754,
+              "transferSize": 7054,
+              "initiatorType": "link",
+              "duration": 145.30000000074506
+            },
+            {
+              "name": "/assets/motion-vendor-BCowwmvu.js",
+              "bytes": 48652,
+              "transferSize": 48952,
+              "initiatorType": "other",
+              "duration": 393.80000000074506
+            },
+            {
+              "name": "/assets/index-DvVdGCO6.js",
+              "bytes": 84163,
+              "transferSize": 84463,
+              "initiatorType": "script",
+              "duration": 472.3999999985099
+            },
+            {
+              "name": "/assets/index-BgniYage.css",
+              "bytes": 10871,
+              "transferSize": 11171,
+              "initiatorType": "link",
+              "duration": 192.30000000074506
+            },
+            {
+              "name": "/media/optimized/hero-aero-fallback-1920.avif",
+              "bytes": 34946,
+              "transferSize": 35246,
+              "initiatorType": "img",
+              "duration": 330.6000000014901
+            },
+            {
+              "name": "/media/optimized/about-1600.avif",
+              "bytes": 96572,
+              "transferSize": 96872,
+              "initiatorType": "img",
+              "duration": 524.6000000014901
+            },
+            {
+              "name": "/favicon.svg",
+              "bytes": 208,
+              "transferSize": 508,
+              "initiatorType": "other",
+              "duration": 107.39999999850988
+            },
+            {
+              "name": "/assets/Particles-BelpkKA8.js",
+              "bytes": 7865,
+              "transferSize": 8165,
+              "initiatorType": "script",
+              "duration": 165.60000000149012
+            },
+            {
+              "name": "/assets/Particles-D9ntPucx.css",
+              "bytes": 160,
+              "transferSize": 460,
+              "initiatorType": "link",
+              "duration": 102.30000000074506
+            },
+            {
+              "name": "/assets/AeroShards-BIouHTbL.js",
+              "bytes": 64834,
+              "transferSize": 65134,
+              "initiatorType": "script",
+              "duration": 436.79999999701977
+            },
+            {
+              "name": "/assets/AeroShards-BYGinUjy.css",
+              "bytes": 154,
+              "transferSize": 454,
+              "initiatorType": "link",
+              "duration": 204.70000000298023
+            }
+          ],
+          "hero": "ready",
+          "videos": 0,
+          "canvases": [
+            {
+              "className": "aero-shards-canvas",
+              "pixels": 649838
+            },
+            {
+              "className": "particles-canvas",
+              "pixels": 45000
+            }
+          ],
+          "heroPerSecond": {
+            "submits": 26.698309107070216,
+            "callbacks": 324.3350143377419
+          }
+        }
+      ],
+      "footerPerSecond": {
+        "heroSubmits": 0,
+        "particleDraws": 26.669300671612397,
+        "callbacks": 485.97392334938144
+      },
+      "geometry": {
+        "width": 768,
+        "documentWidth": 768,
+        "bodyWidth": 768,
+        "unloaded": [],
+        "images": [
+          {
+            "src": "/media/optimized/hero-aero-fallback-1920.avif",
+            "natural": 768,
+            "displayed": 768
+          },
+          {
+            "src": "/media/optimized/about-1600.avif",
+            "natural": 768,
+            "displayed": 378
+          },
+          {
+            "src": "/media/optimized/project-01-1440.avif",
+            "natural": 698,
+            "displayed": 796
+          },
+          {
+            "src": "/media/optimized/project-02-960.avif",
+            "natural": 353,
+            "displayed": 386
+          },
+          {
+            "src": "/media/optimized/project-03-960.avif",
+            "natural": 353,
+            "displayed": 386
+          }
+        ]
+      },
+      "allResources": [
+        {
+          "name": "/fonts/sora-latin.woff2",
+          "bytes": 33652
+        },
+        {
+          "name": "/taste/motion/motion.css",
+          "bytes": 6754
+        },
+        {
+          "name": "/assets/index-DvVdGCO6.js",
+          "bytes": 84163
+        },
+        {
+          "name": "/assets/motion-vendor-BCowwmvu.js",
+          "bytes": 48652
+        },
+        {
+          "name": "/assets/index-BgniYage.css",
+          "bytes": 10871
+        },
+        {
+          "name": "/media/optimized/hero-aero-fallback-1920.avif",
+          "bytes": 34946
+        },
+        {
+          "name": "/media/optimized/about-1600.avif",
+          "bytes": 96572
+        },
+        {
+          "name": "/favicon.svg",
+          "bytes": 208
+        },
+        {
+          "name": "/assets/Particles-BelpkKA8.js",
+          "bytes": 7865
+        },
+        {
+          "name": "/assets/Particles-D9ntPucx.css",
+          "bytes": 160
+        },
+        {
+          "name": "/assets/AeroShards-BIouHTbL.js",
+          "bytes": 64834
+        },
+        {
+          "name": "/assets/AeroShards-BYGinUjy.css",
+          "bytes": 154
+        },
+        {
+          "name": "/media/optimized/project-01-1440.avif",
+          "bytes": 56717
+        },
+        {
+          "name": "/media/optimized/project-02-960.avif",
+          "bytes": 62013
+        },
+        {
+          "name": "/media/optimized/project-03-960.avif",
+          "bytes": 22280
+        }
+      ],
+      "windowListeners": [
+        {
+          "type": "touchstart",
+          "passive": false
+        },
+        {
+          "type": "mousemove",
+          "passive": false
+        },
+        {
+          "type": "pointerdown",
+          "passive": false
+        },
+        {
+          "type": "pointerup",
+          "passive": false
+        },
+        {
+          "type": "touchend",
+          "passive": false
+        },
+        {
+          "type": "touchcancel",
+          "passive": false
+        },
+        {
+          "type": "mousedown",
+          "passive": false
+        },
+        {
+          "type": "mouseup",
+          "passive": false
+        },
+        {
+          "type": "click",
+          "passive": false
+        },
+        {
+          "type": "auxclick",
+          "passive": false
+        },
+        {
+          "type": "dblclick",
+          "passive": false
+        },
+        {
+          "type": "contextmenu",
+          "passive": false
+        },
+        {
+          "type": "wheel",
+          "passive": true
+        },
+        {
+          "type": "wheel",
+          "passive": true
+        },
+        {
+          "type": "wheel",
+          "passive": true
+        },
+        {
+          "type": "wheel",
+          "passive": true
+        },
+        {
+          "type": "load",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "touchstart",
+          "passive": true
+        },
+        {
+          "type": "keydown",
+          "passive": false
+        },
+        {
+          "type": "touchmove",
+          "passive": true
+        },
+        {
+          "type": "touchmove",
+          "passive": true
+        },
+        {
+          "type": "scroll",
+          "passive": true
+        },
+        {
+          "type": "scroll",
+          "passive": true
+        },
+        {
+          "type": "blur",
+          "passive": false
+        },
+        {
+          "type": "blur",
+          "passive": false
+        },
+        {
+          "type": "blur",
+          "passive": false
+        },
+        {
+          "type": "__playwright_global_listeners_check__",
+          "passive": false
+        },
+        {
+          "type": "pointerdown",
+          "passive": false
+        },
+        {
+          "type": "pointerdown",
+          "passive": true
+        },
+        {
+          "type": "pointerdown",
+          "passive": true
+        },
+        {
+          "type": "pointerup",
+          "passive": false
+        },
+        {
+          "type": "pointerup",
+          "passive": true
+        },
+        {
+          "type": "pointerup",
+          "passive": true
+        },
+        {
+          "type": "pointermove",
+          "passive": true
+        },
+        {
+          "type": "pointermove",
+          "passive": true
+        },
+        {
+          "type": "pointermove",
+          "passive": true
+        },
+        {
+          "type": "pointercancel",
+          "passive": false
+        },
+        {
+          "type": "pointercancel",
+          "passive": true
+        },
+        {
+          "type": "pointercancel",
+          "passive": true
+        }
+      ],
+      "medians": {
+        "fcp": 808,
+        "lcp": 808,
+        "cls": 0,
+        "firstScreenBytes": 388831,
+        "longTasks": 1,
+        "blockingMs": 122,
+        "heroSubmitsPerSecond": 26.7591674925669
+      }
+    },
+    {
+      "profile": {
+        "name": "phone",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "cpu": 4,
+        "latency": 150,
+        "mbps": 1.6
+      },
+      "loads": [
+        {
+          "submits": 85,
+          "particleDraws": 0,
+          "callbacks": 2384,
+          "longTasks": [
+            {
+              "start": 1334.800000000745,
+              "duration": 87
+            },
+            {
+              "start": 1424.3999999985099,
+              "duration": 391
+            },
+            {
+              "start": 2949.300000000745,
+              "duration": 54
+            }
+          ],
+          "lcp": 1840,
+          "cls": 0,
+          "gpuErrors": [],
+          "now": 6383.300000000745,
+          "fcp": 1840,
+          "resources": [
+            {
+              "name": "/fonts/sora-latin.woff2",
+              "bytes": 33652,
+              "transferSize": 33952,
+              "initiatorType": "link",
+              "duration": 770.6999999992549
+            },
+            {
+              "name": "/taste/motion/motion.css",
+              "bytes": 6754,
+              "transferSize": 7054,
+              "initiatorType": "link",
+              "duration": 318.3999999985099
+            },
+            {
+              "name": "/assets/index-DvVdGCO6.js",
+              "bytes": 84163,
+              "transferSize": 84463,
+              "initiatorType": "script",
+              "duration": 1124.9000000022352
+            },
+            {
+              "name": "/assets/motion-vendor-BCowwmvu.js",
+              "bytes": 48652,
+              "transferSize": 48952,
+              "initiatorType": "other",
+              "duration": 938.4000000022352
+            },
+            {
+              "name": "/assets/index-BgniYage.css",
+              "bytes": 10871,
+              "transferSize": 11171,
+              "initiatorType": "link",
+              "duration": 427.9000000022352
+            },
+            {
+              "name": "/media/optimized/hero-aero-fallback-1440.avif",
+              "bytes": 24945,
+              "transferSize": 25245,
+              "initiatorType": "img",
+              "duration": 538.6000000014901
+            },
+            {
+              "name": "/media/optimized/about-1440.avif",
+              "bytes": 76874,
+              "transferSize": 77174,
+              "initiatorType": "img",
+              "duration": 1053.0999999977648
+            },
+            {
+              "name": "/favicon.svg",
+              "bytes": 208,
+              "transferSize": 508,
+              "initiatorType": "other",
+              "duration": 180.5
+            },
+            {
+              "name": "/assets/Particles-BelpkKA8.js",
+              "bytes": 7865,
+              "transferSize": 8165,
+              "initiatorType": "script",
+              "duration": 325.3999999985099
+            },
+            {
+              "name": "/assets/Particles-D9ntPucx.css",
+              "bytes": 160,
+              "transferSize": 460,
+              "initiatorType": "link",
+              "duration": 169.60000000149012
+            },
+            {
+              "name": "/assets/AeroShards-BIouHTbL.js",
+              "bytes": 64834,
+              "transferSize": 65134,
+              "initiatorType": "script",
+              "duration": 946.3999999985099
+            },
+            {
+              "name": "/assets/AeroShards-BYGinUjy.css",
+              "bytes": 154,
+              "transferSize": 454,
+              "initiatorType": "link",
+              "duration": 328.9000000022352
+            }
+          ],
+          "hero": "ready",
+          "videos": 0,
+          "canvases": [
+            {
+              "className": "aero-shards-canvas",
+              "pixels": 329160
+            },
+            {
+              "className": "particles-canvas",
+              "pixels": 45000
+            }
+          ],
+          "heroPerSecond": {
+            "submits": 26.84697225804911,
+            "callbacks": 331.11265784927235
+          }
+        },
+        {
+          "submits": 85,
+          "particleDraws": 0,
+          "callbacks": 2383,
+          "longTasks": [
+            {
+              "start": 1317.199999999255,
+              "duration": 86
+            },
+            {
+              "start": 1405.6000000014901,
+              "duration": 380
+            },
+            {
+              "start": 2932.10000000149,
+              "duration": 60
+            }
+          ],
+          "lcp": 1808,
+          "cls": 0,
+          "gpuErrors": [],
+          "now": 6362.60000000149,
+          "fcp": 1808,
+          "resources": [
+            {
+              "name": "/fonts/sora-latin.woff2",
+              "bytes": 33652,
+              "transferSize": 33952,
+              "initiatorType": "link",
+              "duration": 771.1999999992549
+            },
+            {
+              "name": "/taste/motion/motion.css",
+              "bytes": 6754,
+              "transferSize": 7054,
+              "initiatorType": "link",
+              "duration": 320.20000000298023
+            },
+            {
+              "name": "/assets/index-DvVdGCO6.js",
+              "bytes": 84163,
+              "transferSize": 84463,
+              "initiatorType": "script",
+              "duration": 1111.6000000014901
+            },
+            {
+              "name": "/assets/motion-vendor-BCowwmvu.js",
+              "bytes": 48652,
+              "transferSize": 48952,
+              "initiatorType": "other",
+              "duration": 925.3000000007451
+            },
+            {
+              "name": "/assets/index-BgniYage.css",
+              "bytes": 10871,
+              "transferSize": 11171,
+              "initiatorType": "link",
+              "duration": 428.1000000014901
+            },
+            {
+              "name": "/media/optimized/hero-aero-fallback-1440.avif",
+              "bytes": 24945,
+              "transferSize": 25245,
+              "initiatorType": "img",
+              "duration": 568.4000000022352
+            },
+            {
+              "name": "/media/optimized/about-1440.avif",
+              "bytes": 76874,
+              "transferSize": 77174,
+              "initiatorType": "img",
+              "duration": 1065.3999999985099
+            },
+            {
+              "name": "/favicon.svg",
+              "bytes": 208,
+              "transferSize": 508,
+              "initiatorType": "other",
+              "duration": 181.40000000223517
+            },
+            {
+              "name": "/assets/Particles-BelpkKA8.js",
+              "bytes": 7865,
+              "transferSize": 8165,
+              "initiatorType": "script",
+              "duration": 325
+            },
+            {
+              "name": "/assets/Particles-D9ntPucx.css",
+              "bytes": 160,
+              "transferSize": 460,
+              "initiatorType": "link",
+              "duration": 168.69999999925494
+            },
+            {
+              "name": "/assets/AeroShards-BIouHTbL.js",
+              "bytes": 64834,
+              "transferSize": 65134,
+              "initiatorType": "script",
+              "duration": 957.5
+            },
+            {
+              "name": "/assets/AeroShards-BYGinUjy.css",
+              "bytes": 154,
+              "transferSize": 454,
+              "initiatorType": "link",
+              "duration": 326.0999999977648
+            }
+          ],
+          "hero": "ready",
+          "videos": 0,
+          "canvases": [
+            {
+              "className": "aero-shards-canvas",
+              "pixels": 329160
+            },
+            {
+              "className": "particles-canvas",
+              "pixels": 45000
+            }
+          ],
+          "heroPerSecond": {
+            "submits": 26.854983091346746,
+            "callbacks": 329.2222001198434
+          }
+        },
+        {
+          "submits": 85,
+          "particleDraws": 0,
+          "callbacks": 2385,
+          "longTasks": [
+            {
+              "start": 1320.2000000029802,
+              "duration": 86
+            },
+            {
+              "start": 1409,
+              "duration": 398
+            },
+            {
+              "start": 2960.7000000029802,
+              "duration": 54
+            }
+          ],
+          "lcp": 1832,
+          "cls": 0,
+          "gpuErrors": [],
+          "now": 6374,
+          "fcp": 1832,
+          "resources": [
+            {
+              "name": "/fonts/sora-latin.woff2",
+              "bytes": 33652,
+              "transferSize": 33952,
+              "initiatorType": "link",
+              "duration": 771
+            },
+            {
+              "name": "/taste/motion/motion.css",
+              "bytes": 6754,
+              "transferSize": 7054,
+              "initiatorType": "link",
+              "duration": 317.79999999701977
+            },
+            {
+              "name": "/assets/motion-vendor-BCowwmvu.js",
+              "bytes": 48652,
+              "transferSize": 48952,
+              "initiatorType": "other",
+              "duration": 925.5
+            },
+            {
+              "name": "/assets/index-DvVdGCO6.js",
+              "bytes": 84163,
+              "transferSize": 84463,
+              "initiatorType": "script",
+              "duration": 1112.6000000014901
+            },
+            {
+              "name": "/assets/index-BgniYage.css",
+              "bytes": 10871,
+              "transferSize": 11171,
+              "initiatorType": "link",
+              "duration": 426.69999999925494
+            },
+            {
+              "name": "/media/optimized/hero-aero-fallback-1440.avif",
+              "bytes": 24945,
+              "transferSize": 25245,
+              "initiatorType": "img",
+              "duration": 564.7000000029802
+            },
+            {
+              "name": "/media/optimized/about-1440.avif",
+              "bytes": 76874,
+              "transferSize": 77174,
+              "initiatorType": "img",
+              "duration": 1076.5
+            },
+            {
+              "name": "/favicon.svg",
+              "bytes": 208,
+              "transferSize": 508,
+              "initiatorType": "other",
+              "duration": 181.39999999850988
+            },
+            {
+              "name": "/assets/Particles-BelpkKA8.js",
+              "bytes": 7865,
+              "transferSize": 8165,
+              "initiatorType": "script",
+              "duration": 325.1000000014901
+            },
+            {
+              "name": "/assets/Particles-D9ntPucx.css",
+              "bytes": 160,
+              "transferSize": 460,
+              "initiatorType": "link",
+              "duration": 169.69999999925494
+            },
+            {
+              "name": "/assets/AeroShards-BIouHTbL.js",
+              "bytes": 64834,
+              "transferSize": 65134,
+              "initiatorType": "script",
+              "duration": 973.2000000029802
+            },
+            {
+              "name": "/assets/AeroShards-BYGinUjy.css",
+              "bytes": 154,
+              "transferSize": 454,
+              "initiatorType": "link",
+              "duration": 321.5
+            }
+          ],
+          "hero": "ready",
+          "videos": 0,
+          "canvases": [
+            {
+              "className": "aero-shards-canvas",
+              "pixels": 329160
+            },
+            {
+              "className": "particles-canvas",
+              "pixels": 45000
+            }
+          ],
+          "heroPerSecond": {
+            "submits": 26.884397092482295,
+            "callbacks": 329.5827939856163
+          }
+        }
+      ],
+      "footerPerSecond": {
+        "heroSubmits": 0,
+        "particleDraws": 26.645613342622532,
+        "callbacks": 485.5422875766772
+      },
+      "geometry": {
+        "width": 390,
+        "documentWidth": 390,
+        "bodyWidth": 390,
+        "unloaded": [],
+        "images": [
+          {
+            "src": "/media/optimized/hero-aero-fallback-1440.avif",
+            "natural": 390,
+            "displayed": 390
+          },
+          {
+            "src": "/media/optimized/about-1440.avif",
+            "natural": 390,
+            "displayed": 386
+          },
+          {
+            "src": "/media/optimized/project-01-1440.avif",
+            "natural": 390,
+            "displayed": 386
+          },
+          {
+            "src": "/media/optimized/project-02-1440.avif",
+            "natural": 390,
+            "displayed": 386
+          },
+          {
+            "src": "/media/optimized/project-03-1440.avif",
+            "natural": 390,
+            "displayed": 386
+          }
+        ]
+      },
+      "allResources": [
+        {
+          "name": "/fonts/sora-latin.woff2",
+          "bytes": 33652
+        },
+        {
+          "name": "/taste/motion/motion.css",
+          "bytes": 6754
+        },
+        {
+          "name": "/assets/index-DvVdGCO6.js",
+          "bytes": 84163
+        },
+        {
+          "name": "/assets/motion-vendor-BCowwmvu.js",
+          "bytes": 48652
+        },
+        {
+          "name": "/assets/index-BgniYage.css",
+          "bytes": 10871
+        },
+        {
+          "name": "/media/optimized/hero-aero-fallback-1440.avif",
+          "bytes": 24945
+        },
+        {
+          "name": "/media/optimized/about-1440.avif",
+          "bytes": 76874
+        },
+        {
+          "name": "/favicon.svg",
+          "bytes": 208
+        },
+        {
+          "name": "/assets/Particles-BelpkKA8.js",
+          "bytes": 7865
+        },
+        {
+          "name": "/assets/Particles-D9ntPucx.css",
+          "bytes": 160
+        },
+        {
+          "name": "/assets/AeroShards-BIouHTbL.js",
+          "bytes": 64834
+        },
+        {
+          "name": "/assets/AeroShards-BYGinUjy.css",
+          "bytes": 154
+        },
+        {
+          "name": "/media/optimized/project-01-1440.avif",
+          "bytes": 56717
+        },
+        {
+          "name": "/media/optimized/project-02-1440.avif",
+          "bytes": 121473
+        },
+        {
+          "name": "/media/optimized/project-03-1440.avif",
+          "bytes": 38376
+        }
+      ],
+      "windowListeners": [
+        {
+          "type": "touchstart",
+          "passive": false
+        },
+        {
+          "type": "mousemove",
+          "passive": false
+        },
+        {
+          "type": "pointerdown",
+          "passive": false
+        },
+        {
+          "type": "pointerup",
+          "passive": false
+        },
+        {
+          "type": "touchend",
+          "passive": false
+        },
+        {
+          "type": "touchcancel",
+          "passive": false
+        },
+        {
+          "type": "mousedown",
+          "passive": false
+        },
+        {
+          "type": "mouseup",
+          "passive": false
+        },
+        {
+          "type": "click",
+          "passive": false
+        },
+        {
+          "type": "auxclick",
+          "passive": false
+        },
+        {
+          "type": "dblclick",
+          "passive": false
+        },
+        {
+          "type": "contextmenu",
+          "passive": false
+        },
+        {
+          "type": "wheel",
+          "passive": true
+        },
+        {
+          "type": "wheel",
+          "passive": true
+        },
+        {
+          "type": "wheel",
+          "passive": true
+        },
+        {
+          "type": "wheel",
+          "passive": true
+        },
+        {
+          "type": "load",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "touchstart",
+          "passive": true
+        },
+        {
+          "type": "keydown",
+          "passive": false
+        },
+        {
+          "type": "touchmove",
+          "passive": true
+        },
+        {
+          "type": "touchmove",
+          "passive": true
+        },
+        {
+          "type": "scroll",
+          "passive": true
+        },
+        {
+          "type": "scroll",
+          "passive": true
+        },
+        {
+          "type": "blur",
+          "passive": false
+        },
+        {
+          "type": "blur",
+          "passive": false
+        },
+        {
+          "type": "blur",
+          "passive": false
+        },
+        {
+          "type": "__playwright_global_listeners_check__",
+          "passive": false
+        },
+        {
+          "type": "pointerdown",
+          "passive": false
+        },
+        {
+          "type": "pointerdown",
+          "passive": true
+        },
+        {
+          "type": "pointerdown",
+          "passive": true
+        },
+        {
+          "type": "pointerup",
+          "passive": false
+        },
+        {
+          "type": "pointerup",
+          "passive": true
+        },
+        {
+          "type": "pointerup",
+          "passive": true
+        },
+        {
+          "type": "pointermove",
+          "passive": true
+        },
+        {
+          "type": "pointermove",
+          "passive": true
+        },
+        {
+          "type": "pointermove",
+          "passive": true
+        },
+        {
+          "type": "pointercancel",
+          "passive": false
+        },
+        {
+          "type": "pointercancel",
+          "passive": true
+        },
+        {
+          "type": "pointercancel",
+          "passive": true
+        }
+      ],
+      "medians": {
+        "fcp": 1832,
+        "lcp": 1832,
+        "cls": 0,
+        "firstScreenBytes": 359132,
+        "longTasks": 3,
+        "blockingMs": 382,
+        "heroSubmitsPerSecond": 26.854983091346746
+      }
+    }
+  ],
+  "errors": []
+}

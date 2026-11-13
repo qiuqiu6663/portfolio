@@ -1,0 +1,206 @@
+{
+ "url": "http://127.0.0.1:4173/",
+ "views": {
+  "desktop": {
+   "width": 1440,
+   "height": 900,
+   "navH": 0,
+   "scrollHeight": 5400,
+   "screens": 6,
+   "sections": [
+    {
+     "n": 1,
+     "tag": "section",
+     "id": "home",
+     "cls": "hero is-still is-entered",
+     "top": 0,
+     "h": 900,
+     "hScreens": 1,
+     "offGrid": 0,
+     "tiles": [
+      {
+       "file": "desktop-sec-01-a.jpg",
+       "scrollY": 0
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "tag": "section",
+     "id": "about",
+     "cls": "about-section section",
+     "top": 900,
+     "h": 900,
+     "hScreens": 1,
+     "offGrid": 0,
+     "tiles": [
+      {
+       "file": "desktop-sec-02-a.jpg",
+       "scrollY": 900
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "tag": "section",
+     "id": "works",
+     "cls": "works-section section ",
+     "top": 1800,
+     "h": 1800,
+     "hScreens": 2,
+     "offGrid": 0,
+     "tiles": [
+      {
+       "file": "desktop-sec-03-a.jpg",
+       "scrollY": 1800
+      },
+      {
+       "file": "desktop-sec-03-b.jpg",
+       "scrollY": 2700
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "tag": "section",
+     "id": "approach",
+     "cls": "approach-section section",
+     "top": 3600,
+     "h": 900,
+     "hScreens": 1,
+     "offGrid": 0,
+     "tiles": [
+      {
+       "file": "desktop-sec-04-a.jpg",
+       "scrollY": 3600
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "tag": "footer",
+     "id": "contact",
+     "cls": "closing",
+     "top": 4500,
+     "h": 900,
+     "hScreens": 1,
+     "offGrid": 0,
+     "tiles": [
+      {
+       "file": "desktop-sec-05-a.jpg",
+       "scrollY": 4500
+      }
+     ]
+    }
+   ],
+   "consoleErrors": []
+  },
+  "mobile": {
+   "width": 390,
+   "height": 844,
+   "navH": 0,
+   "scrollHeight": 6318,
+   "screens": 7.49,
+   "sections": [
+    {
+     "n": 1,
+     "tag": "section",
+     "id": "home",
+     "cls": "hero is-still is-entered",
+     "top": 0,
+     "h": 844,
+     "hScreens": 1,
+     "offGrid": 0,
+     "tiles": [
+      {
+       "file": "mobile-sec-01-a.jpg",
+       "scrollY": 0
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "tag": "section",
+     "id": "about",
+     "cls": "about-section section",
+     "top": 844,
+     "h": 1217,
+     "hScreens": 1.44,
+     "offGrid": 373,
+     "tiles": [
+      {
+       "file": "mobile-sec-02-a.jpg",
+       "scrollY": 844
+      },
+      {
+       "file": "mobile-sec-02-b.jpg",
+       "scrollY": 1217
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "tag": "section",
+     "id": "works",
+     "cls": "works-section section ",
+     "top": 2061,
+     "h": 1849,
+     "hScreens": 2.19,
+     "offGrid": 161,
+     "tiles": [
+      {
+       "file": "mobile-sec-03-a.jpg",
+       "scrollY": 2061
+      },
+      {
+       "file": "mobile-sec-03-b.jpg",
+       "scrollY": 2905
+      },
+      {
+       "file": "mobile-sec-03-c.jpg",
+       "scrollY": 3066
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "tag": "section",
+     "id": "approach",
+     "cls": "approach-section section",
+     "top": 3910,
+     "h": 1563,
+     "hScreens": 1.85,
+     "offGrid": 719,
+     "tiles": [
+      {
+       "file": "mobile-sec-04-a.jpg",
+       "scrollY": 3910
+      },
+      {
+       "file": "mobile-sec-04-b.jpg",
+       "scrollY": 4629
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "tag": "footer",
+     "id": "contact",
+     "cls": "closing",
+     "top": 5474,
+     "h": 844,
+     "hScreens": 1,
+     "offGrid": 0,
+     "tiles": [
+      {
+       "file": "mobile-sec-05-a.jpg",
+       "scrollY": 5474
+      }
+     ]
+    }
+   ],
+   "consoleErrors": []
+  }
+ },
+ "at": "2026-11-13T11:15:56.600Z"
+}

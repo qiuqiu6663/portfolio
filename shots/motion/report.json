@@ -1,0 +1,586 @@
+{
+  "executablePath": "C:/Users/Administrator/AppData/Local/ms-playwright/chromium-1234/chrome-win64/chrome.exe",
+  "url": "http://127.0.0.1:5173",
+  "viewports": [
+    {
+      "viewport": {
+        "width": 1126,
+        "height": 1015
+      },
+      "chapters": {
+        "about": {
+          "titleOnsets": [
+            4168
+          ],
+          "cardOnsets": [],
+          "visible": {
+            "checked": 3,
+            "hidden": [],
+            "missingCanvases": []
+          },
+          "geometry": {
+            "viewport": 1126,
+            "document": 1126,
+            "body": 1126,
+            "nav": {
+              "position": "fixed",
+              "top": 16,
+              "left": 50.671875,
+              "right": 1075.328125
+            }
+          }
+        },
+        "works": {
+          "titleOnsets": [
+            6880.9,
+            7030.9
+          ],
+          "cardOnsets": [
+            8868.7,
+            9018.7,
+            9168.8
+          ],
+          "visible": {
+            "checked": 10,
+            "hidden": [],
+            "missingCanvases": []
+          },
+          "geometry": {
+            "viewport": 1126,
+            "document": 1126,
+            "body": 1126,
+            "nav": {
+              "position": "fixed",
+              "top": 16,
+              "left": 50.671875,
+              "right": 1075.328125
+            }
+          }
+        },
+        "approach": {
+          "titleOnsets": [
+            11350.3
+          ],
+          "cardOnsets": [
+            13038,
+            13225.5,
+            13431.8
+          ],
+          "visible": {
+            "checked": 9,
+            "hidden": [],
+            "missingCanvases": []
+          },
+          "geometry": {
+            "viewport": 1126,
+            "document": 1126,
+            "body": 1126,
+            "nav": {
+              "position": "fixed",
+              "top": 16,
+              "left": 50.671875,
+              "right": 1075.328125
+            }
+          }
+        }
+      },
+      "opening": {
+        "elapsed": 3526.60000000149,
+        "runningSamples": 92,
+        "geometricTracks": [
+          "opening-screen motion-active",
+          "hero-title-reveal"
+        ],
+        "unblocked": {
+          "opening": "complete",
+          "htmlOverflow": "visible",
+          "bodyOverflow": "visible",
+          "inert": false,
+          "cover": {
+            "display": "grid",
+            "visibility": "hidden",
+            "opacity": 0,
+            "pointerEvents": "none",
+            "clip": "none"
+          },
+          "hitCover": false
+        },
+        "visible": {
+          "checked": 1,
+          "hidden": [],
+          "missingCanvases": []
+        }
+      },
+      "heroGeometry": {
+        "viewport": 1126,
+        "document": 1126,
+        "body": 1126,
+        "nav": {
+          "position": "fixed",
+          "top": 16,
+          "left": 50.671875,
+          "right": 1075.328125
+        }
+      },
+      "parallax": {
+        "first": {
+          "transform": "matrix(1.13, 0, 0, 1.13, 0, -10.8363)",
+          "translate": "none"
+        },
+        "second": {
+          "transform": "matrix(1.13, 0, 0, 1.13, 0, -1.41564)",
+          "translate": "none"
+        },
+        "image": {
+          "complete": true,
+          "naturalWidth": 517,
+          "naturalHeight": 345,
+          "width": 565.370849609375,
+          "height": 531.0999755859375
+        }
+      },
+      "interactions": {
+        "filteredProject": "DISTANT TERRAINの詳細を見る",
+        "restoredProjects": 3,
+        "nativeProjectAndContactDialogs": true,
+        "fixedNavigation": true
+      },
+      "performance": {
+        "sampledFrames": 3095,
+        "frameIntervalMs": {
+          "median": 6.3,
+          "p95": 6.3,
+          "max": 118.8
+        },
+        "longTasks": {
+          "count": 2,
+          "totalMs": 139,
+          "maxMs": 87
+        }
+      }
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "chapters": {
+        "about": {
+          "titleOnsets": [
+            4058
+          ],
+          "cardOnsets": [],
+          "visible": {
+            "checked": 3,
+            "hidden": [],
+            "missingCanvases": []
+          },
+          "geometry": {
+            "viewport": 1440,
+            "document": 1440,
+            "body": 1440,
+            "nav": {
+              "position": "fixed",
+              "top": 16,
+              "left": 64.8046875,
+              "right": 1375.1953125
+            }
+          }
+        },
+        "works": {
+          "titleOnsets": [
+            6833.4,
+            6946
+          ],
+          "cardOnsets": [
+            8821.2,
+            8971.2,
+            9121.3
+          ],
+          "visible": {
+            "checked": 10,
+            "hidden": [],
+            "missingCanvases": []
+          },
+          "geometry": {
+            "viewport": 1440,
+            "document": 1440,
+            "body": 1440,
+            "nav": {
+              "position": "fixed",
+              "top": 16,
+              "left": 64.8046875,
+              "right": 1375.1953125
+            }
+          }
+        },
+        "approach": {
+          "titleOnsets": [
+            11284.1
+          ],
+          "cardOnsets": [
+            12971.8,
+            13159.3,
+            13384.4
+          ],
+          "visible": {
+            "checked": 9,
+            "hidden": [],
+            "missingCanvases": []
+          },
+          "geometry": {
+            "viewport": 1440,
+            "document": 1440,
+            "body": 1440,
+            "nav": {
+              "position": "fixed",
+              "top": 16,
+              "left": 64.8046875,
+              "right": 1375.1953125
+            }
+          }
+        }
+      },
+      "opening": {
+        "elapsed": 3527.800000000745,
+        "runningSamples": 95,
+        "geometricTracks": [
+          "opening-screen motion-active",
+          "hero-title-reveal"
+        ],
+        "unblocked": {
+          "opening": "complete",
+          "htmlOverflow": "visible",
+          "bodyOverflow": "visible",
+          "inert": false,
+          "cover": {
+            "display": "grid",
+            "visibility": "hidden",
+            "opacity": 0,
+            "pointerEvents": "none",
+            "clip": "none"
+          },
+          "hitCover": false
+        },
+        "visible": {
+          "checked": 1,
+          "hidden": [],
+          "missingCanvases": []
+        }
+      },
+      "heroGeometry": {
+        "viewport": 1440,
+        "document": 1440,
+        "body": 1440,
+        "nav": {
+          "position": "fixed",
+          "top": 16,
+          "left": 64.8046875,
+          "right": 1375.1953125
+        }
+      },
+      "parallax": {
+        "first": {
+          "transform": "matrix(1.13, 0, 0, 1.13, 0, -10.9308)",
+          "translate": "none"
+        },
+        "second": {
+          "transform": "matrix(1.13, 0, 0, 1.13, 0, -2.29501)",
+          "translate": "none"
+        },
+        "image": {
+          "complete": true,
+          "naturalWidth": 662,
+          "naturalHeight": 441,
+          "width": 726.819580078125,
+          "height": 531.0999755859375
+        }
+      },
+      "interactions": {
+        "filteredProject": "DISTANT TERRAINの詳細を見る",
+        "restoredProjects": 3,
+        "nativeProjectAndContactDialogs": true,
+        "fixedNavigation": true
+      },
+      "runtimeReduced": {
+        "states": {
+          "unfinishedChapters": [],
+          "unfinishedCards": []
+        },
+        "parallax": {
+          "transform": "none",
+          "translate": "none"
+        },
+        "geometry": {
+          "viewport": 1440,
+          "document": 1440,
+          "body": 1440,
+          "nav": {
+            "position": "fixed",
+            "top": 16,
+            "left": 64.8046875,
+            "right": 1375.1953125
+          }
+        }
+      },
+      "performance": {
+        "sampledFrames": 3340,
+        "frameIntervalMs": {
+          "median": 6.3,
+          "p95": 6.3,
+          "max": 112.4
+        },
+        "longTasks": {
+          "count": 1,
+          "totalMs": 88,
+          "maxMs": 88
+        }
+      }
+    },
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "chapters": {
+        "about": {
+          "titleOnsets": [
+            4106.5
+          ],
+          "cardOnsets": [],
+          "visible": {
+            "checked": 3,
+            "hidden": [],
+            "missingCanvases": []
+          },
+          "geometry": {
+            "viewport": 1920,
+            "document": 1920,
+            "body": 1920,
+            "nav": {
+              "position": "fixed",
+              "top": 16,
+              "left": 110,
+              "right": 1810
+            }
+          }
+        },
+        "works": {
+          "titleOnsets": [
+            6831.9,
+            6944.4
+          ],
+          "cardOnsets": [
+            8857.1,
+            8969.6,
+            9157.2
+          ],
+          "visible": {
+            "checked": 10,
+            "hidden": [],
+            "missingCanvases": []
+          },
+          "geometry": {
+            "viewport": 1920,
+            "document": 1920,
+            "body": 1920,
+            "nav": {
+              "position": "fixed",
+              "top": 16,
+              "left": 110,
+              "right": 1810
+            }
+          }
+        },
+        "approach": {
+          "titleOnsets": [
+            11301.2
+          ],
+          "cardOnsets": [
+            12951.5,
+            13139,
+            13364.1
+          ],
+          "visible": {
+            "checked": 9,
+            "hidden": [],
+            "missingCanvases": []
+          },
+          "geometry": {
+            "viewport": 1920,
+            "document": 1920,
+            "body": 1920,
+            "nav": {
+              "position": "fixed",
+              "top": 16,
+              "left": 110,
+              "right": 1810
+            }
+          }
+        }
+      },
+      "opening": {
+        "elapsed": 3528.699999999255,
+        "runningSamples": 94,
+        "geometricTracks": [
+          "opening-screen motion-active",
+          "hero-title-reveal"
+        ],
+        "unblocked": {
+          "opening": "complete",
+          "htmlOverflow": "visible",
+          "bodyOverflow": "visible",
+          "inert": false,
+          "cover": {
+            "display": "grid",
+            "visibility": "hidden",
+            "opacity": 0,
+            "pointerEvents": "none",
+            "clip": "none"
+          },
+          "hitCover": false
+        },
+        "visible": {
+          "checked": 1,
+          "hidden": [],
+          "missingCanvases": []
+        }
+      },
+      "heroGeometry": {
+        "viewport": 1920,
+        "document": 1920,
+        "body": 1920,
+        "nav": {
+          "position": "fixed",
+          "top": 16,
+          "left": 110,
+          "right": 1810
+        }
+      },
+      "parallax": {
+        "first": {
+          "transform": "matrix(1.13, 0, 0, 1.13, 0, -12.6711)",
+          "translate": "none"
+        },
+        "second": {
+          "transform": "matrix(1.13, 0, 0, 1.13, 0, -2.23938)",
+          "translate": "none"
+        },
+        "image": {
+          "complete": true,
+          "naturalWidth": 838,
+          "naturalHeight": 558,
+          "width": 946.93994140625,
+          "height": 610.199951171875
+        }
+      },
+      "interactions": {
+        "filteredProject": "DISTANT TERRAINの詳細を見る",
+        "restoredProjects": 3,
+        "nativeProjectAndContactDialogs": true,
+        "fixedNavigation": true
+      },
+      "performance": {
+        "sampledFrames": 3143,
+        "frameIntervalMs": {
+          "median": 6.3,
+          "p95": 6.3,
+          "max": 112.6
+        },
+        "longTasks": {
+          "count": 1,
+          "totalMs": 90,
+          "maxMs": 90
+        }
+      }
+    }
+  ],
+  "checks": [
+    {
+      "name": "skip-wheel",
+      "elapsed": 30.299999997019768,
+      "unblocked": {
+        "opening": "complete",
+        "htmlOverflow": "visible",
+        "bodyOverflow": "visible",
+        "inert": false,
+        "cover": {
+          "display": "grid",
+          "visibility": "hidden",
+          "opacity": 0,
+          "pointerEvents": "none",
+          "clip": "none"
+        },
+        "hitCover": false
+      }
+    },
+    {
+      "name": "skip-Tab",
+      "elapsed": 16.5,
+      "unblocked": {
+        "opening": "complete",
+        "htmlOverflow": "visible",
+        "bodyOverflow": "visible",
+        "inert": false,
+        "cover": {
+          "display": "grid",
+          "visibility": "hidden",
+          "opacity": 0,
+          "pointerEvents": "none",
+          "clip": "none"
+        },
+        "hitCover": false
+      }
+    },
+    {
+      "name": "initial-reduced",
+      "result": {
+        "states": {
+          "unfinishedChapters": [],
+          "unfinishedCards": []
+        },
+        "parallax": {
+          "transform": "none",
+          "translate": "none"
+        },
+        "geometry": {
+          "viewport": 1440,
+          "document": 1440,
+          "body": 1440,
+          "nav": {
+            "position": "fixed",
+            "top": 16,
+            "left": 64.8046875,
+            "right": 1375.1953125
+          }
+        }
+      }
+    },
+    {
+      "name": "opening-live-reduced",
+      "result": {
+        "states": {
+          "unfinishedChapters": [],
+          "unfinishedCards": []
+        },
+        "parallax": {
+          "transform": "none",
+          "translate": "none"
+        },
+        "geometry": {
+          "viewport": 1440,
+          "document": 1440,
+          "body": 1440,
+          "nav": {
+            "position": "fixed",
+            "top": 16,
+            "left": 64.8046875,
+            "right": 1375.1953125
+          }
+        }
+      }
+    }
+  ],
+  "errors": [],
+  "performanceNote": "Observed during QA, including style sampling and screenshots; descriptive evidence, not a benchmark or FPS guarantee."
+}

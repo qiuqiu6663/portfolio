@@ -1,0 +1,2336 @@
+{
+  "phase": "before",
+  "base": "http://127.0.0.1:4173",
+  "note": "Full Chrome, native host GPU; viewport/touch/DPR and CDP CPU/network emulation, not physical devices or field Web Vitals. Three cold loads per profile. Browser encodedBodySize measures compressed response bodies; inventory includes disk and gzip sizes.",
+  "inventory": [
+    {
+      "file": "ASSET-SOURCES.md",
+      "bytes": 3145,
+      "gzip": 3145
+    },
+    {
+      "file": "assets/index-Bem_1kqs.js",
+      "bytes": 496471,
+      "gzip": 159977
+    },
+    {
+      "file": "assets/index-p_oHQMMj.css",
+      "bytes": 46331,
+      "gzip": 10831
+    },
+    {
+      "file": "assets/motion-vendor-BCowwmvu.js",
+      "bytes": 123437,
+      "gzip": 48652
+    },
+    {
+      "file": "favicon.svg",
+      "bytes": 208,
+      "gzip": 175
+    },
+    {
+      "file": "fonts/OFL.txt",
+      "bytes": 4385,
+      "gzip": 4385
+    },
+    {
+      "file": "fonts/sora-latin.woff2",
+      "bytes": 33652,
+      "gzip": 33652
+    },
+    {
+      "file": "fonts/source.css",
+      "bytes": 828,
+      "gzip": 374
+    },
+    {
+      "file": "index.html",
+      "bytes": 1591,
+      "gzip": 769
+    },
+    {
+      "file": "media/about.jpg",
+      "bytes": 288344,
+      "gzip": 288344
+    },
+    {
+      "file": "media/hero-aero-fallback.png",
+      "bytes": 786830,
+      "gzip": 786830
+    },
+    {
+      "file": "media/project-01.jpg",
+      "bytes": 406839,
+      "gzip": 406839
+    },
+    {
+      "file": "media/project-02.jpg",
+      "bytes": 658557,
+      "gzip": 658557
+    },
+    {
+      "file": "media/project-03.jpg",
+      "bytes": 182275,
+      "gzip": 182275
+    },
+    {
+      "file": "REACT-BITS-LICENSE.txt",
+      "bytes": 2060,
+      "gzip": 2060
+    },
+    {
+      "file": "share.jpg",
+      "bytes": 74474,
+      "gzip": 74474
+    },
+    {
+      "file": "taste/moments/closing-lift/demo.html",
+      "bytes": 4357,
+      "gzip": 1807
+    },
+    {
+      "file": "taste/moments/closing-lift/meta.json",
+      "bytes": 1313,
+      "gzip": 1313
+    },
+    {
+      "file": "taste/moments/closing-lift/moment.css",
+      "bytes": 2378,
+      "gzip": 896
+    },
+    {
+      "file": "taste/moments/closing-lift/moment.js",
+      "bytes": 2939,
+      "gzip": 1348
+    },
+    {
+      "file": "taste/moments/counter-rolls/demo.html",
+      "bytes": 5437,
+      "gzip": 2019
+    },
+    {
+      "file": "taste/moments/counter-rolls/meta.json",
+      "bytes": 911,
+      "gzip": 911
+    },
+    {
+      "file": "taste/moments/counter-rolls/moment.css",
+      "bytes": 718,
+      "gzip": 380
+    },
+    {
+      "file": "taste/moments/counter-rolls/moment.js",
+      "bytes": 3400,
+      "gzip": 1544
+    },
+    {
+      "file": "taste/moments/cursor-spotlight/demo.html",
+      "bytes": 4401,
+      "gzip": 1782
+    },
+    {
+      "file": "taste/moments/cursor-spotlight/meta.json",
+      "bytes": 1254,
+      "gzip": 1254
+    },
+    {
+      "file": "taste/moments/cursor-spotlight/moment.css",
+      "bytes": 1183,
+      "gzip": 496
+    },
+    {
+      "file": "taste/moments/cursor-spotlight/moment.js",
+      "bytes": 2286,
+      "gzip": 1075
+    },
+    {
+      "file": "taste/moments/gallery.html",
+      "bytes": 8326,
+      "gzip": 2916
+    },
+    {
+      "file": "taste/moments/giant-type-pass/demo.html",
+      "bytes": 3651,
+      "gzip": 1552
+    },
+    {
+      "file": "taste/moments/giant-type-pass/meta.json",
+      "bytes": 1057,
+      "gzip": 1057
+    },
+    {
+      "file": "taste/moments/giant-type-pass/moment.css",
+      "bytes": 1571,
+      "gzip": 712
+    },
+    {
+      "file": "taste/moments/giant-type-pass/moment.js",
+      "bytes": 2089,
+      "gzip": 1015
+    },
+    {
+      "file": "taste/moments/headline-arrives/demo.html",
+      "bytes": 4004,
+      "gzip": 1545
+    },
+    {
+      "file": "taste/moments/headline-arrives/meta.json",
+      "bytes": 1071,
+      "gzip": 1071
+    },
+    {
+      "file": "taste/moments/headline-arrives/moment.css",
+      "bytes": 1663,
+      "gzip": 674
+    },
+    {
+      "file": "taste/moments/headline-arrives/moment.js",
+      "bytes": 2699,
+      "gzip": 1303
+    },
+    {
+      "file": "taste/moments/index.json",
+      "bytes": 21865,
+      "gzip": 21865
+    },
+    {
+      "file": "taste/moments/iris-opens/demo.html",
+      "bytes": 5029,
+      "gzip": 1764
+    },
+    {
+      "file": "taste/moments/iris-opens/meta.json",
+      "bytes": 1293,
+      "gzip": 1293
+    },
+    {
+      "file": "taste/moments/iris-opens/moment.css",
+      "bytes": 1997,
+      "gzip": 850
+    },
+    {
+      "file": "taste/moments/iris-opens/moment.js",
+      "bytes": 4691,
+      "gzip": 2050
+    },
+    {
+      "file": "taste/moments/letters-assemble/demo.html",
+      "bytes": 4315,
+      "gzip": 1639
+    },
+    {
+      "file": "taste/moments/letters-assemble/meta.json",
+      "bytes": 1025,
+      "gzip": 1025
+    },
+    {
+      "file": "taste/moments/letters-assemble/moment.css",
+      "bytes": 1084,
+      "gzip": 535
+    },
+    {
+      "file": "taste/moments/letters-assemble/moment.js",
+      "bytes": 3019,
+      "gzip": 1433
+    },
+    {
+      "file": "taste/moments/lib.js",
+      "bytes": 10768,
+      "gzip": 4087
+    },
+    {
+      "file": "taste/moments/line-carries-colour/demo.html",
+      "bytes": 4487,
+      "gzip": 1730
+    },
+    {
+      "file": "taste/moments/line-carries-colour/meta.json",
+      "bytes": 1382,
+      "gzip": 1382
+    },
+    {
+      "file": "taste/moments/line-carries-colour/moment.css",
+      "bytes": 1683,
+      "gzip": 758
+    },
+    {
+      "file": "taste/moments/line-carries-colour/moment.js",
+      "bytes": 4048,
+      "gzip": 1783
+    },
+    {
+      "file": "taste/moments/lines-rise/demo.html",
+      "bytes": 5218,
+      "gzip": 1818
+    },
+    {
+      "file": "taste/moments/lines-rise/meta.json",
+      "bytes": 984,
+      "gzip": 984
+    },
+    {
+      "file": "taste/moments/lines-rise/moment.css",
+      "bytes": 1316,
+      "gzip": 561
+    },
+    {
+      "file": "taste/moments/lines-rise/moment.js",
+      "bytes": 3121,
+      "gzip": 1432
+    },
+    {
+      "file": "taste/moments/liquid-hover/demo.html",
+      "bytes": 3380,
+      "gzip": 1477
+    },
+    {
+      "file": "taste/moments/liquid-hover/meta.json",
+      "bytes": 1443,
+      "gzip": 1443
+    },
+    {
+      "file": "taste/moments/liquid-hover/moment.css",
+      "bytes": 457,
+      "gzip": 275
+    },
+    {
+      "file": "taste/moments/liquid-hover/moment.js",
+      "bytes": 13350,
+      "gzip": 4886
+    },
+    {
+      "file": "taste/moments/liquid-type/demo.html",
+      "bytes": 3099,
+      "gzip": 1281
+    },
+    {
+      "file": "taste/moments/liquid-type/meta.json",
+      "bytes": 1058,
+      "gzip": 1058
+    },
+    {
+      "file": "taste/moments/liquid-type/moment.css",
+      "bytes": 462,
+      "gzip": 311
+    },
+    {
+      "file": "taste/moments/liquid-type/moment.js",
+      "bytes": 4205,
+      "gzip": 1953
+    },
+    {
+      "file": "taste/moments/marquee-row/demo.html",
+      "bytes": 4433,
+      "gzip": 1734
+    },
+    {
+      "file": "taste/moments/marquee-row/meta.json",
+      "bytes": 865,
+      "gzip": 865
+    },
+    {
+      "file": "taste/moments/marquee-row/moment.css",
+      "bytes": 2015,
+      "gzip": 830
+    },
+    {
+      "file": "taste/moments/marquee-row/moment.js",
+      "bytes": 2459,
+      "gzip": 1223
+    },
+    {
+      "file": "taste/moments/moments.js",
+      "bytes": 6101,
+      "gzip": 2442
+    },
+    {
+      "file": "taste/moments/photo-chapters/demo.html",
+      "bytes": 5256,
+      "gzip": 2047
+    },
+    {
+      "file": "taste/moments/photo-chapters/meta.json",
+      "bytes": 1884,
+      "gzip": 1884
+    },
+    {
+      "file": "taste/moments/photo-chapters/moment.css",
+      "bytes": 6298,
+      "gzip": 1801
+    },
+    {
+      "file": "taste/moments/photo-chapters/moment.js",
+      "bytes": 6202,
+      "gzip": 2574
+    },
+    {
+      "file": "taste/moments/picture-develops/demo-film.html",
+      "bytes": 3986,
+      "gzip": 1652
+    },
+    {
+      "file": "taste/moments/picture-develops/demo.html",
+      "bytes": 4292,
+      "gzip": 1746
+    },
+    {
+      "file": "taste/moments/picture-develops/meta.json",
+      "bytes": 1412,
+      "gzip": 1412
+    },
+    {
+      "file": "taste/moments/picture-develops/moment.css",
+      "bytes": 1946,
+      "gzip": 780
+    },
+    {
+      "file": "taste/moments/picture-develops/moment.js",
+      "bytes": 9433,
+      "gzip": 3608
+    },
+    {
+      "file": "taste/moments/pinned-chapters/demo.html",
+      "bytes": 5545,
+      "gzip": 2110
+    },
+    {
+      "file": "taste/moments/pinned-chapters/meta.json",
+      "bytes": 1279,
+      "gzip": 1279
+    },
+    {
+      "file": "taste/moments/pinned-chapters/moment.css",
+      "bytes": 7029,
+      "gzip": 1892
+    },
+    {
+      "file": "taste/moments/pinned-chapters/moment.js",
+      "bytes": 4338,
+      "gzip": 1794
+    },
+    {
+      "file": "taste/moments/window-parallax/demo.html",
+      "bytes": 3859,
+      "gzip": 1583
+    },
+    {
+      "file": "taste/moments/window-parallax/meta.json",
+      "bytes": 913,
+      "gzip": 913
+    },
+    {
+      "file": "taste/moments/window-parallax/moment.css",
+      "bytes": 591,
+      "gzip": 340
+    },
+    {
+      "file": "taste/moments/window-parallax/moment.js",
+      "bytes": 1230,
+      "gzip": 699
+    },
+    {
+      "file": "taste/moments/word-highlight/demo.html",
+      "bytes": 4605,
+      "gzip": 1813
+    },
+    {
+      "file": "taste/moments/word-highlight/meta.json",
+      "bytes": 1031,
+      "gzip": 1031
+    },
+    {
+      "file": "taste/moments/word-highlight/moment.css",
+      "bytes": 849,
+      "gzip": 433
+    },
+    {
+      "file": "taste/moments/word-highlight/moment.js",
+      "bytes": 2002,
+      "gzip": 1022
+    },
+    {
+      "file": "taste/moments/word-rotate/demo.html",
+      "bytes": 4646,
+      "gzip": 1833
+    },
+    {
+      "file": "taste/moments/word-rotate/meta.json",
+      "bytes": 948,
+      "gzip": 948
+    },
+    {
+      "file": "taste/moments/word-rotate/moment.css",
+      "bytes": 906,
+      "gzip": 485
+    },
+    {
+      "file": "taste/moments/word-rotate/moment.js",
+      "bytes": 2222,
+      "gzip": 1061
+    },
+    {
+      "file": "taste/moments/_demo/credits.json",
+      "bytes": 1326,
+      "gzip": 1326
+    },
+    {
+      "file": "taste/moments/_demo/demo.css",
+      "bytes": 7011,
+      "gzip": 2156
+    },
+    {
+      "file": "taste/moments/_demo/in-card.html",
+      "bytes": 1870,
+      "gzip": 856
+    },
+    {
+      "file": "taste/moments/_demo/in-page-service.html",
+      "bytes": 10578,
+      "gzip": 3664
+    },
+    {
+      "file": "taste/moments/_demo/in-page.html",
+      "bytes": 9847,
+      "gzip": 3515
+    },
+    {
+      "file": "taste/moments/_demo/photo-1049-tall.jpg",
+      "bytes": 102277,
+      "gzip": 102277
+    },
+    {
+      "file": "taste/moments/_demo/photo-1049.jpg",
+      "bytes": 152098,
+      "gzip": 152098
+    },
+    {
+      "file": "taste/moments/_demo/photo-1081.jpg",
+      "bytes": 139715,
+      "gzip": 139715
+    },
+    {
+      "file": "taste/moments/_demo/photo-640.jpg",
+      "bytes": 492281,
+      "gzip": 492281
+    },
+    {
+      "file": "taste/moments/_demo/photo-702-tall.jpg",
+      "bytes": 305162,
+      "gzip": 305162
+    },
+    {
+      "file": "taste/moments/_demo/photo-702.jpg",
+      "bytes": 441407,
+      "gzip": 441407
+    },
+    {
+      "file": "taste/moments/_demo/photo-855.jpg",
+      "bytes": 92222,
+      "gzip": 92222
+    },
+    {
+      "file": "taste/moments/_demo/photo-887.jpg",
+      "bytes": 279738,
+      "gzip": 279738
+    },
+    {
+      "file": "taste/motion/demo.html",
+      "bytes": 34953,
+      "gzip": 8835
+    },
+    {
+      "file": "taste/motion/meta.json",
+      "bytes": 2793,
+      "gzip": 2793
+    },
+    {
+      "file": "taste/motion/motion.css",
+      "bytes": 25717,
+      "gzip": 6754
+    },
+    {
+      "file": "taste/motion/motion.js",
+      "bytes": 23325,
+      "gzip": 8390
+    },
+    {
+      "file": "taste/motion/_hover-test.html",
+      "bytes": 1479,
+      "gzip": 728
+    },
+    {
+      "file": "VGPU-LICENSE.txt",
+      "bytes": 1069,
+      "gzip": 1069
+    }
+  ],
+  "profiles": [
+    {
+      "profile": {
+        "name": "desktop",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "isMobile": false,
+        "hasTouch": false,
+        "cpu": 1,
+        "latency": 40,
+        "mbps": 6
+      },
+      "loads": [
+        {
+          "submits": 676,
+          "particleDraws": 0,
+          "callbacks": 2600,
+          "longTasks": [
+            {
+              "start": 469.30000000074506,
+              "duration": 82
+            }
+          ],
+          "lcp": 668,
+          "cls": 0,
+          "gpuErrors": [],
+          "now": 5082.5,
+          "fcp": 668,
+          "resources": [
+            {
+              "name": "/fonts/sora-latin.woff2",
+              "bytes": 33652,
+              "transferSize": 33952,
+              "initiatorType": "link",
+              "duration": 195.80000000074506
+            },
+            {
+              "name": "/taste/motion/motion.css",
+              "bytes": 6754,
+              "transferSize": 7054,
+              "initiatorType": "link",
+              "duration": 88.40000000223517
+            },
+            {
+              "name": "/assets/index-p_oHQMMj.css",
+              "bytes": 10831,
+              "transferSize": 11131,
+              "initiatorType": "link",
+              "duration": 113.19999999925494
+            },
+            {
+              "name": "/assets/motion-vendor-BCowwmvu.js",
+              "bytes": 48652,
+              "transferSize": 48952,
+              "initiatorType": "other",
+              "duration": 257.8999999985099
+            },
+            {
+              "name": "/assets/index-Bem_1kqs.js",
+              "bytes": 159977,
+              "transferSize": 160277,
+              "initiatorType": "script",
+              "duration": 399
+            },
+            {
+              "name": "/media/about.jpg",
+              "bytes": 288344,
+              "transferSize": 288644,
+              "initiatorType": "img",
+              "duration": 449.80000000074506
+            },
+            {
+              "name": "/favicon.svg",
+              "bytes": 208,
+              "transferSize": 508,
+              "initiatorType": "other",
+              "duration": 56.600000001490116
+            }
+          ],
+          "hero": "ready",
+          "videos": 0,
+          "canvases": [
+            {
+              "className": "aero-shards-canvas",
+              "pixels": 1296000
+            },
+            {
+              "className": "tech-text-canvas",
+              "pixels": 321664
+            }
+          ],
+          "heroPerSecond": {
+            "submits": 160.1830663613186,
+            "callbacks": 324.3458362347196
+          }
+        },
+        {
+          "submits": 693,
+          "particleDraws": 0,
+          "callbacks": 2642,
+          "longTasks": [
+            {
+              "start": 496,
+              "duration": 80
+            }
+          ],
+          "lcp": 640,
+          "cls": 0,
+          "gpuErrors": [],
+          "now": 5110.5,
+          "fcp": 640,
+          "resources": [
+            {
+              "name": "/taste/motion/motion.css",
+              "bytes": 6754,
+              "transferSize": 7054,
+              "initiatorType": "link",
+              "duration": 99
+            },
+            {
+              "name": "/fonts/sora-latin.woff2",
+              "bytes": 33652,
+              "transferSize": 33952,
+              "initiatorType": "link",
+              "duration": 223.40000000223517
+            },
+            {
+              "name": "/assets/index-Bem_1kqs.js",
+              "bytes": 159977,
+              "transferSize": 160277,
+              "initiatorType": "script",
+              "duration": 424.1000000014901
+            },
+            {
+              "name": "/assets/motion-vendor-BCowwmvu.js",
+              "bytes": 48652,
+              "transferSize": 48952,
+              "initiatorType": "other",
+              "duration": 270.30000000074506
+            },
+            {
+              "name": "/assets/index-p_oHQMMj.css",
+              "bytes": 10831,
+              "transferSize": 11131,
+              "initiatorType": "link",
+              "duration": 129.39999999850988
+            },
+            {
+              "name": "/media/about.jpg",
+              "bytes": 288344,
+              "transferSize": 288644,
+              "initiatorType": "img",
+              "duration": 452.29999999701977
+            },
+            {
+              "name": "/favicon.svg",
+              "bytes": 208,
+              "transferSize": 508,
+              "initiatorType": "other",
+              "duration": 56.400000002235174
+            }
+          ],
+          "hero": "ready",
+          "videos": 0,
+          "canvases": [
+            {
+              "className": "aero-shards-canvas",
+              "pixels": 1296000
+            },
+            {
+              "className": "tech-text-canvas",
+              "pixels": 321664
+            }
+          ],
+          "heroPerSecond": {
+            "submits": 160.1830663619123,
+            "callbacks": 324.34583623592175
+          }
+        },
+        {
+          "submits": 693,
+          "particleDraws": 0,
+          "callbacks": 2642,
+          "longTasks": [
+            {
+              "start": 480.5,
+              "duration": 80
+            }
+          ],
+          "lcp": 628,
+          "cls": 0,
+          "gpuErrors": [],
+          "now": 5098.099999997765,
+          "fcp": 628,
+          "resources": [
+            {
+              "name": "/fonts/sora-latin.woff2",
+              "bytes": 33652,
+              "transferSize": 33952,
+              "initiatorType": "link",
+              "duration": 204.80000000074506
+            },
+            {
+              "name": "/taste/motion/motion.css",
+              "bytes": 6754,
+              "transferSize": 7054,
+              "initiatorType": "link",
+              "duration": 96.5
+            },
+            {
+              "name": "/assets/index-p_oHQMMj.css",
+              "bytes": 10831,
+              "transferSize": 11131,
+              "initiatorType": "link",
+              "duration": 127.60000000149012
+            },
+            {
+              "name": "/assets/motion-vendor-BCowwmvu.js",
+              "bytes": 48652,
+              "transferSize": 48952,
+              "initiatorType": "other",
+              "duration": 252.40000000223517
+            },
+            {
+              "name": "/assets/index-Bem_1kqs.js",
+              "bytes": 159977,
+              "transferSize": 160277,
+              "initiatorType": "script",
+              "duration": 407.5
+            },
+            {
+              "name": "/media/about.jpg",
+              "bytes": 288344,
+              "transferSize": 288644,
+              "initiatorType": "img",
+              "duration": 453.69999999925494
+            },
+            {
+              "name": "/favicon.svg",
+              "bytes": 208,
+              "transferSize": 508,
+              "initiatorType": "other",
+              "duration": 59.600000001490116
+            }
+          ],
+          "hero": "ready",
+          "videos": 0,
+          "canvases": [
+            {
+              "className": "aero-shards-canvas",
+              "pixels": 1296000
+            },
+            {
+              "className": "tech-text-canvas",
+              "pixels": 321664
+            }
+          ],
+          "heroPerSecond": {
+            "submits": 160.36428430025686,
+            "callbacks": 324.68818055854473
+          }
+        }
+      ],
+      "footerPerSecond": {
+        "heroSubmits": 0,
+        "particleDraws": 159.88945913947802,
+        "callbacks": 610.9356494280055
+      },
+      "geometry": {
+        "width": 1440,
+        "documentWidth": 1440,
+        "bodyWidth": 1440,
+        "unloaded": [],
+        "images": [
+          {
+            "src": "/media/about.jpg",
+            "natural": 1600,
+            "displayed": 727
+          },
+          {
+            "src": "/media/project-01.jpg",
+            "natural": 2000,
+            "displayed": 1481
+          },
+          {
+            "src": "/media/project-02.jpg",
+            "natural": 1600,
+            "displayed": 727
+          },
+          {
+            "src": "/media/project-03.jpg",
+            "natural": 1800,
+            "displayed": 727
+          }
+        ]
+      },
+      "allResources": [
+        {
+          "name": "/fonts/sora-latin.woff2",
+          "bytes": 33652
+        },
+        {
+          "name": "/taste/motion/motion.css",
+          "bytes": 6754
+        },
+        {
+          "name": "/assets/index-p_oHQMMj.css",
+          "bytes": 10831
+        },
+        {
+          "name": "/assets/motion-vendor-BCowwmvu.js",
+          "bytes": 48652
+        },
+        {
+          "name": "/assets/index-Bem_1kqs.js",
+          "bytes": 159977
+        },
+        {
+          "name": "/media/about.jpg",
+          "bytes": 288344
+        },
+        {
+          "name": "/favicon.svg",
+          "bytes": 208
+        },
+        {
+          "name": "/media/project-01.jpg",
+          "bytes": 406839
+        },
+        {
+          "name": "/media/project-02.jpg",
+          "bytes": 658557
+        },
+        {
+          "name": "/media/project-03.jpg",
+          "bytes": 182275
+        }
+      ],
+      "windowListeners": [
+        {
+          "type": "touchstart",
+          "passive": false
+        },
+        {
+          "type": "mousemove",
+          "passive": false
+        },
+        {
+          "type": "pointerdown",
+          "passive": false
+        },
+        {
+          "type": "pointerup",
+          "passive": false
+        },
+        {
+          "type": "touchend",
+          "passive": false
+        },
+        {
+          "type": "touchcancel",
+          "passive": false
+        },
+        {
+          "type": "mousedown",
+          "passive": false
+        },
+        {
+          "type": "mouseup",
+          "passive": false
+        },
+        {
+          "type": "click",
+          "passive": false
+        },
+        {
+          "type": "auxclick",
+          "passive": false
+        },
+        {
+          "type": "dblclick",
+          "passive": false
+        },
+        {
+          "type": "contextmenu",
+          "passive": false
+        },
+        {
+          "type": "wheel",
+          "passive": true
+        },
+        {
+          "type": "wheel",
+          "passive": true
+        },
+        {
+          "type": "wheel",
+          "passive": true
+        },
+        {
+          "type": "wheel",
+          "passive": true
+        },
+        {
+          "type": "load",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "touchstart",
+          "passive": true
+        },
+        {
+          "type": "keydown",
+          "passive": false
+        },
+        {
+          "type": "scroll",
+          "passive": true
+        },
+        {
+          "type": "scroll",
+          "passive": true
+        },
+        {
+          "type": "scroll",
+          "passive": true
+        },
+        {
+          "type": "scroll",
+          "passive": true
+        },
+        {
+          "type": "scroll",
+          "passive": true
+        },
+        {
+          "type": "blur",
+          "passive": false
+        },
+        {
+          "type": "blur",
+          "passive": false
+        },
+        {
+          "type": "blur",
+          "passive": false
+        },
+        {
+          "type": "__playwright_global_listeners_check__",
+          "passive": false
+        },
+        {
+          "type": "pointerdown",
+          "passive": false
+        },
+        {
+          "type": "pointerdown",
+          "passive": true
+        },
+        {
+          "type": "pointerup",
+          "passive": false
+        },
+        {
+          "type": "pointerup",
+          "passive": true
+        },
+        {
+          "type": "pointermove",
+          "passive": true
+        },
+        {
+          "type": "pointermove",
+          "passive": true
+        },
+        {
+          "type": "pointercancel",
+          "passive": false
+        },
+        {
+          "type": "pointercancel",
+          "passive": true
+        }
+      ],
+      "medians": {
+        "fcp": 640,
+        "lcp": 640,
+        "cls": 0,
+        "firstScreenBytes": 548418,
+        "longTasks": 1,
+        "blockingMs": 30,
+        "heroSubmitsPerSecond": 160.1830663619123
+      }
+    },
+    {
+      "profile": {
+        "name": "tablet",
+        "viewport": {
+          "width": 768,
+          "height": 1024
+        },
+        "deviceScaleFactor": 2,
+        "isMobile": true,
+        "hasTouch": true,
+        "cpu": 2,
+        "latency": 80,
+        "mbps": 4
+      },
+      "loads": [
+        {
+          "submits": 683,
+          "particleDraws": 0,
+          "callbacks": 2607,
+          "longTasks": [
+            {
+              "start": 805.3000000007451,
+              "duration": 195
+            }
+          ],
+          "lcp": 1072,
+          "cls": 0,
+          "gpuErrors": [],
+          "now": 5548.699999999255,
+          "fcp": 1072,
+          "resources": [
+            {
+              "name": "/fonts/sora-latin.woff2",
+              "bytes": 33652,
+              "transferSize": 33952,
+              "initiatorType": "link",
+              "duration": 345.80000000074506
+            },
+            {
+              "name": "/taste/motion/motion.css",
+              "bytes": 6754,
+              "transferSize": 7054,
+              "initiatorType": "link",
+              "duration": 157.80000000074506
+            },
+            {
+              "name": "/assets/index-p_oHQMMj.css",
+              "bytes": 10831,
+              "transferSize": 11131,
+              "initiatorType": "link",
+              "duration": 203.69999999925494
+            },
+            {
+              "name": "/assets/motion-vendor-BCowwmvu.js",
+              "bytes": 48652,
+              "transferSize": 48952,
+              "initiatorType": "other",
+              "duration": 408
+            },
+            {
+              "name": "/assets/index-Bem_1kqs.js",
+              "bytes": 159977,
+              "transferSize": 160277,
+              "initiatorType": "script",
+              "duration": 641.1999999992549
+            },
+            {
+              "name": "/media/about.jpg",
+              "bytes": 288344,
+              "transferSize": 288644,
+              "initiatorType": "img",
+              "duration": 675.4000000022352
+            },
+            {
+              "name": "/favicon.svg",
+              "bytes": 208,
+              "transferSize": 508,
+              "initiatorType": "other",
+              "duration": 92.69999999925494
+            }
+          ],
+          "hero": "ready",
+          "videos": 0,
+          "canvases": [
+            {
+              "className": "aero-shards-canvas",
+              "pixels": 1434171
+            },
+            {
+              "className": "tech-text-canvas",
+              "pixels": 578880
+            }
+          ],
+          "heroPerSecond": {
+            "submits": 159.9920500843494,
+            "callbacks": 324.95279737628726
+          }
+        },
+        {
+          "submits": 680,
+          "particleDraws": 0,
+          "callbacks": 2600,
+          "longTasks": [
+            {
+              "start": 779.6999999992549,
+              "duration": 183
+            }
+          ],
+          "lcp": 1036,
+          "cls": 0,
+          "gpuErrors": [],
+          "now": 5505.199999999255,
+          "fcp": 1036,
+          "resources": [
+            {
+              "name": "/fonts/sora-latin.woff2",
+              "bytes": 33652,
+              "transferSize": 33952,
+              "initiatorType": "link",
+              "duration": 320.5999999977648
+            },
+            {
+              "name": "/taste/motion/motion.css",
+              "bytes": 6754,
+              "transferSize": 7054,
+              "initiatorType": "link",
+              "duration": 164.30000000074506
+            },
+            {
+              "name": "/assets/motion-vendor-BCowwmvu.js",
+              "bytes": 48652,
+              "transferSize": 48952,
+              "initiatorType": "other",
+              "duration": 398.30000000074506
+            },
+            {
+              "name": "/assets/index-Bem_1kqs.js",
+              "bytes": 159977,
+              "transferSize": 160277,
+              "initiatorType": "script",
+              "duration": 615.5
+            },
+            {
+              "name": "/assets/index-p_oHQMMj.css",
+              "bytes": 10831,
+              "transferSize": 11131,
+              "initiatorType": "link",
+              "duration": 195.19999999925494
+            },
+            {
+              "name": "/media/about.jpg",
+              "bytes": 288344,
+              "transferSize": 288644,
+              "initiatorType": "img",
+              "duration": 676.6000000014901
+            },
+            {
+              "name": "/favicon.svg",
+              "bytes": 208,
+              "transferSize": 508,
+              "initiatorType": "other",
+              "duration": 99.90000000223517
+            }
+          ],
+          "hero": "ready",
+          "videos": 0,
+          "canvases": [
+            {
+              "className": "aero-shards-canvas",
+              "pixels": 1434171
+            },
+            {
+              "className": "tech-text-canvas",
+              "pixels": 578880
+            }
+          ],
+          "heroPerSecond": {
+            "submits": 160.5550049554014,
+            "callbacks": 325.0743310208127
+          }
+        },
+        {
+          "submits": 683,
+          "particleDraws": 0,
+          "callbacks": 2602,
+          "longTasks": [
+            {
+              "start": 788,
+              "duration": 186
+            }
+          ],
+          "lcp": 1048,
+          "cls": 0,
+          "gpuErrors": [],
+          "now": 5526.400000002235,
+          "fcp": 1048,
+          "resources": [
+            {
+              "name": "/fonts/sora-latin.woff2",
+              "bytes": 33652,
+              "transferSize": 33952,
+              "initiatorType": "link",
+              "duration": 330.19999999925494
+            },
+            {
+              "name": "/taste/motion/motion.css",
+              "bytes": 6754,
+              "transferSize": 7054,
+              "initiatorType": "link",
+              "duration": 159.40000000223517
+            },
+            {
+              "name": "/assets/index-Bem_1kqs.js",
+              "bytes": 159977,
+              "transferSize": 160277,
+              "initiatorType": "script",
+              "duration": 626.6000000014901
+            },
+            {
+              "name": "/assets/motion-vendor-BCowwmvu.js",
+              "bytes": 48652,
+              "transferSize": 48952,
+              "initiatorType": "other",
+              "duration": 392.3999999985099
+            },
+            {
+              "name": "/assets/index-p_oHQMMj.css",
+              "bytes": 10831,
+              "transferSize": 11131,
+              "initiatorType": "link",
+              "duration": 189.69999999925494
+            },
+            {
+              "name": "/media/about.jpg",
+              "bytes": 288344,
+              "transferSize": 288644,
+              "initiatorType": "img",
+              "duration": 684.2999999970198
+            },
+            {
+              "name": "/favicon.svg",
+              "bytes": 208,
+              "transferSize": 508,
+              "initiatorType": "other",
+              "duration": 100.10000000149012
+            }
+          ],
+          "hero": "ready",
+          "videos": 0,
+          "canvases": [
+            {
+              "className": "aero-shards-canvas",
+              "pixels": 1434171
+            },
+            {
+              "className": "tech-text-canvas",
+              "pixels": 578880
+            }
+          ],
+          "heroPerSecond": {
+            "submits": 159.96025832091405,
+            "callbacks": 323.89468455042226
+          }
+        }
+      ],
+      "footerPerSecond": {
+        "heroSubmits": 0,
+        "particleDraws": 157.51931840720698,
+        "callbacks": 593.4218347541948
+      },
+      "geometry": {
+        "width": 768,
+        "documentWidth": 768,
+        "bodyWidth": 768,
+        "unloaded": [],
+        "images": [
+          {
+            "src": "/media/about.jpg",
+            "natural": 1600,
+            "displayed": 378
+          },
+          {
+            "src": "/media/project-01.jpg",
+            "natural": 2000,
+            "displayed": 796
+          },
+          {
+            "src": "/media/project-02.jpg",
+            "natural": 1600,
+            "displayed": 386
+          },
+          {
+            "src": "/media/project-03.jpg",
+            "natural": 1800,
+            "displayed": 386
+          }
+        ]
+      },
+      "allResources": [
+        {
+          "name": "/fonts/sora-latin.woff2",
+          "bytes": 33652
+        },
+        {
+          "name": "/taste/motion/motion.css",
+          "bytes": 6754
+        },
+        {
+          "name": "/assets/index-p_oHQMMj.css",
+          "bytes": 10831
+        },
+        {
+          "name": "/assets/motion-vendor-BCowwmvu.js",
+          "bytes": 48652
+        },
+        {
+          "name": "/assets/index-Bem_1kqs.js",
+          "bytes": 159977
+        },
+        {
+          "name": "/media/about.jpg",
+          "bytes": 288344
+        },
+        {
+          "name": "/favicon.svg",
+          "bytes": 208
+        },
+        {
+          "name": "/media/project-01.jpg",
+          "bytes": 406839
+        },
+        {
+          "name": "/media/project-02.jpg",
+          "bytes": 658557
+        },
+        {
+          "name": "/media/project-03.jpg",
+          "bytes": 182275
+        }
+      ],
+      "windowListeners": [
+        {
+          "type": "touchstart",
+          "passive": false
+        },
+        {
+          "type": "mousemove",
+          "passive": false
+        },
+        {
+          "type": "pointerdown",
+          "passive": false
+        },
+        {
+          "type": "pointerup",
+          "passive": false
+        },
+        {
+          "type": "touchend",
+          "passive": false
+        },
+        {
+          "type": "touchcancel",
+          "passive": false
+        },
+        {
+          "type": "mousedown",
+          "passive": false
+        },
+        {
+          "type": "mouseup",
+          "passive": false
+        },
+        {
+          "type": "click",
+          "passive": false
+        },
+        {
+          "type": "auxclick",
+          "passive": false
+        },
+        {
+          "type": "dblclick",
+          "passive": false
+        },
+        {
+          "type": "contextmenu",
+          "passive": false
+        },
+        {
+          "type": "wheel",
+          "passive": true
+        },
+        {
+          "type": "wheel",
+          "passive": true
+        },
+        {
+          "type": "wheel",
+          "passive": true
+        },
+        {
+          "type": "wheel",
+          "passive": true
+        },
+        {
+          "type": "load",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "touchstart",
+          "passive": true
+        },
+        {
+          "type": "keydown",
+          "passive": false
+        },
+        {
+          "type": "touchmove",
+          "passive": true
+        },
+        {
+          "type": "touchmove",
+          "passive": true
+        },
+        {
+          "type": "scroll",
+          "passive": true
+        },
+        {
+          "type": "scroll",
+          "passive": true
+        },
+        {
+          "type": "scroll",
+          "passive": true
+        },
+        {
+          "type": "scroll",
+          "passive": true
+        },
+        {
+          "type": "scroll",
+          "passive": true
+        },
+        {
+          "type": "blur",
+          "passive": false
+        },
+        {
+          "type": "blur",
+          "passive": false
+        },
+        {
+          "type": "blur",
+          "passive": false
+        },
+        {
+          "type": "__playwright_global_listeners_check__",
+          "passive": false
+        },
+        {
+          "type": "pointerdown",
+          "passive": false
+        },
+        {
+          "type": "pointerdown",
+          "passive": true
+        },
+        {
+          "type": "pointerup",
+          "passive": false
+        },
+        {
+          "type": "pointerup",
+          "passive": true
+        },
+        {
+          "type": "pointermove",
+          "passive": true
+        },
+        {
+          "type": "pointermove",
+          "passive": true
+        },
+        {
+          "type": "pointercancel",
+          "passive": false
+        },
+        {
+          "type": "pointercancel",
+          "passive": true
+        }
+      ],
+      "medians": {
+        "fcp": 1048,
+        "lcp": 1048,
+        "cls": 0,
+        "firstScreenBytes": 548418,
+        "longTasks": 1,
+        "blockingMs": 136,
+        "heroSubmitsPerSecond": 159.9920500843494
+      }
+    },
+    {
+      "profile": {
+        "name": "phone",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "cpu": 4,
+        "latency": 150,
+        "mbps": 1.6
+      },
+      "loads": [
+        {
+          "submits": 554,
+          "particleDraws": 0,
+          "callbacks": 2113,
+          "longTasks": [
+            {
+              "start": 1686.5999999977648,
+              "duration": 116
+            },
+            {
+              "start": 1805.199999999255,
+              "duration": 450
+            },
+            {
+              "start": 2359.7999999970198,
+              "duration": 59
+            },
+            {
+              "start": 2642.599999997765,
+              "duration": 61
+            }
+          ],
+          "lcp": 2332,
+          "cls": 0,
+          "gpuErrors": [],
+          "now": 6844,
+          "fcp": 2332,
+          "resources": [
+            {
+              "name": "/fonts/sora-latin.woff2",
+              "bytes": 33652,
+              "transferSize": 33952,
+              "initiatorType": "link",
+              "duration": 767.6999999992549
+            },
+            {
+              "name": "/taste/motion/motion.css",
+              "bytes": 6754,
+              "transferSize": 7054,
+              "initiatorType": "link",
+              "duration": 318
+            },
+            {
+              "name": "/assets/index-Bem_1kqs.js",
+              "bytes": 159977,
+              "transferSize": 160277,
+              "initiatorType": "script",
+              "duration": 1482.5
+            },
+            {
+              "name": "/assets/motion-vendor-BCowwmvu.js",
+              "bytes": 48652,
+              "transferSize": 48952,
+              "initiatorType": "other",
+              "duration": 921.5
+            },
+            {
+              "name": "/assets/index-p_oHQMMj.css",
+              "bytes": 10831,
+              "transferSize": 11131,
+              "initiatorType": "link",
+              "duration": 424.69999999925494
+            },
+            {
+              "name": "/media/about.jpg",
+              "bytes": 288344,
+              "transferSize": 288644,
+              "initiatorType": "img",
+              "duration": 1618.5
+            },
+            {
+              "name": "/favicon.svg",
+              "bytes": 208,
+              "transferSize": 508,
+              "initiatorType": "other",
+              "duration": 177.10000000149012
+            }
+          ],
+          "hero": "ready",
+          "videos": 0,
+          "canvases": [
+            {
+              "className": "aero-shards-canvas",
+              "pixels": 740610
+            },
+            {
+              "className": "tech-text-canvas",
+              "pixels": 180360
+            }
+          ],
+          "heroPerSecond": {
+            "submits": 159.98419909121233,
+            "callbacks": 323.9186253204793
+          }
+        },
+        {
+          "submits": 546,
+          "particleDraws": 0,
+          "callbacks": 2085,
+          "longTasks": [
+            {
+              "start": 1683.5999999977648,
+              "duration": 109
+            },
+            {
+              "start": 1795.0999999977648,
+              "duration": 445
+            },
+            {
+              "start": 2336.199999999255,
+              "duration": 59
+            },
+            {
+              "start": 2624.89999999851,
+              "duration": 61
+            }
+          ],
+          "lcp": 2316,
+          "cls": 0,
+          "gpuErrors": [],
+          "now": 6825.099999997765,
+          "fcp": 2316,
+          "resources": [
+            {
+              "name": "/fonts/sora-latin.woff2",
+              "bytes": 33652,
+              "transferSize": 33952,
+              "initiatorType": "link",
+              "duration": 764.6000000014901
+            },
+            {
+              "name": "/taste/motion/motion.css",
+              "bytes": 6754,
+              "transferSize": 7054,
+              "initiatorType": "link",
+              "duration": 312.0999999977648
+            },
+            {
+              "name": "/assets/index-Bem_1kqs.js",
+              "bytes": 159977,
+              "transferSize": 160277,
+              "initiatorType": "script",
+              "duration": 1481.1000000014901
+            },
+            {
+              "name": "/assets/motion-vendor-BCowwmvu.js",
+              "bytes": 48652,
+              "transferSize": 48952,
+              "initiatorType": "other",
+              "duration": 919.3000000007451
+            },
+            {
+              "name": "/assets/index-p_oHQMMj.css",
+              "bytes": 10831,
+              "transferSize": 11131,
+              "initiatorType": "link",
+              "duration": 420
+            },
+            {
+              "name": "/media/about.jpg",
+              "bytes": 288344,
+              "transferSize": 288644,
+              "initiatorType": "img",
+              "duration": 1630.2000000029802
+            },
+            {
+              "name": "/favicon.svg",
+              "bytes": 208,
+              "transferSize": 508,
+              "initiatorType": "other",
+              "duration": 163.80000000074506
+            }
+          ],
+          "hero": "ready",
+          "videos": 0,
+          "canvases": [
+            {
+              "className": "aero-shards-canvas",
+              "pixels": 740610
+            },
+            {
+              "className": "tech-text-canvas",
+              "pixels": 180360
+            }
+          ],
+          "heroPerSecond": {
+            "submits": 160.60695635002563,
+            "callbacks": 325.1551877025059
+          }
+        },
+        {
+          "submits": 562,
+          "particleDraws": 0,
+          "callbacks": 2135,
+          "longTasks": [
+            {
+              "start": 1691.699999999255,
+              "duration": 111
+            },
+            {
+              "start": 1805.5999999977648,
+              "duration": 426
+            },
+            {
+              "start": 2329.300000000745,
+              "duration": 58
+            },
+            {
+              "start": 2604.89999999851,
+              "duration": 53
+            }
+          ],
+          "lcp": 2312,
+          "cls": 0,
+          "gpuErrors": [],
+          "now": 6817.099999997765,
+          "fcp": 2312,
+          "resources": [
+            {
+              "name": "/fonts/sora-latin.woff2",
+              "bytes": 33652,
+              "transferSize": 33952,
+              "initiatorType": "link",
+              "duration": 771.4000000022352
+            },
+            {
+              "name": "/taste/motion/motion.css",
+              "bytes": 6754,
+              "transferSize": 7054,
+              "initiatorType": "link",
+              "duration": 317.9000000022352
+            },
+            {
+              "name": "/assets/index-Bem_1kqs.js",
+              "bytes": 159977,
+              "transferSize": 160277,
+              "initiatorType": "script",
+              "duration": 1487
+            },
+            {
+              "name": "/assets/motion-vendor-BCowwmvu.js",
+              "bytes": 48652,
+              "transferSize": 48952,
+              "initiatorType": "other",
+              "duration": 926.6999999992549
+            },
+            {
+              "name": "/assets/index-p_oHQMMj.css",
+              "bytes": 10831,
+              "transferSize": 11131,
+              "initiatorType": "link",
+              "duration": 440.8999999985099
+            },
+            {
+              "name": "/media/about.jpg",
+              "bytes": 288344,
+              "transferSize": 288644,
+              "initiatorType": "img",
+              "duration": 1625.800000000745
+            },
+            {
+              "name": "/favicon.svg",
+              "bytes": 208,
+              "transferSize": 508,
+              "initiatorType": "other",
+              "duration": 164.5
+            }
+          ],
+          "hero": "ready",
+          "videos": 0,
+          "canvases": [
+            {
+              "className": "aero-shards-canvas",
+              "pixels": 740610
+            },
+            {
+              "className": "tech-text-canvas",
+              "pixels": 180360
+            }
+          ],
+          "heroPerSecond": {
+            "submits": 160.26279116101753,
+            "callbacks": 324.5072665744827
+          }
+        }
+      ],
+      "footerPerSecond": {
+        "heroSubmits": 0,
+        "particleDraws": 152.6717557253036,
+        "callbacks": 628.5317735704058
+      },
+      "geometry": {
+        "width": 390,
+        "documentWidth": 390,
+        "bodyWidth": 390,
+        "unloaded": [
+          "http://127.0.0.1:4173/media/project-02.jpg"
+        ],
+        "images": [
+          {
+            "src": "/media/about.jpg",
+            "natural": 1600,
+            "displayed": 386
+          },
+          {
+            "src": "/media/project-01.jpg",
+            "natural": 2000,
+            "displayed": 386
+          },
+          {
+            "src": "/media/project-02.jpg",
+            "natural": 1600,
+            "displayed": 386
+          },
+          {
+            "src": "/media/project-03.jpg",
+            "natural": 1800,
+            "displayed": 386
+          }
+        ]
+      },
+      "allResources": [
+        {
+          "name": "/fonts/sora-latin.woff2",
+          "bytes": 33652
+        },
+        {
+          "name": "/taste/motion/motion.css",
+          "bytes": 6754
+        },
+        {
+          "name": "/assets/index-Bem_1kqs.js",
+          "bytes": 159977
+        },
+        {
+          "name": "/assets/motion-vendor-BCowwmvu.js",
+          "bytes": 48652
+        },
+        {
+          "name": "/assets/index-p_oHQMMj.css",
+          "bytes": 10831
+        },
+        {
+          "name": "/media/about.jpg",
+          "bytes": 288344
+        },
+        {
+          "name": "/favicon.svg",
+          "bytes": 208
+        },
+        {
+          "name": "/media/project-01.jpg",
+          "bytes": 406839
+        },
+        {
+          "name": "/media/project-03.jpg",
+          "bytes": 182275
+        }
+      ],
+      "windowListeners": [
+        {
+          "type": "touchstart",
+          "passive": false
+        },
+        {
+          "type": "mousemove",
+          "passive": false
+        },
+        {
+          "type": "pointerdown",
+          "passive": false
+        },
+        {
+          "type": "pointerup",
+          "passive": false
+        },
+        {
+          "type": "touchend",
+          "passive": false
+        },
+        {
+          "type": "touchcancel",
+          "passive": false
+        },
+        {
+          "type": "mousedown",
+          "passive": false
+        },
+        {
+          "type": "mouseup",
+          "passive": false
+        },
+        {
+          "type": "click",
+          "passive": false
+        },
+        {
+          "type": "auxclick",
+          "passive": false
+        },
+        {
+          "type": "dblclick",
+          "passive": false
+        },
+        {
+          "type": "contextmenu",
+          "passive": false
+        },
+        {
+          "type": "wheel",
+          "passive": true
+        },
+        {
+          "type": "wheel",
+          "passive": true
+        },
+        {
+          "type": "wheel",
+          "passive": true
+        },
+        {
+          "type": "wheel",
+          "passive": true
+        },
+        {
+          "type": "load",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "resize",
+          "passive": true
+        },
+        {
+          "type": "touchstart",
+          "passive": true
+        },
+        {
+          "type": "keydown",
+          "passive": false
+        },
+        {
+          "type": "touchmove",
+          "passive": true
+        },
+        {
+          "type": "touchmove",
+          "passive": true
+        },
+        {
+          "type": "scroll",
+          "passive": true
+        },
+        {
+          "type": "scroll",
+          "passive": true
+        },
+        {
+          "type": "scroll",
+          "passive": true
+        },
+        {
+          "type": "scroll",
+          "passive": true
+        },
+        {
+          "type": "scroll",
+          "passive": true
+        },
+        {
+          "type": "blur",
+          "passive": false
+        },
+        {
+          "type": "blur",
+          "passive": false
+        },
+        {
+          "type": "blur",
+          "passive": false
+        },
+        {
+          "type": "__playwright_global_listeners_check__",
+          "passive": false
+        },
+        {
+          "type": "pointerdown",
+          "passive": false
+        },
+        {
+          "type": "pointerdown",
+          "passive": true
+        },
+        {
+          "type": "pointerup",
+          "passive": false
+        },
+        {
+          "type": "pointerup",
+          "passive": true
+        },
+        {
+          "type": "pointermove",
+          "passive": true
+        },
+        {
+          "type": "pointermove",
+          "passive": true
+        },
+        {
+          "type": "pointercancel",
+          "passive": false
+        },
+        {
+          "type": "pointercancel",
+          "passive": true
+        }
+      ],
+      "medians": {
+        "fcp": 2316,
+        "lcp": 2316,
+        "cls": 0,
+        "firstScreenBytes": 548418,
+        "longTasks": 4,
+        "blockingMs": 474,
+        "heroSubmitsPerSecond": 160.26279116101753
+      }
+    }
+  ],
+  "errors": []
+}

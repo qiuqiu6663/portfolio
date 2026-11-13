@@ -1,0 +1,203 @@
+{
+  "headings": [
+    {
+      "text": "WORLDSIN MIND.ゲームの世界と3D空間のポートフォリオ",
+      "runs": 3,
+      "pixels": 495061,
+      "ink": [
+        39103,
+        34455,
+        997
+      ]
+    },
+    {
+      "text": "現実を見つめ、想像を描く。",
+      "runs": 3,
+      "pixels": 110952,
+      "ink": [
+        8979,
+        5928,
+        3369
+      ]
+    },
+    {
+      "text": "想像のかたち。",
+      "runs": 2,
+      "pixels": 60030,
+      "ink": [
+        5911,
+        3152
+      ]
+    },
+    {
+      "text": "DISTANT TERRAIN",
+      "runs": 1,
+      "pixels": 121619,
+      "ink": [
+        18530
+      ]
+    },
+    {
+      "text": "LIGHT & FORM",
+      "runs": 1,
+      "pixels": 34944,
+      "ink": [
+        5722
+      ]
+    },
+    {
+      "text": "OTHER DIMENSIONS",
+      "runs": 1,
+      "pixels": 50960,
+      "ink": [
+        8971
+      ]
+    },
+    {
+      "text": "細部から、世界へ。",
+      "runs": 2,
+      "pixels": 76866,
+      "ink": [
+        6936,
+        4016
+      ]
+    },
+    {
+      "text": "世界観から空間へ",
+      "runs": 1,
+      "pixels": 9250,
+      "ink": [
+        2194
+      ]
+    },
+    {
+      "text": "光と影を読み取る",
+      "runs": 1,
+      "pixels": 9200,
+      "ink": [
+        2256
+      ]
+    },
+    {
+      "text": "メディアを横断する",
+      "runs": 1,
+      "pixels": 10200,
+      "ink": [
+        2055
+      ]
+    },
+    {
+      "text": "LET’SCREATE.",
+      "runs": 2,
+      "pixels": 415872,
+      "ink": [
+        22365,
+        37658
+      ]
+    },
+    {
+      "text": "DISTANT TERRAIN",
+      "runs": 1,
+      "pixels": 47304,
+      "ink": [
+        8253
+      ]
+    },
+    {
+      "text": "お話ししましょう。",
+      "runs": 1,
+      "pixels": 32218,
+      "ink": [
+        4063
+      ]
+    },
+    {
+      "text": "DISTANT TERRAIN",
+      "runs": 2,
+      "pixels": 24490,
+      "ink": [
+        2633,
+        2691
+      ]
+    },
+    {
+      "text": "お話ししましょう。",
+      "runs": 2,
+      "pixels": 24178,
+      "ink": [
+        2893,
+        851
+      ]
+    }
+  ],
+  "viewports": [
+    {
+      "width": 320,
+      "touch": true,
+      "viewport": 320,
+      "scrollWidth": 320,
+      "bodyWidth": 320,
+      "headingsOutside": []
+    },
+    {
+      "width": 390,
+      "touch": true,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "bodyWidth": 390,
+      "headingsOutside": []
+    },
+    {
+      "width": 768,
+      "touch": true,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "bodyWidth": 768,
+      "headingsOutside": []
+    },
+    {
+      "width": 828,
+      "touch": true,
+      "viewport": 828,
+      "scrollWidth": 828,
+      "bodyWidth": 828,
+      "headingsOutside": []
+    },
+    {
+      "width": 1440,
+      "touch": false,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "bodyWidth": 1440,
+      "headingsOutside": []
+    },
+    {
+      "width": 1920,
+      "touch": false,
+      "viewport": 1920,
+      "scrollWidth": 1920,
+      "bodyWidth": 1920,
+      "headingsOutside": []
+    }
+  ],
+  "interactions": {
+    "baseline": 3243947528,
+    "hover": 4210054010,
+    "beforeClick": 2000467894,
+    "click": [
+      2846396699,
+      2802491823,
+      1332375636,
+      4158266282,
+      1044608046,
+      1757504507
+    ]
+  },
+  "performance": {
+    "longTasks": 1,
+    "longestTaskMs": 70,
+    "totalLongTaskMs": 70,
+    "initialCanvasPixels": 1523144
+  },
+  "errors": []
+}

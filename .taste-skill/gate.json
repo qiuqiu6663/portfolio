@@ -1,0 +1,896 @@
+{
+ "start": "2026-11-13T10:53:59.486Z",
+ "round": 3,
+ "idle": 0,
+ "errors": 0,
+ "status": "open",
+ "history": [
+  {
+   "at": "2026-11-13T11:05:55.885Z",
+   "mode": "manual",
+   "status": "fail",
+   "fails": 38,
+   "round": 1,
+   "reused": false,
+   "stopHookActive": false
+  },
+  {
+   "at": "2026-11-13T11:09:01.901Z",
+   "mode": "manual",
+   "status": "fail",
+   "fails": 25,
+   "round": 2,
+   "reused": false,
+   "stopHookActive": false
+  },
+  {
+   "at": "2026-11-13T11:11:34.901Z",
+   "mode": "manual",
+   "status": "open",
+   "fails": 18,
+   "round": 3,
+   "reused": false,
+   "stopHookActive": false
+  }
+ ],
+ "max": 3,
+ "marker": {
+  "page": null,
+  "url": "http://127.0.0.1:5173/",
+  "root": null,
+  "kind": "gaming",
+  "category": "个人作品集",
+  "primary": "查看作品",
+  "rounds": 3,
+  "start": "2026-11-13T10:53:59.486Z",
+  "by": "gate.mjs --start"
+ },
+ "manual": true,
+ "roundKey": "a74c4e628d1f047c:da39a3ee",
+ "roundFree": false,
+ "idleFree": false,
+ "blockKey": null,
+ "fp": "a74c4e628d1f047c",
+ "page": "http://127.0.0.1:5173/",
+ "found": {
+  "fails": [
+   {
+    "check": "scroll-reveal",
+    "where": "section#works \"02 SELECTED WORK / 精选作品 想象的形状。 关于空间、光影与感\"",
+    "msg": "starts \"color\" (0.2 s) the moment it is scrolled into view (an IntersectionObserver) on button.active",
+    "fix": "show it at rest: no fade, rise or unmask when it is scrolled into view",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "scroll-reveal"
+    ],
+    "wheres": [
+     "section#works \"02 SELECTED WORK / 精选作品 想象的形状。 关于空间、光影与感\""
+    ]
+   },
+   {
+    "check": "cta",
+    "where": "section#approach \"从细节，到整个世界。\"",
+    "msg": "the last section before the footer ends with no button",
+    "fix": "add the action: a button in the hero, one on every priced item, one in the closing section",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "cta"
+    ],
+    "wheres": [
+     "section#approach \"从细节，到整个世界。\""
+    ]
+   },
+   {
+    "check": "heading-scale",
+    "where": "div.project-image.frame > div.project-bottom > div > h3 \"DISTANT TERRAIN\"",
+    "msg": "an h3 at 72px, as large as the smallest h2 (57.6px) or larger",
+    "fix": "size headings by level: the h1 largest, one size per level, each level below the one above",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "heading-scale"
+    ],
+    "wheres": [
+     "div.project-image.frame > div.project-bottom > div > h3 \"DISTANT TERRAIN\""
+    ]
+   },
+   {
+    "check": "off-grid",
+    "where": "section#home > div.hero-content.wrap > div.hero-intro > span:nth-of-type(2) \"PERSONAL PORTFOLIO\"",
+    "msg": "left edge at 83px, 18px off the page margin at 65px (23 elements, like span.hero-japanese)",
+    "fix": "move it onto the page margin, or the column edge its section uses",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "off-grid"
+    ],
+    "wheres": [
+     "section#home > div.hero-content.wrap > div.hero-intro > span:nth-of-type(2) \"PERSONAL PORTFOLIO\""
+    ]
+   },
+   {
+    "check": "section-height",
+    "where": "footer#contact \"04GET IN TOUCH / 联系方式LET’SCREATE.下一个世界，从\"",
+    "msg": "the section's content does not fit it: its lowest content ends 875px below its top, past 828px (the section less 72px of bottom padding) (SR-2)",
+    "fix": "fit the content above the section's bottom padding (--padb), or make it two screens (.g2) in two groups",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "section-height"
+    ],
+    "wheres": [
+     "footer#contact \"04GET IN TOUCH / 联系方式LET’SCREATE.下一个世界，从\""
+    ]
+   },
+   {
+    "check": "section-air",
+    "where": "section#about > div.wrap > div.interest-links \"我感兴趣的方向 FIELDS OF INTEREST01空间与环境02影像与视觉\"",
+    "msg": "a top border across 100% of the container, between the section's content: sections and their parts are told apart by air and ground, not lines (SR-3)",
+    "fix": "take the rule out: sections and their parts are parted by their ground and the air between them",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "section-air"
+    ],
+    "wheres": [
+     "section#about > div.wrap > div.interest-links \"我感兴趣的方向 FIELDS OF INTEREST01空间与环境02影像与视觉\""
+    ]
+   },
+   {
+    "check": "section-air",
+    "where": "section#works > div.wrap > div.filter-bar \"全部作品03空间与环境影像与视觉交互探索03 PROJECTS\"",
+    "msg": "a bottom border across 100% of the container, between the section's content: sections and their parts are told apart by air and ground, not lines (SR-3)",
+    "fix": "take the rule out: sections and their parts are parted by their ground and the air between them",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "section-air"
+    ],
+    "wheres": [
+     "section#works > div.wrap > div.filter-bar \"全部作品03空间与环境影像与视觉交互探索03 PROJECTS\""
+    ]
+   },
+   {
+    "check": "container-edges",
+    "where": "div#root \"跳至主要内容PORTFOLIO.首页HOME关于ABOUT作品WORK探索APP\"",
+    "msg": "a <div> at the top of the page, outside header.nav, main, footer.closing and nav.actionbar (SR-6)",
+    "fix": "build the page as header.nav, a main of sections (each one in-flow .wrap plus background layers) and footer.closing",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "container-edges"
+    ],
+    "wheres": [
+     "div#root \"跳至主要内容PORTFOLIO.首页HOME关于ABOUT作品WORK探索APP\""
+    ]
+   },
+   {
+    "check": "container-edges",
+    "where": "section#home > div.hero-media",
+    "msg": "a child of section 1 beside its .wrap is no valid background layer: not img, picture, video or canvas; z-index -1, not 0 (SR-6)",
+    "fix": "build the page as header.nav, a main of sections (each one in-flow .wrap plus background layers) and footer.closing",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "container-edges"
+    ],
+    "wheres": [
+     "section#home > div.hero-media"
+    ]
+   },
+   {
+    "check": "container-edges",
+    "where": "section#home > div.hero-shade",
+    "msg": "a child of section 1 beside its .wrap is no valid background layer: not img, picture, video or canvas; z-index -1, not 0; a hero layer with neither alt nor aria-hidden=\"true\" (and 4 more like it: \"PORTFOLIO — VOL. 01\", \"PERSONAL PORTFOLIOSPACE \", \"PERSONAL PORTFOLIOSPACE \") (SR-6)",
+    "fix": "build the page as header.nav, a main of sections (each one in-flow .wrap plus background layers) and footer.closing",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "container-edges"
+    ],
+    "wheres": [
+     "section#home > div.hero-shade"
+    ]
+   },
+   {
+    "check": "container-edges",
+    "where": "div.contact-main > div.contact-copy > div > span \"关于作品、想法，或一个新的可能。\"",
+    "msg": "1 text block starts on a left line at x 1138, 1073px from the container's left: text starts on the container's left, or on one split line (x 621, 732, 843) (SR-6)",
+    "fix": "start the text on the container's left, or on the one split line every split shares",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "container-edges"
+    ],
+    "wheres": [
+     "div.contact-main > div.contact-copy > div > span \"关于作品、想法，或一个新的可能。\""
+    ]
+   },
+   {
+    "check": "container-edges",
+    "where": "div.wrap > div.about-grid > div.about-photo.frame > span.about-photo-label \"A STUDY OF SPACE & FEELING\"",
+    "msg": "1 text block starts on a left line at x 759, 694px from the container's left: text starts on the container's left, or on one split line (x 621, 732, 843) (SR-6)",
+    "fix": "start the text on the container's left, or on the one split line every split shares",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "container-edges"
+    ],
+    "wheres": [
+     "div.wrap > div.about-grid > div.about-photo.frame > span.about-photo-label \"A STUDY OF SPACE & FEELING\""
+    ]
+   },
+   {
+    "check": "container-edges",
+    "where": "div.about-grid > div.about-copy > div.about-signature > span:nth-of-type(2) \"まだ見たことのない景色を。\"",
+    "msg": "1 text block starts on a left line at x 105, 40px from the container's left: text starts on the container's left, or on one split line (x 621, 732, 843) (and 1 more like it: x 83) (SR-6)",
+    "fix": "start the text on the container's left, or on the one split line every split shares",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "container-edges"
+    ],
+    "wheres": [
+     "div.about-grid > div.about-copy > div.about-signature > span:nth-of-type(2) \"まだ見たことのない景色を。\""
+    ]
+   },
+   {
+    "check": "cta",
+    "where": "section#approach \"从细节， 到整个世界。\"",
+    "msg": "the last section before the footer ends with no button",
+    "fix": "add the action: a button in the hero, one on every priced item, one in the closing section",
+    "widths": [
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "cta"
+    ],
+    "wheres": [
+     "section#approach \"从细节， 到整个世界。\""
+    ]
+   },
+   {
+    "check": "off-grid",
+    "where": "section#about > div.wrap > div.section-label > span:nth-of-type(2) \"ABOUT / 关于我\"",
+    "msg": "left edge at 53px, 5px off a common edge of its section at 58px (3 elements)",
+    "fix": "move it onto the page margin, or the column edge its section uses",
+    "widths": [
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "off-grid"
+    ],
+    "wheres": [
+     "section#about > div.wrap > div.section-label > span:nth-of-type(2) \"ABOUT / 关于我\""
+    ]
+   },
+   {
+    "check": "edge-left",
+    "where": "#works p \"关于空间、光影与感知的探索。当前图像为视觉示意，正式作品持续整理\"",
+    "msg": "starts at x 1155.2; the lines are 64.8 and the column starts",
+    "fix": "start it on the .wrap left line",
+    "widths": [
+     1440
+    ],
+    "from": "layout",
+    "ids": [
+     "edge-left"
+    ],
+    "wheres": [
+     "#works p \"关于空间、光影与感知的探索。当前图像为视觉示意，正式作品持续整理\""
+    ]
+   },
+   {
+    "check": "edge-left",
+    "where": "#approach p \"用观察积累灵感，用不同的媒介，把想法逐渐变成作品。\"",
+    "msg": "starts at x 1137.2; the lines are 64.8 and the column starts",
+    "fix": "start it on the .wrap left line",
+    "widths": [
+     1440
+    ],
+    "from": "layout",
+    "ids": [
+     "edge-left"
+    ],
+    "wheres": [
+     "#approach p \"用观察积累灵感，用不同的媒介，把想法逐渐变成作品。\""
+    ]
+   },
+   {
+    "check": "screen-height",
+    "where": "#works section.works-section.section \"02SELECTED WORK / 精选作品想象的形状。关于空间\"",
+    "msg": "1849px, 2.19 screens; a section is exactly one or two (--h), or on a phone at least one that its content fills",
+    "fix": "make the section exactly one or two screens (--h: 1 or 2)",
+    "widths": [
+     390
+    ],
+    "from": "layout",
+    "ids": [
+     "screen-height"
+    ],
+    "wheres": [
+     "#works section.works-section.section \"02SELECTED WORK / 精选作品想象的形状。关于空间\""
+    ]
+   }
+  ],
+  "warns": [
+   {
+    "check": "no-visual",
+    "where": "section#approach \"从细节，到整个世界。\"",
+    "msg": "pictures, effects and mocks cover 16% of this section; a feature section needs a visual (about 25% or more)",
+    "fix": "give the section a visual: a UI fragment on a ground, real icons, or a photograph that fits",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "copy-headline",
+    "where": "section#home > div.hero-content.wrap > div.hero-title-block > h1 \"WORLDS IN MIND. 游戏世界与 3D 空间作品集\"",
+    "msg": "\"WORLDS IN MIND. 游戏世界与 3D 空间作品集\": no category known to check it against (pass --category, or write the <title> as \"Name: what it is for whom\")",
+    "fix": "put the category noun in the h1 (and who it is for, or where), in 2 to 8 words",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "copy-headings",
+    "where": "div.project-image.frame > div.project-bottom > div > h3 \"DISTANT TERRAIN\"",
+    "msg": "\"DISTANT TERRAIN\" names no product, part, place or section (the one brand line a page may have)",
+    "fix": "name the thing in every heading: the product, a part, the place or a section noun",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "copy-actions",
+    "where": "(the page)",
+    "msg": "the main action \"查看作品\" does not read word for word the same in the closing section",
+    "fix": "few actions, one wording: at most 2 in the hero, the main action word for word in nav, hero and close",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "section-gaps",
+    "where": "section#home / section#about",
+    "msg": "113px between these sections, -56% against the median 255px",
+    "fix": "use one gap between sections (all within 25% of each other)",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "section-gaps",
+    "where": "section#works / section#approach",
+    "msg": "400px between these sections, +57% against the median 255px",
+    "fix": "use one gap between sections (all within 25% of each other)",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "links",
+    "where": "header.nav > div.wrap.nav-wrap > div.nav-actions > a.nav-contact.btn \"联系我\"",
+    "msg": "\"联系我\" goes to #contact, in the footer",
+    "fix": "point every link at a real section, page or file",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "links",
+    "where": "dialog#mobile-menu > nav > a:nth-of-type(5) \"联系CONTACT\"",
+    "msg": "\"联系CONTACT\" goes to #contact, in the footer",
+    "fix": "point every link at a real section, page or file",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "photo-credit",
+    "where": "(the page text)",
+    "msg": "1 library source (unsplash): the page credits unsplash; confirm each shows the client's own product, place or people",
+    "fix": "confirm the library photograph shows the client's own product, place or people; otherwise replace it",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "nav-labels",
+    "where": "header.nav > div.wrap.nav-wrap > nav.desktop-nav > a:nth-of-type(1) \"首页 HOME\"",
+    "msg": "\"首页 HOME\" opens a section headed \"WORLDS IN MIND. 游戏世界与 3D 空间作品集\"",
+    "fix": "name each nav link after the heading of the section it opens",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "nav-labels",
+    "where": "header.nav > div.wrap.nav-wrap > nav.desktop-nav > a:nth-of-type(3) \"作品 WORK\"",
+    "msg": "\"作品 WORK\" opens a section headed \"想象的形状。\"",
+    "fix": "name each nav link after the heading of the section it opens",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "nav-labels",
+    "where": "header.nav > div.wrap.nav-wrap > nav.desktop-nav > a:nth-of-type(4) \"探索 APPROACH\"",
+    "msg": "\"探索 APPROACH\" opens a section headed \"从细节，到整个世界。\"",
+    "fix": "name each nav link after the heading of the section it opens",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "visual-caption",
+    "where": "div.wrap > div.about-grid > div.about-photo.frame > span.about-photo-label \"A STUDY OF SPACE & FEELING\"",
+    "msg": "a small 9px line is laid over the lower half of the picture about.jpg: \"A STUDY OF SPACE & FEELING\"; no caption or description under any image, render or visual (house rule)",
+    "fix": "take the line away: no caption or description under, over or on any image, render or visual; a licence credit goes in one footer line",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "skip-link",
+    "where": "div#root > header.nav > div.wrap.nav-wrap > a.skip-link:nth-of-type(1) \"跳至主要内容\"",
+    "msg": "the first Tab stop is \"跳至主要内容\", not a skip link: a keyboard user tabs through the whole nav on every visit",
+    "fix": "add the starter's skip link as the header's first child: <a class=\"skip-link\" href=\"#top\">Skip to content</a>",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "tap-size",
+    "where": "header.nav > div.wrap.nav-wrap > div.nav-actions > a.nav-contact.btn \"联系我\"",
+    "msg": "a 86x38px tap target: under the 44px a phone needs",
+    "fix": "make every link and control outside running text 44px tall on a phone: display: inline-flex; align-items: center; min-height: 44px (a footer list then needs no gap), a 44px small button, or a transparent ::before laid past the box",
+    "widths": [
+     390,
+     320
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "tap-size",
+    "where": "div.contact-main > div.contact-copy > div > button.text-link \"与我聊聊\"",
+    "msg": "a 89x43px tap target: under the 44px a phone needs",
+    "fix": "make every link and control outside running text 44px tall on a phone: display: inline-flex; align-items: center; min-height: 44px (a footer list then needs no gap), a 44px small button, or a transparent ::before laid past the box",
+    "widths": [
+     390,
+     320
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "tap-size",
+    "where": "div.wrap > div.footer-bottom > div.footer-meta > a \"视觉示意素材 · Unsplash / Mixkit\"",
+    "msg": "a 157x30px tap target: under the 44px a phone needs",
+    "fix": "make every link and control outside running text 44px tall on a phone: display: inline-flex; align-items: center; min-height: 44px (a footer list then needs no gap), a 44px small button, or a transparent ::before laid past the box",
+    "widths": [
+     390,
+     320
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "no-visual",
+    "where": "section#approach \"从细节， 到整个世界。\"",
+    "msg": "pictures, effects and mocks cover 25% of this section; a feature section needs a visual (about 25% or more)",
+    "fix": "give the section a visual: a UI fragment on a ground, real icons, or a photograph that fits",
+    "widths": [
+     390
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "cta",
+    "where": "section#approach \"从细节， 到整个世界。\"",
+    "msg": "a section over 1.5 screens long with no link or button in it",
+    "fix": "add the action: a button in the hero, one on every priced item, one in the closing section",
+    "widths": [
+     390
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "stagger",
+    "where": "section#works > div.wrap > div.project-grid \"PROJECT 01 空间与环境 远境 · 空间与氛围 DISTANT TERR\"",
+    "msg": "3 rows start at 2 different left offsets (+7, +7, +0px)",
+    "fix": "start every row of the list on one left edge",
+    "widths": [
+     390
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "off-grid",
+    "where": "div.about-grid > div.about-copy > div.about-signature > span:nth-of-type(2) \"まだ見たことのない景色を。\"",
+    "msg": "left edge at 56px, 2px off a common edge of its section at 58px (3 elements)",
+    "fix": "move it onto the page margin, or the column edge its section uses",
+    "widths": [
+     390
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "contrast",
+    "where": "div.hero-title-block > h1 > span:nth-of-type(2) > span.title-period \".\"",
+    "msg": "large text over a effect reads at 2.7:1 at its worst tenth (needs 3:1)",
+    "fix": "put the text on a calm part of the picture, or on a solid panel",
+    "widths": [
+     390
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "photo-weight",
+    "where": "div.project-grid > button.project-card.card:nth-of-type(2) > div.project-image.frame > img \"project-02.jpg\"",
+    "msg": "4 photographs are 3x or more wider than drawn on the phone, with no srcset: project-02.jpg is 1600px (643 KB, lazy) for a 342px frame; on a phone it arrives late and its frame shows only its ground until then",
+    "fix": "give each photograph srcset and sizes (a 800px and a 1600px file), or a smaller file: the frame never shows empty",
+    "widths": [
+     390
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "copy-numbered",
+    "msg": "11 step numbers",
+    "fix": "number only steps that happen in order (references/copy-tells.md)",
+    "widths": [],
+    "from": "copy",
+    "where": "(the copy)",
+    "exact": false
+   }
+  ],
+  "crashed": [],
+  "seconds": {
+   "consistency": 95,
+   "layout": 13
+  }
+ },
+ "open": [
+  {
+   "check": "scroll-reveal",
+   "where": "section#works \"02 SELECTED WORK / 精选作品 想象的形状。 关于空间、光影与感\"",
+   "msg": "starts \"color\" (0.2 s) the moment it is scrolled into view (an IntersectionObserver) on button.active",
+   "fix": "show it at rest: no fade, rise or unmask when it is scrolled into view",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "scroll-reveal"
+   ],
+   "wheres": [
+    "section#works \"02 SELECTED WORK / 精选作品 想象的形状。 关于空间、光影与感\""
+   ]
+  },
+  {
+   "check": "cta",
+   "where": "section#approach \"从细节，到整个世界。\"",
+   "msg": "the last section before the footer ends with no button",
+   "fix": "add the action: a button in the hero, one on every priced item, one in the closing section",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "cta"
+   ],
+   "wheres": [
+    "section#approach \"从细节，到整个世界。\""
+   ]
+  },
+  {
+   "check": "heading-scale",
+   "where": "div.project-image.frame > div.project-bottom > div > h3 \"DISTANT TERRAIN\"",
+   "msg": "an h3 at 72px, as large as the smallest h2 (57.6px) or larger",
+   "fix": "size headings by level: the h1 largest, one size per level, each level below the one above",
+   "widths": [
+    1440,
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "heading-scale"
+   ],
+   "wheres": [
+    "div.project-image.frame > div.project-bottom > div > h3 \"DISTANT TERRAIN\""
+   ]
+  },
+  {
+   "check": "off-grid",
+   "where": "section#home > div.hero-content.wrap > div.hero-intro > span:nth-of-type(2) \"PERSONAL PORTFOLIO\"",
+   "msg": "left edge at 83px, 18px off the page margin at 65px (23 elements, like span.hero-japanese)",
+   "fix": "move it onto the page margin, or the column edge its section uses",
+   "widths": [
+    1440,
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "off-grid"
+   ],
+   "wheres": [
+    "section#home > div.hero-content.wrap > div.hero-intro > span:nth-of-type(2) \"PERSONAL PORTFOLIO\""
+   ]
+  },
+  {
+   "check": "section-height",
+   "where": "footer#contact \"04GET IN TOUCH / 联系方式LET’SCREATE.下一个世界，从\"",
+   "msg": "the section's content does not fit it: its lowest content ends 875px below its top, past 828px (the section less 72px of bottom padding) (SR-2)",
+   "fix": "fit the content above the section's bottom padding (--padb), or make it two screens (.g2) in two groups",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "section-height"
+   ],
+   "wheres": [
+    "footer#contact \"04GET IN TOUCH / 联系方式LET’SCREATE.下一个世界，从\""
+   ]
+  },
+  {
+   "check": "section-air",
+   "where": "section#about > div.wrap > div.interest-links \"我感兴趣的方向 FIELDS OF INTEREST01空间与环境02影像与视觉\"",
+   "msg": "a top border across 100% of the container, between the section's content: sections and their parts are told apart by air and ground, not lines (SR-3)",
+   "fix": "take the rule out: sections and their parts are parted by their ground and the air between them",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "section-air"
+   ],
+   "wheres": [
+    "section#about > div.wrap > div.interest-links \"我感兴趣的方向 FIELDS OF INTEREST01空间与环境02影像与视觉\""
+   ]
+  },
+  {
+   "check": "section-air",
+   "where": "section#works > div.wrap > div.filter-bar \"全部作品03空间与环境影像与视觉交互探索03 PROJECTS\"",
+   "msg": "a bottom border across 100% of the container, between the section's content: sections and their parts are told apart by air and ground, not lines (SR-3)",
+   "fix": "take the rule out: sections and their parts are parted by their ground and the air between them",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "section-air"
+   ],
+   "wheres": [
+    "section#works > div.wrap > div.filter-bar \"全部作品03空间与环境影像与视觉交互探索03 PROJECTS\""
+   ]
+  },
+  {
+   "check": "container-edges",
+   "where": "div#root \"跳至主要内容PORTFOLIO.首页HOME关于ABOUT作品WORK探索APP\"",
+   "msg": "a <div> at the top of the page, outside header.nav, main, footer.closing and nav.actionbar (SR-6)",
+   "fix": "build the page as header.nav, a main of sections (each one in-flow .wrap plus background layers) and footer.closing",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "container-edges"
+   ],
+   "wheres": [
+    "div#root \"跳至主要内容PORTFOLIO.首页HOME关于ABOUT作品WORK探索APP\""
+   ]
+  },
+  {
+   "check": "container-edges",
+   "where": "section#home > div.hero-media",
+   "msg": "a child of section 1 beside its .wrap is no valid background layer: not img, picture, video or canvas; z-index -1, not 0 (SR-6)",
+   "fix": "build the page as header.nav, a main of sections (each one in-flow .wrap plus background layers) and footer.closing",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "container-edges"
+   ],
+   "wheres": [
+    "section#home > div.hero-media"
+   ]
+  },
+  {
+   "check": "container-edges",
+   "where": "section#home > div.hero-shade",
+   "msg": "a child of section 1 beside its .wrap is no valid background layer: not img, picture, video or canvas; z-index -1, not 0; a hero layer with neither alt nor aria-hidden=\"true\" (and 4 more like it: \"PORTFOLIO — VOL. 01\", \"PERSONAL PORTFOLIOSPACE \", \"PERSONAL PORTFOLIOSPACE \") (SR-6)",
+   "fix": "build the page as header.nav, a main of sections (each one in-flow .wrap plus background layers) and footer.closing",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "container-edges"
+   ],
+   "wheres": [
+    "section#home > div.hero-shade"
+   ]
+  },
+  {
+   "check": "container-edges",
+   "where": "div.contact-main > div.contact-copy > div > span \"关于作品、想法，或一个新的可能。\"",
+   "msg": "1 text block starts on a left line at x 1138, 1073px from the container's left: text starts on the container's left, or on one split line (x 621, 732, 843) (SR-6)",
+   "fix": "start the text on the container's left, or on the one split line every split shares",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "container-edges"
+   ],
+   "wheres": [
+    "div.contact-main > div.contact-copy > div > span \"关于作品、想法，或一个新的可能。\""
+   ]
+  },
+  {
+   "check": "container-edges",
+   "where": "div.wrap > div.about-grid > div.about-photo.frame > span.about-photo-label \"A STUDY OF SPACE & FEELING\"",
+   "msg": "1 text block starts on a left line at x 759, 694px from the container's left: text starts on the container's left, or on one split line (x 621, 732, 843) (SR-6)",
+   "fix": "start the text on the container's left, or on the one split line every split shares",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "container-edges"
+   ],
+   "wheres": [
+    "div.wrap > div.about-grid > div.about-photo.frame > span.about-photo-label \"A STUDY OF SPACE & FEELING\""
+   ]
+  },
+  {
+   "check": "container-edges",
+   "where": "div.about-grid > div.about-copy > div.about-signature > span:nth-of-type(2) \"まだ見たことのない景色を。\"",
+   "msg": "1 text block starts on a left line at x 105, 40px from the container's left: text starts on the container's left, or on one split line (x 621, 732, 843) (and 1 more like it: x 83) (SR-6)",
+   "fix": "start the text on the container's left, or on the one split line every split shares",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "container-edges"
+   ],
+   "wheres": [
+    "div.about-grid > div.about-copy > div.about-signature > span:nth-of-type(2) \"まだ見たことのない景色を。\""
+   ]
+  },
+  {
+   "check": "cta",
+   "where": "section#approach \"从细节， 到整个世界。\"",
+   "msg": "the last section before the footer ends with no button",
+   "fix": "add the action: a button in the hero, one on every priced item, one in the closing section",
+   "widths": [
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "cta"
+   ],
+   "wheres": [
+    "section#approach \"从细节， 到整个世界。\""
+   ]
+  },
+  {
+   "check": "off-grid",
+   "where": "section#about > div.wrap > div.section-label > span:nth-of-type(2) \"ABOUT / 关于我\"",
+   "msg": "left edge at 53px, 5px off a common edge of its section at 58px (3 elements)",
+   "fix": "move it onto the page margin, or the column edge its section uses",
+   "widths": [
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "off-grid"
+   ],
+   "wheres": [
+    "section#about > div.wrap > div.section-label > span:nth-of-type(2) \"ABOUT / 关于我\""
+   ]
+  },
+  {
+   "check": "edge-left",
+   "where": "#works p \"关于空间、光影与感知的探索。当前图像为视觉示意，正式作品持续整理\"",
+   "msg": "starts at x 1155.2; the lines are 64.8 and the column starts",
+   "fix": "start it on the .wrap left line",
+   "widths": [
+    1440
+   ],
+   "from": "layout",
+   "ids": [
+    "edge-left"
+   ],
+   "wheres": [
+    "#works p \"关于空间、光影与感知的探索。当前图像为视觉示意，正式作品持续整理\""
+   ]
+  },
+  {
+   "check": "edge-left",
+   "where": "#approach p \"用观察积累灵感，用不同的媒介，把想法逐渐变成作品。\"",
+   "msg": "starts at x 1137.2; the lines are 64.8 and the column starts",
+   "fix": "start it on the .wrap left line",
+   "widths": [
+    1440
+   ],
+   "from": "layout",
+   "ids": [
+    "edge-left"
+   ],
+   "wheres": [
+    "#approach p \"用观察积累灵感，用不同的媒介，把想法逐渐变成作品。\""
+   ]
+  },
+  {
+   "check": "screen-height",
+   "where": "#works section.works-section.section \"02SELECTED WORK / 精选作品想象的形状。关于空间\"",
+   "msg": "1849px, 2.19 screens; a section is exactly one or two (--h), or on a phone at least one that its content fills",
+   "fix": "make the section exactly one or two screens (--h: 1 or 2)",
+   "widths": [
+    390
+   ],
+   "from": "layout",
+   "ids": [
+    "screen-height"
+   ],
+   "wheres": [
+    "#works section.works-section.section \"02SELECTED WORK / 精选作品想象的形状。关于空间\""
+   ]
+  }
+ ],
+ "waived": [],
+ "warnCount": 24,
+ "at": "2026-11-13T11:11:34.902Z",
+ "openTold": true
+}

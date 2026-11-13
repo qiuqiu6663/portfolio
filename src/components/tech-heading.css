@@ -1,0 +1,60 @@
+.tech-heading {
+  position: relative;
+  font-weight: 600;
+}
+
+.tech-heading-copy {
+  display: block;
+}
+
+.tech-heading-art {
+  position: absolute;
+  inset: 0;
+  display: block;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.tech-heading-run {
+  position: absolute;
+  display: block;
+  pointer-events: none;
+}
+
+.tech-heading[data-tech-ready="true"] > .tech-heading-copy {
+  opacity: 0;
+}
+
+.tech-heading[data-tech-ready="true"] > .tech-heading-art {
+  opacity: 1;
+}
+
+.tech-heading[data-motion-suspended="true"] > .tech-heading-copy { opacity: 1; }
+.tech-heading[data-motion-suspended="true"] > .tech-heading-art { opacity: 0; }
+
+/* Match the existing typographic grid; only the rendering gets enhanced. */
+.hero h1.tech-heading {
+  display: block;
+  font-weight: 600;
+}
+
+.hero-title-line {
+  display: block;
+}
+
+.tech-heading.tech-heading {
+  font-weight: 600;
+}
+
+.contact-heading h2.tech-heading > .tech-heading-copy {
+  color: var(--ink);
+}
+
+.contact-heading h2.tech-heading > .tech-heading-copy > span {
+  color: #acc6e5;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tech-heading > .tech-heading-copy { opacity: 1; }
+  .tech-heading > .tech-heading-art { display: none; }
+}

@@ -1,0 +1,302 @@
+{
+  "/media/about.jpg": {
+    "source": "/media/about.jpg",
+    "width": 1600,
+    "height": 1067,
+    "originalBytes": 288344,
+    "variants": {
+      "avif": [
+        {
+          "src": "/media/optimized/about-640.avif",
+          "width": 640,
+          "height": 427,
+          "bytes": 17707
+        },
+        {
+          "src": "/media/optimized/about-960.avif",
+          "width": 960,
+          "height": 640,
+          "bytes": 37464
+        },
+        {
+          "src": "/media/optimized/about-1440.avif",
+          "width": 1440,
+          "height": 960,
+          "bytes": 76874
+        },
+        {
+          "src": "/media/optimized/about-1600.avif",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 96572
+        }
+      ],
+      "webp": [
+        {
+          "src": "/media/optimized/about-640.webp",
+          "width": 640,
+          "height": 427,
+          "bytes": 27432
+        },
+        {
+          "src": "/media/optimized/about-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 58948
+        },
+        {
+          "src": "/media/optimized/about-1440.webp",
+          "width": 1440,
+          "height": 960,
+          "bytes": 122950
+        },
+        {
+          "src": "/media/optimized/about-1600.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 153844
+        }
+      ]
+    }
+  },
+  "/media/project-01.jpg": {
+    "source": "/media/project-01.jpg",
+    "width": 2000,
+    "height": 1331,
+    "originalBytes": 406839,
+    "variants": {
+      "avif": [
+        {
+          "src": "/media/optimized/project-01-640.avif",
+          "width": 640,
+          "height": 426,
+          "bytes": 14130
+        },
+        {
+          "src": "/media/optimized/project-01-960.avif",
+          "width": 960,
+          "height": 639,
+          "bytes": 28242
+        },
+        {
+          "src": "/media/optimized/project-01-1440.avif",
+          "width": 1440,
+          "height": 958,
+          "bytes": 56717
+        },
+        {
+          "src": "/media/optimized/project-01-1920.avif",
+          "width": 1920,
+          "height": 1278,
+          "bytes": 93513
+        }
+      ],
+      "webp": [
+        {
+          "src": "/media/optimized/project-01-640.webp",
+          "width": 640,
+          "height": 426,
+          "bytes": 20884
+        },
+        {
+          "src": "/media/optimized/project-01-960.webp",
+          "width": 960,
+          "height": 639,
+          "bytes": 43546
+        },
+        {
+          "src": "/media/optimized/project-01-1440.webp",
+          "width": 1440,
+          "height": 958,
+          "bytes": 87886
+        },
+        {
+          "src": "/media/optimized/project-01-1920.webp",
+          "width": 1920,
+          "height": 1278,
+          "bytes": 137708
+        }
+      ]
+    }
+  },
+  "/media/project-02.jpg": {
+    "source": "/media/project-02.jpg",
+    "width": 1600,
+    "height": 2399,
+    "originalBytes": 658557,
+    "variants": {
+      "avif": [
+        {
+          "src": "/media/optimized/project-02-640.avif",
+          "width": 640,
+          "height": 960,
+          "bytes": 33818
+        },
+        {
+          "src": "/media/optimized/project-02-960.avif",
+          "width": 960,
+          "height": 1439,
+          "bytes": 62013
+        },
+        {
+          "src": "/media/optimized/project-02-1440.avif",
+          "width": 1440,
+          "height": 2159,
+          "bytes": 121473
+        },
+        {
+          "src": "/media/optimized/project-02-1600.avif",
+          "width": 1600,
+          "height": 2399,
+          "bytes": 157234
+        }
+      ],
+      "webp": [
+        {
+          "src": "/media/optimized/project-02-640.webp",
+          "width": 640,
+          "height": 960,
+          "bytes": 68008
+        },
+        {
+          "src": "/media/optimized/project-02-960.webp",
+          "width": 960,
+          "height": 1439,
+          "bytes": 125856
+        },
+        {
+          "src": "/media/optimized/project-02-1440.webp",
+          "width": 1440,
+          "height": 2159,
+          "bytes": 241826
+        },
+        {
+          "src": "/media/optimized/project-02-1600.webp",
+          "width": 1600,
+          "height": 2399,
+          "bytes": 300836
+        }
+      ]
+    }
+  },
+  "/media/project-03.jpg": {
+    "source": "/media/project-03.jpg",
+    "width": 1800,
+    "height": 1013,
+    "originalBytes": 182275,
+    "variants": {
+      "avif": [
+        {
+          "src": "/media/optimized/project-03-640.avif",
+          "width": 640,
+          "height": 360,
+          "bytes": 12635
+        },
+        {
+          "src": "/media/optimized/project-03-960.avif",
+          "width": 960,
+          "height": 540,
+          "bytes": 22280
+        },
+        {
+          "src": "/media/optimized/project-03-1440.avif",
+          "width": 1440,
+          "height": 810,
+          "bytes": 38376
+        },
+        {
+          "src": "/media/optimized/project-03-1800.avif",
+          "width": 1800,
+          "height": 1013,
+          "bytes": 51403
+        }
+      ],
+      "webp": [
+        {
+          "src": "/media/optimized/project-03-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 19554
+        },
+        {
+          "src": "/media/optimized/project-03-960.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 32614
+        },
+        {
+          "src": "/media/optimized/project-03-1440.webp",
+          "width": 1440,
+          "height": 810,
+          "bytes": 54204
+        },
+        {
+          "src": "/media/optimized/project-03-1800.webp",
+          "width": 1800,
+          "height": 1013,
+          "bytes": 73660
+        }
+      ]
+    }
+  },
+  "/media/hero-aero-fallback.png": {
+    "source": "/media/hero-aero-fallback.png",
+    "width": 1920,
+    "height": 1080,
+    "originalBytes": 786830,
+    "variants": {
+      "avif": [
+        {
+          "src": "/media/optimized/hero-aero-fallback-640.avif",
+          "width": 640,
+          "height": 360,
+          "bytes": 9449
+        },
+        {
+          "src": "/media/optimized/hero-aero-fallback-960.avif",
+          "width": 960,
+          "height": 540,
+          "bytes": 15775
+        },
+        {
+          "src": "/media/optimized/hero-aero-fallback-1440.avif",
+          "width": 1440,
+          "height": 810,
+          "bytes": 24945
+        },
+        {
+          "src": "/media/optimized/hero-aero-fallback-1920.avif",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 34946
+        }
+      ],
+      "webp": [
+        {
+          "src": "/media/optimized/hero-aero-fallback-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 13698
+        },
+        {
+          "src": "/media/optimized/hero-aero-fallback-960.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 23864
+        },
+        {
+          "src": "/media/optimized/hero-aero-fallback-1440.webp",
+          "width": 1440,
+          "height": 810,
+          "bytes": 39408
+        },
+        {
+          "src": "/media/optimized/hero-aero-fallback-1920.webp",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 57658
+        }
+      ]
+    }
+  }
+}

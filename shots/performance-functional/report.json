@@ -1,0 +1,710 @@
+{
+  "url": "http://127.0.0.1:4173",
+  "executablePath": "C:/Users/Administrator/AppData/Local/ms-playwright/chromium-1234/chrome-win64/chrome.exe",
+  "note": "Cross-device functional regression; GPU calls are counted only to prove rendering/stopping. No performance claims.",
+  "profiles": [
+    {
+      "profile": "phone",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dpr": 3,
+      "gpu": {
+        "budget": "phone",
+        "rendering": true
+      },
+      "heroImage": [
+        {
+          "src": "http://127.0.0.1:4173/media/optimized/hero-aero-fallback-1440.avif",
+          "width": 390,
+          "renderedWidth": 390,
+          "renderedHeight": 844
+        }
+      ],
+      "chapters": {
+        "images": [
+          {
+            "src": "http://127.0.0.1:4173/media/optimized/about-1440.avif",
+            "width": 390,
+            "renderedWidth": 386.4599609375,
+            "renderedHeight": 418.10003662109375
+          }
+        ],
+        "particles": {
+          "section": "about",
+          "draws": 66,
+          "connected": true,
+          "width": 301,
+          "height": 996,
+          "instances": [
+            220
+          ]
+        },
+        "about": {
+          "viewport": 390,
+          "document": 390,
+          "body": 390,
+          "dialogs": []
+        },
+        "works": {
+          "viewport": 390,
+          "document": 390,
+          "body": 390,
+          "dialogs": []
+        },
+        "approach": {
+          "viewport": 390,
+          "document": 390,
+          "body": 390,
+          "dialogs": []
+        },
+        "contact": {
+          "viewport": 390,
+          "document": 390,
+          "body": 390,
+          "dialogs": []
+        },
+        "heroResumes": true
+      },
+      "interactions": {
+        "filter": [
+          3,
+          1,
+          3
+        ],
+        "nativeDialogs": true,
+        "escapeFocus": true
+      },
+      "final": {
+        "gpu": {
+          "submits": 168,
+          "adapterRequests": 1,
+          "errors": [],
+          "particles": [
+            {
+              "section": "about",
+              "draws": 126,
+              "connected": false,
+              "width": 301,
+              "height": 996,
+              "instances": [
+                220
+              ]
+            },
+            {
+              "section": "works",
+              "draws": 171,
+              "connected": false,
+              "width": 248,
+              "height": 1211,
+              "instances": [
+                220
+              ]
+            },
+            {
+              "section": "approach",
+              "draws": 167,
+              "connected": false,
+              "width": 267,
+              "height": 1124,
+              "instances": [
+                220
+              ]
+            },
+            {
+              "section": "contact",
+              "draws": 79,
+              "connected": false,
+              "width": 372,
+              "height": 806,
+              "instances": [
+                220
+              ]
+            },
+            {
+              "section": "works",
+              "draws": 9,
+              "connected": false,
+              "width": 355,
+              "height": 845,
+              "instances": [
+                220
+              ]
+            },
+            {
+              "section": "approach",
+              "draws": 6,
+              "connected": true,
+              "width": 267,
+              "height": 1124,
+              "instances": [
+                220
+              ]
+            },
+            {
+              "section": "contact",
+              "draws": 3,
+              "connected": true,
+              "width": 372,
+              "height": 806,
+              "instances": [
+                220
+              ]
+            }
+          ]
+        },
+        "diagnostics": {
+          "errors": [],
+          "expected": [],
+          "badResponses": [],
+          "failedRequests": [],
+          "legacyImages": []
+        }
+      }
+    },
+    {
+      "profile": "tablet",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "dpr": 2,
+      "gpu": {
+        "budget": "tablet",
+        "rendering": true
+      },
+      "heroImage": [
+        {
+          "src": "http://127.0.0.1:4173/media/optimized/hero-aero-fallback-1920.avif",
+          "width": 768,
+          "renderedWidth": 768,
+          "renderedHeight": 1024
+        }
+      ],
+      "chapters": {
+        "images": [
+          {
+            "src": "http://127.0.0.1:4173/media/optimized/about-1600.avif",
+            "width": 768,
+            "renderedWidth": 377.9849853515625,
+            "renderedHeight": 497.20001220703125
+          }
+        ],
+        "particles": {
+          "section": "about",
+          "draws": 65,
+          "connected": true,
+          "width": 659,
+          "height": 758,
+          "instances": [
+            300
+          ]
+        },
+        "about": {
+          "viewport": 768,
+          "document": 768,
+          "body": 768,
+          "dialogs": []
+        },
+        "works": {
+          "viewport": 768,
+          "document": 768,
+          "body": 768,
+          "dialogs": []
+        },
+        "approach": {
+          "viewport": 768,
+          "document": 768,
+          "body": 768,
+          "dialogs": []
+        },
+        "contact": {
+          "viewport": 768,
+          "document": 768,
+          "body": 768,
+          "dialogs": []
+        },
+        "heroResumes": true
+      },
+      "interactions": {
+        "filter": [
+          3,
+          1,
+          3
+        ],
+        "nativeDialogs": true,
+        "escapeFocus": true
+      },
+      "final": {
+        "gpu": {
+          "submits": 171,
+          "adapterRequests": 1,
+          "errors": [],
+          "particles": [
+            {
+              "section": "about",
+              "draws": 125,
+              "connected": false,
+              "width": 659,
+              "height": 758,
+              "instances": [
+                300
+              ]
+            },
+            {
+              "section": "works",
+              "draws": 197,
+              "connected": false,
+              "width": 507,
+              "height": 985,
+              "instances": [
+                300
+              ]
+            },
+            {
+              "section": "approach",
+              "draws": 124,
+              "connected": false,
+              "width": 686,
+              "height": 728,
+              "instances": [
+                300
+              ]
+            },
+            {
+              "section": "contact",
+              "draws": 95,
+              "connected": false,
+              "width": 612,
+              "height": 816,
+              "instances": [
+                300
+              ]
+            },
+            {
+              "section": "works",
+              "draws": 9,
+              "connected": false,
+              "width": 654,
+              "height": 765,
+              "instances": [
+                300
+              ]
+            },
+            {
+              "section": "approach",
+              "draws": 6,
+              "connected": true,
+              "width": 686,
+              "height": 728,
+              "instances": [
+                300
+              ]
+            },
+            {
+              "section": "contact",
+              "draws": 4,
+              "connected": true,
+              "width": 612,
+              "height": 816,
+              "instances": [
+                300
+              ]
+            }
+          ]
+        },
+        "diagnostics": {
+          "errors": [],
+          "expected": [],
+          "badResponses": [],
+          "failedRequests": [],
+          "legacyImages": []
+        }
+      }
+    },
+    {
+      "profile": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dpr": 1,
+      "gpu": {
+        "budget": "desktop",
+        "rendering": true
+      },
+      "heroImage": [
+        {
+          "src": "http://127.0.0.1:4173/media/optimized/hero-aero-fallback-1440.avif",
+          "width": 1440,
+          "renderedWidth": 1440,
+          "renderedHeight": 900
+        }
+      ],
+      "chapters": {
+        "images": [
+          {
+            "src": "http://127.0.0.1:4173/media/optimized/about-960.avif",
+            "width": 662,
+            "renderedWidth": 726.819580078125,
+            "renderedHeight": 531.0999755859375
+          }
+        ],
+        "particles": {
+          "section": "about",
+          "draws": 130,
+          "connected": true,
+          "width": 1195,
+          "height": 837,
+          "instances": [
+            450
+          ]
+        },
+        "about": {
+          "viewport": 1440,
+          "document": 1440,
+          "body": 1440,
+          "dialogs": []
+        },
+        "works": {
+          "viewport": 1440,
+          "document": 1440,
+          "body": 1440,
+          "dialogs": []
+        },
+        "approach": {
+          "viewport": 1440,
+          "document": 1440,
+          "body": 1440,
+          "dialogs": []
+        },
+        "contact": {
+          "viewport": 1440,
+          "document": 1440,
+          "body": 1440,
+          "dialogs": []
+        },
+        "heroResumes": true
+      },
+      "interactions": {
+        "filter": [
+          3,
+          1,
+          3
+        ],
+        "nativeDialogs": true,
+        "escapeFocus": true
+      },
+      "final": {
+        "gpu": {
+          "submits": 299,
+          "adapterRequests": 1,
+          "errors": [],
+          "particles": [
+            {
+              "section": "about",
+              "draws": 251,
+              "connected": false,
+              "width": 1195,
+              "height": 837,
+              "instances": [
+                450
+              ]
+            },
+            {
+              "section": "works",
+              "draws": 274,
+              "connected": false,
+              "width": 907,
+              "height": 1103,
+              "instances": [
+                450
+              ]
+            },
+            {
+              "section": "approach",
+              "draws": 276,
+              "connected": false,
+              "width": 1228,
+              "height": 814,
+              "instances": [
+                450
+              ]
+            },
+            {
+              "section": "contact",
+              "draws": 170,
+              "connected": false,
+              "width": 1265,
+              "height": 791,
+              "instances": [
+                450
+              ]
+            },
+            {
+              "section": "works",
+              "draws": 67,
+              "connected": false,
+              "width": 1087,
+              "height": 920,
+              "instances": [
+                450
+              ]
+            },
+            {
+              "section": "approach",
+              "draws": 25,
+              "connected": false,
+              "width": 1228,
+              "height": 814,
+              "instances": [
+                450
+              ]
+            },
+            {
+              "section": "about",
+              "draws": 29,
+              "connected": false,
+              "width": 1195,
+              "height": 837,
+              "instances": [
+                450
+              ]
+            },
+            {
+              "section": "contact",
+              "draws": 7,
+              "connected": true,
+              "width": 1265,
+              "height": 791,
+              "instances": [
+                450
+              ]
+            }
+          ]
+        },
+        "diagnostics": {
+          "errors": [],
+          "expected": [],
+          "badResponses": [],
+          "failedRequests": [],
+          "legacyImages": []
+        }
+      }
+    }
+  ],
+  "fallbacks": [
+    {
+      "mode": "reduced",
+      "profile": "phone",
+      "result": {
+        "gpu": {
+          "submits": 0,
+          "adapterRequests": 0,
+          "errors": [],
+          "particles": []
+        },
+        "diagnostics": {
+          "errors": [],
+          "expected": [],
+          "badResponses": [],
+          "failedRequests": [],
+          "legacyImages": []
+        }
+      }
+    },
+    {
+      "mode": "reduced",
+      "profile": "tablet",
+      "result": {
+        "gpu": {
+          "submits": 0,
+          "adapterRequests": 0,
+          "errors": [],
+          "particles": []
+        },
+        "diagnostics": {
+          "errors": [],
+          "expected": [],
+          "badResponses": [],
+          "failedRequests": [],
+          "legacyImages": []
+        }
+      }
+    },
+    {
+      "mode": "reduced",
+      "profile": "desktop",
+      "result": {
+        "gpu": {
+          "submits": 0,
+          "adapterRequests": 0,
+          "errors": [],
+          "particles": []
+        },
+        "diagnostics": {
+          "errors": [],
+          "expected": [],
+          "badResponses": [],
+          "failedRequests": [],
+          "legacyImages": []
+        }
+      }
+    },
+    {
+      "mode": "unavailable",
+      "result": {
+        "gpu": {
+          "submits": 0,
+          "adapterRequests": 1,
+          "errors": [],
+          "particles": [
+            {
+              "section": "about",
+              "draws": 101,
+              "connected": false,
+              "width": 1195,
+              "height": 837,
+              "instances": [
+                450
+              ]
+            },
+            {
+              "section": "works",
+              "draws": 207,
+              "connected": false,
+              "width": 907,
+              "height": 1103,
+              "instances": [
+                450
+              ]
+            },
+            {
+              "section": "approach",
+              "draws": 99,
+              "connected": false,
+              "width": 1228,
+              "height": 814,
+              "instances": [
+                450
+              ]
+            },
+            {
+              "section": "about",
+              "draws": 1,
+              "connected": false,
+              "width": 1195,
+              "height": 837,
+              "instances": [
+                450
+              ]
+            },
+            {
+              "section": "contact",
+              "draws": 6,
+              "connected": true,
+              "width": 1265,
+              "height": 791,
+              "instances": [
+                450
+              ]
+            }
+          ]
+        },
+        "diagnostics": {
+          "errors": [],
+          "expected": [],
+          "badResponses": [],
+          "failedRequests": [],
+          "legacyImages": []
+        }
+      }
+    },
+    {
+      "mode": "chunk-failure",
+      "result": {
+        "gpu": {
+          "submits": 0,
+          "adapterRequests": 0,
+          "errors": [],
+          "particles": [
+            {
+              "section": "about",
+              "draws": 101,
+              "connected": false,
+              "width": 1195,
+              "height": 837,
+              "instances": [
+                450
+              ]
+            },
+            {
+              "section": "works",
+              "draws": 210,
+              "connected": false,
+              "width": 907,
+              "height": 1103,
+              "instances": [
+                450
+              ]
+            },
+            {
+              "section": "approach",
+              "draws": 101,
+              "connected": false,
+              "width": 1228,
+              "height": 814,
+              "instances": [
+                450
+              ]
+            },
+            {
+              "section": "about",
+              "draws": 1,
+              "connected": false,
+              "width": 1195,
+              "height": 837,
+              "instances": [
+                450
+              ]
+            },
+            {
+              "section": "contact",
+              "draws": 6,
+              "connected": true,
+              "width": 1265,
+              "height": 791,
+              "instances": [
+                450
+              ]
+            }
+          ]
+        },
+        "diagnostics": {
+          "errors": [],
+          "expected": [
+            {
+              "kind": "injected-network-failure",
+              "url": "http://127.0.0.1:4173/assets/AeroShards-BIouHTbL.js",
+              "error": "net::ERR_FAILED"
+            },
+            {
+              "kind": "console",
+              "message": "Failed to load resource: net::ERR_FAILED",
+              "location": "http://127.0.0.1:4173/assets/AeroShards-BIouHTbL.js"
+            },
+            {
+              "kind": "console",
+              "message": "TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:4173/assets/AeroShards-BIouHTbL.js",
+              "location": "http://127.0.0.1:4173/assets/index-DvVdGCO6.js"
+            }
+          ],
+          "badResponses": [],
+          "failedRequests": [],
+          "legacyImages": []
+        }
+      }
+    }
+  ]
+}
